@@ -3,146 +3,424 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HoursTag — 用小時計算你的目標 | 支援中心</title>
-<meta name="description" content="HoursTag 官方支援中心:用工時換算你的目標價格,讓努力與結果一目了然。無廣告、不收集任何資料。">
+<title>HoursTag — 用小時計算你的目標 | Know What Your Time Buys</title>
+<meta name="description" content="HoursTag 把每個價格換算成「你的工作小時」。目標追蹤、消費清醒、100% 本機隱私。一次買斷,無訂閱無廣告。">
+<meta property="og:title" content="HoursTag — 用小時計算你的目標">
+<meta property="og:description" content="把每個價格換算成你的工作小時。100% 本機隱私,一次買斷。">
+<meta property="og:image" content="icon.png">
 <link rel="icon" type="image/png" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --navy:#0E1220; --navy2:#171D33; --blue:#0A84FF; --gold:#FFB020;
-    --orange:#FF9F0A; --green:#2FBF71; --text:#1B2233; --muted:#667085;
-    --bg:#F7F8FB; --card:#FFFFFF; --line:#E8EBF2;
+    --bg:#070B16; --bg2:#0B1122; --ink:#EAF0FF; --ink-dim:#A7B3CE; --ink-faint:#6B7A99;
+    --gold:#FFB020; --gold2:#FFD60A; --orange:#FF9F0A; --blue:#0A84FF; --blue2:#5AC8FA; --green:#2FBF71;
+    --glass:rgba(255,255,255,.055); --glass-hi:rgba(255,255,255,.10); --line:rgba(255,255,255,.09);
+    --radius:22px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Helvetica Neue",sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
-  a{color:var(--blue);text-decoration:none}
-  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.75;overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 28px}
 
-  header{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 70%,#1E2A52 100%);color:#fff;padding:72px 0 64px;text-align:center;position:relative;overflow:hidden}
-  header::after{content:"";position:absolute;inset:auto -20% -60% -20%;height:240px;background:radial-gradient(ellipse at center,rgba(255,176,32,.18),transparent 70%)}
-  .app-icon{width:108px;height:108px;border-radius:24px;box-shadow:0 12px 32px rgba(0,0,0,.45);margin-bottom:20px}
-  h1{font-size:2.2rem;letter-spacing:.5px}
-  .tagline{font-size:1.15rem;color:#C9D2E8;margin-top:8px}
-  .tagline-en{font-size:.95rem;color:#8B96B5;margin-top:4px}
-  .store-btn{display:inline-block;margin-top:28px;background:var(--gold);color:var(--navy);font-weight:700;padding:13px 30px;border-radius:999px;box-shadow:0 6px 18px rgba(255,176,32,.35);transition:transform .15s}
-  .store-btn:hover{transform:translateY(-2px)}
-  .price-note{margin-top:10px;font-size:.85rem;color:#8B96B5}
+  /* ===== ambient mesh ===== */
+  .mesh{position:fixed;inset:0;z-index:-2;background:
+    radial-gradient(720px 520px at 12% -8%, rgba(10,132,255,.22), transparent 62%),
+    radial-gradient(880px 620px at 105% 12%, rgba(255,176,32,.16), transparent 60%),
+    radial-gradient(700px 700px at 50% 118%, rgba(47,191,113,.10), transparent 60%),
+    var(--bg);}
+  .grain{position:fixed;inset:0;z-index:-1;opacity:.5;pointer-events:none;background-image:
+    radial-gradient(rgba(255,255,255,.022) 1px, transparent 1px);background-size:3px 3px}
 
-  section{padding:56px 0}
-  h2{font-size:1.45rem;margin-bottom:8px}
-  .h2-en{color:var(--muted);font-size:.95rem;margin-bottom:28px}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 24px;box-shadow:0 2px 10px rgba(20,30,60,.04)}
-  .card .emoji{font-size:1.8rem}
-  .card h3{font-size:1.05rem;margin:10px 0 6px}
-  .card p{font-size:.92rem;color:var(--muted)}
+  /* ===== nav ===== */
+  nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    background:rgba(7,11,22,.55);border-bottom:1px solid var(--line)}
+  .nav-in{max-width:1100px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:28px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;letter-spacing:.3px}
+  .brand img{width:34px;height:34px;border-radius:9px;box-shadow:0 4px 14px rgba(255,176,32,.35)}
+  .nav-links{display:flex;gap:24px;margin-left:auto;font-size:.92rem;color:var(--ink-dim)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{background:linear-gradient(135deg,var(--gold),var(--orange));color:#1A1200;font-weight:700;
+    padding:9px 20px;border-radius:999px;font-size:.9rem;box-shadow:0 4px 18px rgba(255,159,10,.35);transition:.2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 26px rgba(255,159,10,.5)}
+  @media(max-width:720px){.nav-links{display:none}}
 
-  .faq .card{margin-bottom:14px}
-  .faq h3{margin-top:0}
-  .faq p{color:var(--muted);font-size:.95rem}
-  .faq p+h4{margin-top:10px}
-  .faq .en{margin-top:8px;font-size:.85rem;color:#98A2B8}
+  /* ===== hero ===== */
+  header{padding:170px 0 110px;position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--glass);
+    padding:7px 16px;border-radius:999px;font-size:.82rem;color:var(--ink-dim);letter-spacing:.4px}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+  h1{font-size:clamp(2.6rem,6vw,4.3rem);font-weight:800;line-height:1.14;letter-spacing:-.5px;margin:26px 0 8px}
+  .grad{background:linear-gradient(100deg,var(--gold2) 0%,var(--gold) 30%,var(--blue2) 75%,var(--blue) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:clamp(1.02rem,2vw,1.22rem);color:var(--ink-dim);max-width:560px;margin-top:14px}
+  .sub-en{font-size:.95rem;color:var(--ink-faint);margin-top:8px;max-width:560px}
+  .cta-row{display:flex;gap:16px;align-items:center;margin-top:38px;flex-wrap:wrap}
+  .btn-main{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--gold),var(--orange));
+    color:#1A1200;font-weight:800;font-size:1.02rem;padding:16px 34px;border-radius:999px;
+    box-shadow:0 10px 34px rgba(255,159,10,.4);transition:.22s}
+  .btn-main:hover{transform:translateY(-2px) scale(1.015);box-shadow:0 16px 44px rgba(255,159,10,.55)}
+  .btn-ghost{padding:15px 28px;border-radius:999px;border:1px solid var(--line);background:var(--glass);
+    color:var(--ink-dim);font-size:.95rem;transition:.2s}
+  .btn-ghost:hover{color:var(--ink);background:var(--glass-hi)}
+  .hero-note{font-size:.84rem;color:var(--ink-faint);margin-top:16px}
 
-  .contact-box{background:linear-gradient(135deg,#FFF7E8,#FFFDF8);border:1px solid #FFE2A8;border-radius:16px;padding:30px;text-align:center}
-  .contact-box a{font-weight:700}
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-vis{margin:30px auto 0}}
 
-  footer{background:var(--navy);color:#8B96B5;text-align:center;padding:36px 0;font-size:.85rem}
-  footer a{color:#C9D2E8}
-  footer .links{margin-bottom:8px}
+  /* hero visual: glass phone */
+  .hero-vis{position:relative;width:320px;justify-self:center}
+  .phone{position:relative;border-radius:42px;border:1px solid var(--glass-hi);
+    background:linear-gradient(165deg,rgba(255,255,255,.09),rgba(255,255,255,.025));
+    backdrop-filter:blur(20px);padding:22px 20px 26px;box-shadow:0 40px 90px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.12);
+    animation:float 7s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-14px) rotate(1deg)}}
+  .phone .ptitle{font-size:.78rem;letter-spacing:1.5px;color:var(--ink-faint);text-transform:uppercase}
+  .goal{margin-top:14px;border-radius:18px;border:1px solid var(--line);background:rgba(7,11,22,.5);padding:18px}
+  .goal .gname{font-weight:700;font-size:.98rem;display:flex;justify-content:space-between}
+  .goal .gname span:last-child{color:var(--gold)}
+  .bar{height:9px;border-radius:99px;background:rgba(255,255,255,.08);margin-top:12px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--orange));
+    width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+  .bar.b2 i{background:linear-gradient(90deg,var(--blue),var(--blue2))}
+  .bar.b3 i{background:linear-gradient(90deg,var(--green),#7CE3AC)}
+  .goal .gmeta{display:flex;justify-content:space-between;font-size:.78rem;color:var(--ink-faint);margin-top:8px}
+  .float-chip{position:absolute;border-radius:16px;border:1px solid var(--glass-hi);backdrop-filter:blur(14px);
+    background:rgba(12,18,36,.75);padding:12px 18px;font-size:.85rem;box-shadow:0 18px 40px rgba(0,0,0,.5)}
+  .float-chip b{display:block;font-size:1.15rem;background:linear-gradient(90deg,var(--gold2),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .chip1{top:-26px;right:-58px;animation:float 6s 1s ease-in-out infinite}
+  .chip2{bottom:-20px;left:-66px;animation:float 8s .5s ease-in-out infinite}
+  @media(max-width:560px){.chip1{right:-8px}.chip2{left:-8px}}
+
+  /* ===== sections ===== */
+  section{padding:110px 0;position:relative}
+  .sec-head{text-align:center;max-width:680px;margin:0 auto 64px}
+  .kicker{font-size:.8rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-.4px;margin-top:14px;line-height:1.25}
+  .sec-sub{color:var(--ink-dim);margin-top:14px;font-size:1.02rem}
+  .sec-sub-en{color:var(--ink-faint);font-size:.88rem;margin-top:6px}
+
+  /* calculator */
+  .calc{max-width:860px;margin:0 auto;border-radius:28px;border:1px solid var(--line);
+    background:linear-gradient(170deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+    backdrop-filter:blur(22px);padding:46px;box-shadow:0 30px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.1)}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+  @media(max-width:720px){.calc-grid{grid-template-columns:1fr}}
+  .field label{font-size:.82rem;color:var(--ink-dim);letter-spacing:.5px}
+  .field input{width:100%;margin-top:8px;background:rgba(7,11,22,.6);border:1px solid var(--line);border-radius:14px;
+    color:var(--ink);font-size:1.1rem;font-weight:700;padding:14px 16px;outline:none;transition:.2s;font-family:inherit}
+  .field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,176,32,.18)}
+  .calc-out{text-align:center;margin-top:38px;padding-top:34px;border-top:1px dashed var(--line)}
+  .calc-out .num{font-size:clamp(2.6rem,7vw,4rem);font-weight:800;
+    background:linear-gradient(95deg,var(--gold2),var(--gold),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px}
+  .calc-out .lbl{color:var(--ink-dim);font-size:.95rem;margin-top:4px}
+  .calc-out .hint{color:var(--ink-faint);font-size:.8rem;margin-top:14px}
+
+  /* features */
+  .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:860px){.feat-grid{grid-template-columns:1fr}}
+  .feat{border-radius:var(--radius);border:1px solid var(--line);background:var(--glass);padding:36px 30px;
+    transition:.3s;position:relative;overflow:hidden}
+  .feat::before{content:"";position:absolute;inset:0;background:
+    radial-gradient(420px 200px at 50% -40%,rgba(255,176,32,.13),transparent 70%);opacity:0;transition:.35s}
+  .feat:hover{transform:translateY(-6px);border-color:rgba(255,176,32,.35);background:var(--glass-hi)}
+  .feat:hover::before{opacity:1}
+  .feat .ico{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:1.5rem;
+    background:linear-gradient(150deg,rgba(255,176,32,.2),rgba(10,132,255,.14));border:1px solid var(--line)}
+  .feat h3{font-size:1.18rem;font-weight:700;margin:20px 0 10px}
+  .feat p{color:var(--ink-dim);font-size:.93rem}
+  .feat .en{color:var(--ink-faint);font-size:.82rem;margin-top:10px}
+
+  /* steps */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:step}
+  @media(max-width:860px){.steps{grid-template-columns:1fr}}
+  .step{position:relative;padding:38px 30px;border-radius:var(--radius);border:1px solid var(--line);background:var(--glass)}
+  .step::before{counter-increment:step;content:"0" counter(step);font-size:3.4rem;font-weight:800;line-height:1;
+    background:linear-gradient(180deg,rgba(255,255,255,.30),rgba(255,255,255,.04));
+    -webkit-background-clip:text;background-clip:text;color:transparent;display:block;margin-bottom:18px}
+  .step h3{font-size:1.1rem;margin-bottom:8px}
+  .step p{color:var(--ink-dim);font-size:.92rem}
+
+  /* privacy vault */
+  .vault{border-radius:32px;border:1px solid rgba(47,191,113,.25);
+    background:linear-gradient(165deg,rgba(47,191,113,.10),rgba(7,11,22,.4));
+    backdrop-filter:blur(18px);padding:60px 50px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+  @media(max-width:860px){.vault{grid-template-columns:1fr;padding:42px 30px}}
+  .vault h2{margin-top:10px}
+  .vault p{color:var(--ink-dim);margin-top:14px;font-size:.97rem}
+  .badges{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:480px){.badges{grid-template-columns:1fr}}
+  .badge{border-radius:16px;border:1px solid var(--line);background:rgba(7,11,22,.55);padding:20px 18px;text-align:center}
+  .badge .bi{font-size:1.5rem}
+  .badge b{display:block;margin-top:8px;font-size:.92rem}
+  .badge span{display:block;font-size:.74rem;color:var(--ink-faint);margin-top:3px}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{border:1px solid var(--line);border-radius:18px;background:var(--glass);margin-bottom:14px;
+    padding:0 26px;transition:.25s;overflow:hidden}
+  details[open]{background:var(--glass-hi);border-color:rgba(255,176,32,.3)}
+  summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;padding:22px 0;display:flex;
+    justify-content:space-between;align-items:center;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;color:var(--gold);transition:.25s;flex-shrink:0}
+  details[open] summary::after{transform:rotate(45deg)}
+  details .a{padding:0 0 24px;color:var(--ink-dim);font-size:.94rem}
+  details .a .en{color:var(--ink-faint);font-size:.84rem;margin-top:8px}
+
+  /* final CTA */
+  .final{text-align:center;padding:130px 0 150px}
+  .final .icon-big{width:120px;height:120px;border-radius:28px;box-shadow:0 24px 70px rgba(255,159,10,.45);margin-bottom:34px;
+    animation:float 7s ease-in-out infinite}
+  .final h2{font-size:clamp(2rem,5vw,3.2rem)}
+  .final .sec-sub{max-width:520px;margin:18px auto 0}
+
+  footer{border-top:1px solid var(--line);background:rgba(5,8,16,.8);padding:56px 0 44px}
+  .foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+  .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800}
+  .foot-brand img{width:30px;height:30px;border-radius:8px}
+  .foot-links{display:flex;gap:26px;font-size:.9rem;color:var(--ink-dim)}
+  .foot-links a:hover{color:var(--ink)}
+  .copy{color:var(--ink-faint);font-size:.8rem;margin-top:26px}
+
+  /* reveal on scroll */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none}.phone,.chip1,.chip2,.final .icon-big{animation:none}
+  }
 </style>
 </head>
 <body>
+<div class="mesh"></div><div class="grain"></div>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#"><img src="icon.png" alt="">HoursTag</a>
+    <div class="nav-links">
+      <a href="#calc">換算器</a><a href="#features">功能</a><a href="#privacy">隱私</a><a href="#faq">FAQ</a><a href="privacy.html">隱私權政策</a>
+    </div>
+    <a class="nav-cta" href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener">下載 App</a>
+  </div>
+</nav>
 
 <header>
-  <div class="wrap">
-    <img class="app-icon" src="icon.png" alt="HoursTag App Icon">
-    <h1>HoursTag</h1>
-    <p class="tagline">用小時計算你的目標</p>
-    <p class="tagline-en">Know exactly how many working hours your goals cost.</p>
-    <a class="store-btn" href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener">在 App Store 下載</a>
-    <p class="price-note">一次買斷・無訂閱・無廣告 | One-time purchase, no subscription, no ads</p>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span>100% 本機運算・零資料蒐集</span>
+      <h1>每一個價格,<br>都是<span class="grad">你的時間</span>。</h1>
+      <p class="sub">輸入月薪與每週工時,HoursTag 把所有目標的價格換算成「你要工作幾小時」——讓每一次消費決策,回到它真正的成本。</p>
+      <p class="sub-en">HoursTag converts every price tag into your working hours, so every purchase decision reflects its true cost: your time.</p>
+      <div class="cta-row">
+        <a class="btn-main" href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener"> 在 App Store 下載</a>
+        <a class="btn-ghost" href="#calc">先試算看看 ↓</a>
+      </div>
+      <p class="hero-note">一次買斷 NT$150・無訂閱・無廣告・無內購</p>
+    </div>
+    <div class="hero-vis">
+      <div class="phone">
+        <div class="ptitle">My Goals</div>
+        <div class="goal">
+          <div class="gname"><span>📱 iPhone 17 Pro</span><span>266 hr</span></div>
+          <div class="bar"><i data-w="72%"></i></div>
+          <div class="gmeta"><span>NT$39,900</span><span>72%</span></div>
+        </div>
+        <div class="goal">
+          <div class="gname"><span>✈️ 東京五日</span><span>233 hr</span></div>
+          <div class="bar b2"><i data-w="45%"></i></div>
+          <div class="gmeta"><span>NT$35,000</span><span>45%</span></div>
+        </div>
+        <div class="goal">
+          <div class="gname"><span>💻 MacBook Pro</span><span>400 hr</span></div>
+          <div class="bar b3"><i data-w="28%"></i></div>
+          <div class="gmeta"><span>NT$59,900</span><span>28%</span></div>
+        </div>
+      </div>
+      <div class="float-chip chip1"><b>1 杯手搖飲</b>≈ 0.4 小時的你</div>
+      <div class="float-chip chip2"><b>266 小時</b>= 一支新 iPhone</div>
+    </div>
   </div>
 </header>
 
-<section>
+<section id="calc">
   <div class="wrap">
-    <h2>HoursTag 是什麼?</h2>
-    <p class="h2-en">What is HoursTag?</p>
-    <div class="cards">
-      <div class="card">
-        <div class="emoji">⏱️</div>
-        <h3>把價格換算成工時</h3>
-        <p>輸入月薪與每週工時,任何目標的價格都會自動換算成「你要工作幾小時」。一支新手機 = 幾個小時的你?一目了然。</p>
-        <p class="en" style="margin-top:8px;font-size:.85rem">Enter your salary and weekly hours — every price tag becomes working hours.</p>
+    <div class="sec-head reveal">
+      <div class="kicker">Try it now</div>
+      <h2>你的下一個目標,值多少小時?</h2>
+      <p class="sec-sub">直接在這裡試算——這也是 HoursTag 在你手機上做的事(只是 App 裡更漂亮)。</p>
+      <p class="sec-sub-en">Try the math right here — this is exactly what HoursTag does on your phone.</p>
+    </div>
+    <div class="calc reveal">
+      <div class="calc-grid">
+        <div class="field"><label>月薪 Monthly salary (NT$)</label><input id="salary" type="number" inputmode="numeric" value="45000" min="1"></div>
+        <div class="field"><label>每週工時 Weekly hours</label><input id="hours" type="number" inputmode="numeric" value="40" min="1"></div>
+        <div class="field"><label>目標價格 Goal price (NT$)</label><input id="price" type="number" inputmode="numeric" value="39900" min="0"></div>
       </div>
-      <div class="card">
-        <div class="emoji">🎯</div>
-        <h3>目標追蹤</h3>
-        <p>把想買的東西、想去的旅行設成目標,看著所需工時隨你的努力慢慢被「賺回來」,消費決策更清醒。</p>
-        <p class="en" style="margin-top:8px;font-size:.85rem">Set goals and watch the required hours get earned back.</p>
-      </div>
-      <div class="card">
-        <div class="emoji">🔒</div>
-        <h3>100% 在你的裝置上</h3>
-        <p>薪資是最敏感的個人資料。HoursTag 不需要帳號、不連伺服器、不收集任何資料——所有數字只存在你自己的裝置裡。</p>
-        <p class="en" style="margin-top:8px;font-size:.85rem">No account, no servers, no data collection. Everything stays on your device.</p>
+      <div class="calc-out">
+        <div class="num" id="result">154</div>
+        <div class="lbl">小時的工作,才換得到這個目標 <span style="color:var(--ink-faint)">/ working hours to afford it</span></div>
+        <div class="hint">時薪估算 = 月薪 ÷ (每週工時 × 4.33)。實際 App 內可設定更精細的參數。</div>
       </div>
     </div>
   </div>
 </section>
 
-<section style="padding-top:0">
-  <div class="wrap faq">
-    <h2>常見問題</h2>
-    <p class="h2-en">FAQ</p>
-
-    <div class="card">
-      <h3>我的薪資資料會被上傳嗎?</h3>
-      <p>不會。HoursTag 沒有伺服器、不需要註冊帳號,你輸入的所有資料(薪資、工時、目標)都只儲存在你裝置的本機空間,刪除 App 即一併刪除。</p>
-      <p class="en">No. There is no server and no account. All data lives only on your device and is deleted when you delete the app.</p>
-    </div>
-
-    <div class="card">
-      <h3>換手機資料會不見嗎?</h3>
-      <p>因為資料只存在本機,換裝置前請先記下你的設定與目標。若你的裝置有開啟 iCloud 裝置備份,App 資料會隨整機備份還原。</p>
-      <p class="en">Data is local-only. With iCloud device backup enabled, app data restores together with your device backup.</p>
-    </div>
-
-    <div class="card">
-      <h3>買了之後還要付費嗎?</h3>
-      <p>不用。HoursTag 是一次買斷的付費 App,沒有訂閱、沒有內購、沒有廣告。</p>
-      <p class="en">No. HoursTag is a one-time purchase — no subscription, no in-app purchases, no ads.</p>
-    </div>
-
-    <div class="card">
-      <h3>如何申請退款?</h3>
-      <p>App Store 的購買與退款由 Apple 處理:前往 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>,登入後選擇 HoursTag 申請退款。</p>
-      <p class="en">Purchases and refunds are handled by Apple at reportaproblem.apple.com.</p>
-    </div>
-
-    <div class="card">
-      <h3>有功能建議或發現問題?</h3>
-      <p>非常歡迎!請直接寄信給我們(見下方聯絡方式),每一封信都會親自閱讀。</p>
-      <p class="en">Feature ideas and bug reports are welcome — every email is read personally.</p>
-    </div>
-  </div>
-</section>
-
-<section style="padding-top:0">
+<section id="features" style="padding-top:30px">
   <div class="wrap">
-    <div class="contact-box">
-      <h2 style="margin-bottom:6px">聯絡我們 / Contact</h2>
-      <p>支援信箱 Support:<a href="mailto:alice51849@hotmail.com">alice51849@hotmail.com</a></p>
-      <p style="color:var(--muted);font-size:.9rem;margin-top:6px">我們通常在 1–2 個工作天內回覆。 We usually reply within 1–2 business days.</p>
+    <div class="sec-head reveal">
+      <div class="kicker">Features</div>
+      <h2>為「清醒消費」設計的每個細節</h2>
+      <p class="sec-sub-en">Every detail designed for mindful spending.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat reveal">
+        <div class="ico">⏱️</div>
+        <h3>價格 → 工時,即時換算</h3>
+        <p>設定一次薪資與工時,之後任何價格輸入瞬間變成「你的小時數」。數字不會說謊,慾望立刻現形。</p>
+        <p class="en">Set your salary once — every price instantly becomes your hours.</p>
+      </div>
+      <div class="feat reveal">
+        <div class="ico">🎯</div>
+        <h3>目標追蹤,看著它被賺回來</h3>
+        <p>把想買的東西設成目標,進度條隨你的工作時數前進。延遲滿足第一次變得這麼具體、這麼有成就感。</p>
+        <p class="en">Set goals and watch the progress bar fill as you earn.</p>
+      </div>
+      <div class="feat reveal">
+        <div class="ico">🔒</div>
+        <h3>薪資級隱私,100% 本機</h3>
+        <p>薪水是最敏感的資料。HoursTag 無伺服器、無帳號、無任何 SDK 追蹤——你的數字,只活在你的手機裡。</p>
+        <p class="en">No servers, no accounts, no tracking. Your numbers never leave your phone.</p>
+      </div>
     </div>
   </div>
 </section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker">How it works</div>
+      <h2>三步,改變你看價格的方式</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h3>設定你的時薪</h3><p>輸入月薪與每週工時,HoursTag 算出你每一小時的真實價值。</p></div>
+      <div class="step reveal"><h3>輸入任何目標</h3><p>新手機、一趟旅行、一張演唱會門票——輸入價格,看見它的「時間成本」。</p></div>
+      <div class="step reveal"><h3>清醒地決定</h3><p>值得,就設成目標開始追;不值得,你剛剛幫自己省下了好幾天的人生。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="privacy" style="padding-top:20px">
+  <div class="wrap">
+    <div class="vault reveal">
+      <div>
+        <div class="kicker" style="color:var(--green)">Privacy by design</div>
+        <h2>你的薪水,<br>輪不到任何人知道。</h2>
+        <p>HoursTag 從架構上就不可能外洩你的資料:沒有伺服器可以上傳、沒有帳號可以被盜、沒有第三方 SDK 可以偷看。刪除 App,資料就徹底消失。</p>
+        <p style="font-size:.85rem;color:var(--ink-faint)">By architecture, your data cannot leak: no server to upload to, no account to breach, no third-party SDK watching. Delete the app and everything is gone.</p>
+        <p style="margin-top:20px"><a href="privacy.html" style="color:var(--green);font-weight:700">閱讀完整隱私權政策 →</a></p>
+      </div>
+      <div class="badges">
+        <div class="badge"><div class="bi">🚫</div><b>零資料蒐集</b><span>Zero data collection</span></div>
+        <div class="badge"><div class="bi">📵</div><b>完全離線可用</b><span>Works fully offline</span></div>
+        <div class="badge"><div class="bi">👤</div><b>不需帳號</b><span>No account required</span></div>
+        <div class="badge"><div class="bi">🗑️</div><b>刪 App 即刪資料</b><span>Delete app, delete data</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker">FAQ</div>
+      <h2>常見問題</h2>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary>我的薪資資料會被上傳或分享嗎?</summary>
+        <div class="a">不會。HoursTag 沒有伺服器、不需要帳號,你輸入的所有資料(薪資、工時、目標)只儲存在裝置本機,開發者與任何第三方都無法存取。<div class="en">No. There is no server and no account — all data stays in your device's local storage, inaccessible to the developer or any third party.</div></div>
+      </details>
+      <details>
+        <summary>換手機之後,資料還在嗎?</summary>
+        <div class="a">資料只存本機,因此換機前請記下你的設定。若你有開啟 iCloud 整機備份,App 資料會隨裝置備份一起還原到新手機。<div class="en">Data is local-only. With iCloud device backup enabled, app data restores with your device backup.</div></div>
+      </details>
+      <details>
+        <summary>是訂閱制嗎?之後會不會再收費?</summary>
+        <div class="a">不是。HoursTag 一次買斷 NT$150,終身使用,沒有訂閱、沒有內購、沒有廣告,未來的功能更新也包含在內。<div class="en">No. One-time purchase — no subscription, no IAP, no ads. Updates included.</div></div>
+      </details>
+      <details>
+        <summary>如何申請退款?</summary>
+        <div class="a">App Store 的購買與退款由 Apple 直接處理:前往 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener" style="color:var(--gold)">reportaproblem.apple.com</a>,登入 Apple 帳號後對 HoursTag 申請退款即可。<div class="en">Refunds are handled by Apple at reportaproblem.apple.com.</div></div>
+      </details>
+      <details>
+        <summary>我有功能建議或發現了問題</summary>
+        <div class="a">太好了,請寄信到 <a href="mailto:hourstag.app@gmail.com" style="color:var(--gold)">hourstag.app@gmail.com</a>——每一封信都由開發者親自閱讀,通常 1–2 個工作天內回覆。<div class="en">Email hourstag.app@gmail.com — every message is read personally, replies within 1–2 business days.</div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="final">
+  <div class="wrap reveal">
+    <img class="icon-big" src="icon.png" alt="HoursTag">
+    <h2>從今天起,<br>用<span class="grad">小時</span>思考價格。</h2>
+    <p class="sec-sub">一次買斷,沒有任何後續費用。你的時間,值得被認真計算。</p>
+    <div class="cta-row" style="justify-content:center;margin-top:36px">
+      <a class="btn-main" href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener"> 在 App Store 下載 HoursTag</a>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div class="wrap">
-    <div class="links"><a href="privacy.html">隱私權政策 Privacy Policy</a> · <a href="https://apps.apple.com/tw/app/hourstag/id6754218117">App Store</a></div>
-    <div>© 2026 HoursTag. All rights reserved.</div>
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><img src="icon.png" alt="">HoursTag</div>
+        <p style="color:var(--ink-faint);font-size:.85rem;margin-top:10px;max-width:300px">用小時計算你的目標。<br>Know what your time buys.</p>
+      </div>
+      <div class="foot-links">
+        <a href="privacy.html">隱私權政策 Privacy</a>
+        <a href="mailto:hourstag.app@gmail.com">支援 Support</a>
+        <a href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener">App Store</a>
+      </div>
+    </div>
+    <div class="copy">© 2026 HoursTag. All rights reserved.</div>
   </div>
 </footer>
 
+<script>
+  // 工時計算器
+  const $ = id => document.getElementById(id);
+  function calc(){
+    const s = +$('salary').value, h = +$('hours').value, p = +$('price').value;
+    const hourly = s / (h * 4.33);
+    const out = (hourly > 0 && p >= 0) ? Math.ceil(p / hourly) : 0;
+    $('result').textContent = isFinite(out) ? out.toLocaleString() : '—';
+  }
+  ['salary','hours','price'].forEach(id => $(id).addEventListener('input', calc));
+  calc();
+
+  // 捲動進場
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+  }), {threshold:.15});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // 進度條動畫
+  const io2 = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting){
+      e.target.querySelectorAll('.bar i').forEach(b => b.style.width = b.dataset.w);
+      io2.unobserve(e.target);
+    }
+  }), {threshold:.3});
+  document.querySelectorAll('.phone').forEach(el => io2.observe(el));
+</script>
 </body>
 </html>

@@ -6,91 +6,144 @@
 <title>隱私權政策 Privacy Policy — HoursTag</title>
 <meta name="description" content="HoursTag 隱私權政策:不收集任何資料,所有資訊只儲存在你的裝置上。">
 <link rel="icon" type="image/png" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{--navy:#0E1220;--blue:#0A84FF;--gold:#FFB020;--text:#1B2233;--muted:#667085;--bg:#F7F8FB;--line:#E8EBF2}
+  :root{
+    --bg:#070B16; --ink:#EAF0FF; --ink-dim:#A7B3CE; --ink-faint:#6B7A99;
+    --gold:#FFB020; --gold2:#FFD60A; --orange:#FF9F0A; --blue:#0A84FF; --green:#2FBF71;
+    --glass:rgba(255,255,255,.055); --glass-hi:rgba(255,255,255,.10); --line:rgba(255,255,255,.09);
+  }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Helvetica Neue",sans-serif;color:var(--text);background:var(--bg);line-height:1.8}
-  a{color:var(--blue);text-decoration:none}
-  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-  header{background:var(--navy);color:#fff;padding:40px 0;text-align:center}
-  header img{width:64px;height:64px;border-radius:14px;margin-bottom:12px}
-  header h1{font-size:1.5rem}
-  header p{color:#8B96B5;font-size:.9rem;margin-top:4px}
-  main{padding:48px 0 64px}
-  .highlight{background:linear-gradient(135deg,#FFF7E8,#FFFDF8);border:1px solid #FFE2A8;border-radius:14px;padding:22px 24px;margin-bottom:36px;font-weight:600}
-  .highlight .en{font-weight:400;color:var(--muted);font-size:.92rem;margin-top:6px}
-  h2{font-size:1.15rem;margin:32px 0 10px;padding-top:8px}
-  p,li{font-size:.97rem}
-  ul{padding-left:22px;margin:8px 0}
-  .en{color:var(--muted);font-size:.9rem;margin-top:6px}
-  .date{color:var(--muted);font-size:.85rem;margin-bottom:28px}
-  footer{background:var(--navy);color:#8B96B5;text-align:center;padding:32px 0;font-size:.85rem}
-  footer a{color:#C9D2E8}
+  body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.85;overflow-x:hidden}
+  a{color:var(--gold);text-decoration:none}
+  .wrap{max-width:780px;margin:0 auto;padding:0 28px}
+  .mesh{position:fixed;inset:0;z-index:-1;background:
+    radial-gradient(700px 480px at 10% -8%, rgba(10,132,255,.18), transparent 62%),
+    radial-gradient(800px 560px at 105% 8%, rgba(255,176,32,.13), transparent 60%),
+    var(--bg)}
+
+  nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    background:rgba(7,11,22,.55);border-bottom:1px solid var(--line)}
+  .nav-in{max-width:1100px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:28px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;color:var(--ink)}
+  .brand img{width:34px;height:34px;border-radius:9px;box-shadow:0 4px 14px rgba(255,176,32,.35)}
+  .nav-cta{margin-left:auto;background:linear-gradient(135deg,var(--gold),var(--orange));color:#1A1200;font-weight:700;
+    padding:9px 20px;border-radius:999px;font-size:.9rem;box-shadow:0 4px 18px rgba(255,159,10,.35)}
+
+  header{padding:150px 0 50px;text-align:center}
+  .kicker{font-size:.8rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}
+  h1{font-size:clamp(1.9rem,4.5vw,2.8rem);font-weight:800;letter-spacing:-.4px;margin-top:14px;color:var(--ink)}
+  .date{color:var(--ink-faint);font-size:.85rem;margin-top:12px}
+
+  main{padding:30px 0 90px}
+  .tldr{border-radius:24px;border:1px solid rgba(255,176,32,.3);
+    background:linear-gradient(160deg,rgba(255,176,32,.12),rgba(7,11,22,.3));
+    backdrop-filter:blur(16px);padding:34px 36px;margin-bottom:50px}
+  .tldr b{font-size:1.12rem}
+  .tldr .en{color:var(--ink-dim);font-size:.9rem;margin-top:10px}
+
+  .card{border:1px solid var(--line);border-radius:20px;background:var(--glass);padding:32px 34px;margin-bottom:18px}
+  .card h2{font-size:1.12rem;font-weight:700;display:flex;align-items:center;gap:12px;color:var(--ink)}
+  .card h2 .n{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;font-size:.85rem;
+    background:linear-gradient(150deg,rgba(255,176,32,.25),rgba(10,132,255,.18));border:1px solid var(--line);flex-shrink:0}
+  .card p,.card li{color:var(--ink-dim);font-size:.95rem;margin-top:12px}
+  .card ul{padding-left:22px}
+  .card li{margin-top:6px}
+  .card .en{color:var(--ink-faint);font-size:.85rem;margin-top:12px;border-top:1px dashed var(--line);padding-top:12px}
+
+  footer{border-top:1px solid var(--line);background:rgba(5,8,16,.8);padding:44px 0;text-align:center;font-size:.88rem;color:var(--ink-dim)}
+  footer a{font-weight:700}
+  .copy{color:var(--ink-faint);font-size:.78rem;margin-top:12px}
 </style>
 </head>
 <body>
+<div class="mesh"></div>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="index.html"><img src="icon.png" alt="">HoursTag</a>
+    <a class="nav-cta" href="https://apps.apple.com/tw/app/hourstag/id6754218117" target="_blank" rel="noopener">下載 App</a>
+  </div>
+</nav>
 
 <header>
   <div class="wrap">
-    <img src="icon.png" alt="HoursTag">
-    <h1>HoursTag 隱私權政策</h1>
-    <p>HoursTag Privacy Policy</p>
+    <div class="kicker">Privacy Policy</div>
+    <h1>隱私權政策</h1>
+    <p class="date">生效日期 Effective date:2026-06-11</p>
   </div>
 </header>
 
 <main>
 <div class="wrap">
 
-  <p class="date">生效日期 Effective date:2026-06-11</p>
-
-  <div class="highlight">
-    一句話版本:HoursTag 不收集、不傳輸、不分享你的任何資料。你輸入的一切都只存在你自己的裝置上。
+  <div class="tldr">
+    <b>一句話版本:HoursTag 不收集、不傳輸、不分享你的任何資料。你輸入的一切,都只存在你自己的裝置上。</b>
     <div class="en">In one sentence: HoursTag does not collect, transmit, or share any of your data. Everything you enter stays on your own device.</div>
   </div>
 
-  <h2>1. 我們收集哪些資料?</h2>
-  <p>不收集任何資料。HoursTag 沒有伺服器、不需要註冊帳號、不要求任何個人資訊。你在 App 中輸入的薪資、工時與目標,只儲存在你裝置的本機儲存空間,開發者完全無法存取。</p>
-  <p class="en">1. What data do we collect? — None. HoursTag has no servers, requires no account, and asks for no personal information. Your salary, working hours, and goals are stored only in your device's local storage; the developer has no access to them.</p>
+  <div class="card">
+    <h2><span class="n">01</span>我們收集哪些資料?</h2>
+    <p>不收集任何資料。HoursTag 沒有伺服器、不需要註冊帳號、不要求任何個人資訊。你在 App 中輸入的薪資、工時與目標,只儲存在你裝置的本機儲存空間,開發者完全無法存取。</p>
+    <div class="en">What data do we collect? — None. HoursTag has no servers, requires no account, and asks for no personal information. Your salary, working hours, and goals are stored only in your device's local storage; the developer has no access to them.</div>
+  </div>
 
-  <h2>2. 第三方追蹤與廣告</h2>
-  <p>HoursTag 不包含任何廣告、不使用任何第三方分析或追蹤工具(無 Google Analytics、無 Facebook SDK、無任何廣告 SDK),也不會與任何第三方分享資料。</p>
-  <p class="en">2. Third-party tracking & ads — HoursTag contains no ads and uses no third-party analytics or tracking SDKs, and shares no data with any third party.</p>
+  <div class="card">
+    <h2><span class="n">02</span>第三方追蹤與廣告</h2>
+    <p>HoursTag 不包含任何廣告、不使用任何第三方分析或追蹤工具(無 Google Analytics、無 Facebook SDK、無任何廣告 SDK),也不會與任何第三方分享資料。</p>
+    <div class="en">Third-party tracking & ads — HoursTag contains no ads, uses no third-party analytics or tracking SDKs, and shares no data with any third party.</div>
+  </div>
 
-  <h2>3. 資料儲存與刪除</h2>
-  <ul>
-    <li>所有資料只存在你的裝置本機。</li>
-    <li>刪除 App 時,所有資料隨之永久刪除。</li>
-    <li>若你啟用 iCloud 整機備份,App 資料會包含在你個人的裝置備份中;該備份由 Apple 的 iCloud 條款保護,開發者無法存取。</li>
-  </ul>
-  <p class="en">3. Storage & deletion — All data lives on your device only and is permanently deleted when you delete the app. If you use iCloud device backup, app data is included in your personal backup, governed by Apple's iCloud terms; the developer cannot access it.</p>
+  <div class="card">
+    <h2><span class="n">03</span>資料儲存與刪除</h2>
+    <ul>
+      <li>所有資料只存在你的裝置本機。</li>
+      <li>刪除 App 時,所有資料隨之永久刪除。</li>
+      <li>若你啟用 iCloud 整機備份,App 資料會包含在你個人的裝置備份中;該備份由 Apple 的 iCloud 條款保護,開發者無法存取。</li>
+    </ul>
+    <div class="en">Storage & deletion — All data lives on your device only and is permanently deleted when you delete the app. With iCloud device backup enabled, app data is included in your personal backup, governed by Apple's iCloud terms; the developer cannot access it.</div>
+  </div>
 
-  <h2>4. 購買資訊</h2>
-  <p>HoursTag 為一次性買斷的付費 App。購買與付款完全由 Apple App Store 處理,開發者不會取得你的姓名、信用卡或帳單資訊。退款請透過 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> 向 Apple 申請。</p>
-  <p class="en">4. Purchases — HoursTag is a one-time paid app. All payments are processed by the Apple App Store; the developer never receives your name, card, or billing details. For refunds, contact Apple at reportaproblem.apple.com.</p>
+  <div class="card">
+    <h2><span class="n">04</span>購買資訊</h2>
+    <p>HoursTag 為一次性買斷的付費 App。購買與付款完全由 Apple App Store 處理,開發者不會取得你的姓名、信用卡或帳單資訊。退款請透過 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> 向 Apple 申請。</p>
+    <div class="en">Purchases — HoursTag is a one-time paid app. All payments are processed by the Apple App Store; the developer never receives your name, card, or billing details. For refunds, contact Apple at reportaproblem.apple.com.</div>
+  </div>
 
-  <h2>5. 網路連線</h2>
-  <p>HoursTag 的核心功能完全離線運作,不需要網路連線即可使用。</p>
-  <p class="en">5. Network — HoursTag's core features work fully offline; no internet connection is required.</p>
+  <div class="card">
+    <h2><span class="n">05</span>網路連線</h2>
+    <p>HoursTag 的核心功能完全離線運作,不需要網路連線即可使用。</p>
+    <div class="en">Network — HoursTag's core features work fully offline; no internet connection is required.</div>
+  </div>
 
-  <h2>6. 兒童隱私</h2>
-  <p>HoursTag 是一款生產力工具,並非以兒童為目標對象。由於我們不收集任何資料,因此也不會收集任何兒童的個人資訊。</p>
-  <p class="en">6. Children's privacy — HoursTag is a productivity tool not directed at children. Since we collect no data at all, we collect no data from children.</p>
+  <div class="card">
+    <h2><span class="n">06</span>兒童隱私</h2>
+    <p>HoursTag 是一款生產力工具,並非以兒童為目標對象。由於我們不收集任何資料,因此也不會收集任何兒童的個人資訊。</p>
+    <div class="en">Children's privacy — HoursTag is a productivity tool not directed at children. Since we collect no data at all, we collect no data from children.</div>
+  </div>
 
-  <h2>7. 政策變更</h2>
-  <p>若未來政策有任何變更(例如新增需要說明的功能),我們會更新本頁面並調整上方的生效日期。重大變更會在 App 更新說明中載明。</p>
-  <p class="en">7. Changes — Any future changes will be posted on this page with an updated effective date; material changes will be noted in App Store release notes.</p>
+  <div class="card">
+    <h2><span class="n">07</span>政策變更</h2>
+    <p>若未來政策有任何變更(例如新增需要說明的功能),我們會更新本頁面並調整上方的生效日期。重大變更會在 App 更新說明中載明。</p>
+    <div class="en">Changes — Any future changes will be posted on this page with an updated effective date; material changes will be noted in App Store release notes.</div>
+  </div>
 
-  <h2>8. 聯絡我們</h2>
-  <p>對本政策有任何疑問,歡迎來信:<a href="mailto:alice51849@hotmail.com">alice51849@hotmail.com</a></p>
-  <p class="en">8. Contact — Questions about this policy: alice51849@hotmail.com</p>
+  <div class="card">
+    <h2><span class="n">08</span>聯絡我們</h2>
+    <p>對本政策有任何疑問,歡迎來信:<a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a></p>
+    <div class="en">Contact — Questions about this policy: hourstag.app@gmail.com</div>
+  </div>
 
 </div>
 </main>
 
 <footer>
   <div class="wrap">
-    <a href="index.html">← 返回支援中心 Back to Support</a>
-    <div style="margin-top:8px">© 2026 HoursTag. All rights reserved.</div>
+    <a href="index.html">← 返回 HoursTag 官網 Back to Home</a>
+    <div class="copy">© 2026 HoursTag. All rights reserved.</div>
   </div>
 </footer>
 
