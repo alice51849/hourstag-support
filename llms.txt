@@ -1,0 +1,17 @@
+# HoursTag — official support
+
+> Official support, privacy, App Store, and guide links for HoursTag.
+
+## Apps
+
+- [HoursTag on the App Store](https://apps.apple.com/app/id6754218117)
+- [HoursTag independent guide](https://alice51849.github.io/ios-app-guide/guides/hourstag.html)
+
+## Support
+
+- [Official support site](https://alice51849.github.io/hourstag-support/)
+- [Privacy policy](https://alice51849.github.io/hourstag-support/privacy.html)
+
+## Portfolio
+
+- [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
