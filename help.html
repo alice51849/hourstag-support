@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HoursTag — 說明、常見問題與疑難排解</title>
+<meta name="description" content="HoursTag 最常被問到的問題、疑難排解步驟,以及聯絡真人的方式。">
+<link rel="canonical" href="https://alice51849.github.io/hourstag-support/help.html">
+<meta property="og:title" content="HoursTag — 說明、常見問題與疑難排解">
+<meta property="og:description" content="HoursTag 最常被問到的問題、疑難排解步驟,以及聯絡真人的方式。">
+<meta property="og:url" content="https://alice51849.github.io/hourstag-support/help.html">
+<meta property="og:type" content="article">
+<style>
+  :root{
+    --bg:#070B16; --bg2:#0B1122; --ink:#EAF0FF; --ink-dim:#A7B3CE; --ink-faint:#6B7A99;
+    --gold:#FFB020; --gold2:#FFD60A; --orange:#FF9F0A; --blue:#0A84FF; --blue2:#5AC8FA; --green:#2FBF71;
+    --glass:rgba(255,255,255,.055); --glass-hi:rgba(255,255,255,.10); --line:rgba(255,255,255,.09);
+    --radius:22px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.75;overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 28px}
+
+  /* ===== ambient mesh ===== */
+  .mesh{position:fixed;inset:0;z-index:-2;background:
+    radial-gradient(720px 520px at 12% -8%, rgba(10,132,255,.22), transparent 62%),
+    radial-gradient(880px 620px at 105% 12%, rgba(255,176,32,.16), transparent 60%),
+    radial-gradient(700px 700px at 50% 118%, rgba(47,191,113,.10), transparent 60%),
+    var(--bg);}
+  .grain{position:fixed;inset:0;z-index:-1;opacity:.5;pointer-events:none;background-image:
+    radial-gradient(rgba(255,255,255,.022) 1px, transparent 1px);background-size:3px 3px}
+
+  /* ===== nav ===== */
+  nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    background:rgba(7,11,22,.55);border-bottom:1px solid var(--line)}
+  .nav-in{max-width:1100px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:28px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;letter-spacing:.3px}
+  .brand img{width:34px;height:34px;border-radius:9px;box-shadow:0 4px 14px rgba(255,176,32,.35)}
+  .nav-links{display:flex;gap:24px;margin-left:auto;font-size:.92rem;color:var(--ink-dim)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{background:linear-gradient(135deg,var(--gold),var(--orange));color:#1A1200;font-weight:700;
+    padding:9px 20px;border-radius:999px;font-size:.9rem;box-shadow:0 4px 18px rgba(255,159,10,.35);transition:.2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 26px rgba(255,159,10,.5)}
+  @media(max-width:720px){.nav-links{display:none}}
+
+  /* ===== hero ===== */
+  header{padding:170px 0 110px;position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--glass);
+    padding:7px 16px;border-radius:999px;font-size:.82rem;color:var(--ink-dim);letter-spacing:.4px}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+  h1{font-size:clamp(2.6rem,6vw,4.3rem);font-weight:800;line-height:1.14;letter-spacing:-.5px;margin:26px 0 8px}
+  .grad{background:linear-gradient(100deg,var(--gold2) 0%,var(--gold) 30%,var(--blue2) 75%,var(--blue) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:clamp(1.02rem,2vw,1.22rem);color:var(--ink-dim);max-width:560px;margin-top:14px}
+  .sub-en{font-size:.95rem;color:var(--ink-faint);margin-top:8px;max-width:560px}
+  .cta-row{display:flex;gap:16px;align-items:center;margin-top:38px;flex-wrap:wrap}
+  .btn-main{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--gold),var(--orange));
+    color:#1A1200;font-weight:800;font-size:1.02rem;padding:16px 34px;border-radius:999px;
+    box-shadow:0 10px 34px rgba(255,159,10,.4);transition:.22s}
+  .btn-main:hover{transform:translateY(-2px) scale(1.015);box-shadow:0 16px 44px rgba(255,159,10,.55)}
+  .btn-ghost{padding:15px 28px;border-radius:999px;border:1px solid var(--line);background:var(--glass);
+    color:var(--ink-dim);font-size:.95rem;transition:.2s}
+  .btn-ghost:hover{color:var(--ink);background:var(--glass-hi)}
+  .hero-note{font-size:.84rem;color:var(--ink-faint);margin-top:16px}
+
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-vis{margin:30px auto 0}}
+
+  /* hero visual: glass phone */
+  .hero-vis{position:relative;width:320px;justify-self:center}
+  .phone{position:relative;border-radius:42px;border:1px solid var(--glass-hi);
+    background:linear-gradient(165deg,rgba(255,255,255,.09),rgba(255,255,255,.025));
+    backdrop-filter:blur(20px);padding:22px 20px 26px;box-shadow:0 40px 90px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.12);
+    animation:float 7s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-14px) rotate(1deg)}}
+  .phone .ptitle{font-size:.78rem;letter-spacing:1.5px;color:var(--ink-faint);text-transform:uppercase}
+  .goal{margin-top:14px;border-radius:18px;border:1px solid var(--line);background:rgba(7,11,22,.5);padding:18px}
+  .goal .gname{font-weight:700;font-size:.98rem;display:flex;justify-content:space-between}
+  .goal .gname span:last-child{color:var(--gold)}
+  .bar{height:9px;border-radius:99px;background:rgba(255,255,255,.08);margin-top:12px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--orange));
+    width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+  .bar.b2 i{background:linear-gradient(90deg,var(--blue),var(--blue2))}
+  .bar.b3 i{background:linear-gradient(90deg,var(--green),#7CE3AC)}
+  .goal .gmeta{display:flex;justify-content:space-between;font-size:.78rem;color:var(--ink-faint);margin-top:8px}
+  .float-chip{position:absolute;border-radius:16px;border:1px solid var(--glass-hi);backdrop-filter:blur(14px);
+    background:rgba(12,18,36,.75);padding:12px 18px;font-size:.85rem;box-shadow:0 18px 40px rgba(0,0,0,.5)}
+  .float-chip b{display:block;font-size:1.15rem;background:linear-gradient(90deg,var(--gold2),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .chip1{top:-26px;right:-58px;animation:float 6s 1s ease-in-out infinite}
+  .chip2{bottom:-20px;left:-66px;animation:float 8s .5s ease-in-out infinite}
+  @media(max-width:560px){.chip1{right:-8px}.chip2{left:-8px}}
+
+  /* ===== sections ===== */
+  section{padding:110px 0;position:relative}
+  .sec-head{text-align:center;max-width:680px;margin:0 auto 64px}
+  .kicker{font-size:.8rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-.4px;margin-top:14px;line-height:1.25}
+  .sec-sub{color:var(--ink-dim);margin-top:14px;font-size:1.02rem}
+  .sec-sub-en{color:var(--ink-faint);font-size:.88rem;margin-top:6px}
+
+  /* calculator */
+  .calc{max-width:860px;margin:0 auto;border-radius:28px;border:1px solid var(--line);
+    background:linear-gradient(170deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+    backdrop-filter:blur(22px);padding:46px;box-shadow:0 30px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.1)}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+  @media(max-width:720px){.calc-grid{grid-template-columns:1fr}}
+  .field label{font-size:.82rem;color:var(--ink-dim);letter-spacing:.5px}
+  .field input{width:100%;margin-top:8px;background:rgba(7,11,22,.6);border:1px solid var(--line);border-radius:14px;
+    color:var(--ink);font-size:1.1rem;font-weight:700;padding:14px 16px;outline:none;transition:.2s;font-family:inherit}
+  .field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,176,32,.18)}
+  .calc-out{text-align:center;margin-top:38px;padding-top:34px;border-top:1px dashed var(--line)}
+  .calc-out .num{font-size:clamp(2.6rem,7vw,4rem);font-weight:800;
+    background:linear-gradient(95deg,var(--gold2),var(--gold),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px}
+  .calc-out .lbl{color:var(--ink-dim);font-size:.95rem;margin-top:4px}
+  .calc-out .hint{color:var(--ink-faint);font-size:.8rem;margin-top:14px}
+
+  /* features */
+  .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:860px){.feat-grid{grid-template-columns:1fr}}
+  .feat{border-radius:var(--radius);border:1px solid var(--line);background:var(--glass);padding:36px 30px;
+    transition:.3s;position:relative;overflow:hidden}
+  .feat::before{content:"";position:absolute;inset:0;background:
+    radial-gradient(420px 200px at 50% -40%,rgba(255,176,32,.13),transparent 70%);opacity:0;transition:.35s}
+  .feat:hover{transform:translateY(-6px);border-color:rgba(255,176,32,.35);background:var(--glass-hi)}
+  .feat:hover::before{opacity:1}
+  .feat .ico{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:1.5rem;
+    background:linear-gradient(150deg,rgba(255,176,32,.2),rgba(10,132,255,.14));border:1px solid var(--line)}
+  .feat h3{font-size:1.18rem;font-weight:700;margin:20px 0 10px}
+  .feat p{color:var(--ink-dim);font-size:.93rem}
+  .feat .en{color:var(--ink-faint);font-size:.82rem;margin-top:10px}
+
+  /* steps */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:step}
+  @media(max-width:860px){.steps{grid-template-columns:1fr}}
+  .step{position:relative;padding:38px 30px;border-radius:var(--radius);border:1px solid var(--line);background:var(--glass)}
+  .step::before{counter-increment:step;content:"0" counter(step);font-size:3.4rem;font-weight:800;line-height:1;
+    background:linear-gradient(180deg,rgba(255,255,255,.30),rgba(255,255,255,.04));
+    -webkit-background-clip:text;background-clip:text;color:transparent;display:block;margin-bottom:18px}
+  .step h3{font-size:1.1rem;margin-bottom:8px}
+  .step p{color:var(--ink-dim);font-size:.92rem}
+
+  /* privacy vault */
+  .vault{border-radius:32px;border:1px solid rgba(47,191,113,.25);
+    background:linear-gradient(165deg,rgba(47,191,113,.10),rgba(7,11,22,.4));
+    backdrop-filter:blur(18px);padding:60px 50px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+  @media(max-width:860px){.vault{grid-template-columns:1fr;padding:42px 30px}}
+  .vault h2{margin-top:10px}
+  .vault p{color:var(--ink-dim);margin-top:14px;font-size:.97rem}
+  .badges{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:480px){.badges{grid-template-columns:1fr}}
+  .badge{border-radius:16px;border:1px solid var(--line);background:rgba(7,11,22,.55);padding:20px 18px;text-align:center}
+  .badge .bi{font-size:1.5rem}
+  .badge b{display:block;margin-top:8px;font-size:.92rem}
+  .badge span{display:block;font-size:.74rem;color:var(--ink-faint);margin-top:3px}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{border:1px solid var(--line);border-radius:18px;background:var(--glass);margin-bottom:14px;
+    padding:0 26px;transition:.25s;overflow:hidden}
+  details[open]{background:var(--glass-hi);border-color:rgba(255,176,32,.3)}
+  summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;padding:22px 0;display:flex;
+    justify-content:space-between;align-items:center;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;color:var(--gold);transition:.25s;flex-shrink:0}
+  details[open] summary::after{transform:rotate(45deg)}
+  details .a{padding:0 0 24px;color:var(--ink-dim);font-size:.94rem}
+  details .a .en{color:var(--ink-faint);font-size:.84rem;margin-top:8px}
+
+  /* final CTA */
+  .final{text-align:center;padding:130px 0 150px}
+  .final .icon-big{width:120px;height:120px;border-radius:28px;box-shadow:0 24px 70px rgba(255,159,10,.45);margin-bottom:34px;
+    animation:float 7s ease-in-out infinite}
+  .final h2{font-size:clamp(2rem,5vw,3.2rem)}
+  .final .sec-sub{max-width:520px;margin:18px auto 0}
+
+  footer{border-top:1px solid var(--line);background:rgba(5,8,16,.8);padding:56px 0 44px}
+  .foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+  .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800}
+  .foot-brand img{width:30px;height:30px;border-radius:8px}
+  .foot-links{display:flex;gap:26px;font-size:.9rem;color:var(--ink-dim)}
+  .foot-links a:hover{color:var(--ink)}
+  .copy{color:var(--ink-faint);font-size:.8rem;margin-top:26px}
+
+  /* reveal on scroll */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none}.phone,.chip1,.chip2,.final .icon-big{animation:none}
+  }
+</style>
+<style>
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 20px 64px;line-height:1.75}
+.helpdoc h1{font-size:clamp(26px,4.4vw,38px);line-height:1.25;margin:.2em 0 .35em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.2em 0 .6em;scroll-margin-top:20px}
+.helpdoc h3{font-size:16.5px;margin:1.6em 0 .35em}
+.helpdoc .lede{font-size:17.5px;opacity:.85;margin:0 0 1.6em}
+.helpdoc ul{padding-left:1.15em}
+.helpdoc li{margin:.35em 0}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 22px;opacity:.8}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:6px 12px;border:1px solid currentColor;border-radius:999px;font-size:13.5px;opacity:.75;text-decoration:none}
+.helpdoc .hd-specs{width:100%;border-collapse:collapse;margin:.6em 0;font-size:15px}
+.helpdoc .hd-specs th{text-align:left;font-weight:600;padding:9px 12px 9px 0;white-space:nowrap;vertical-align:top;opacity:.7}
+.helpdoc .hd-specs td{padding:9px 0;border-bottom:1px solid rgba(128,128,128,.18)}
+.helpdoc .hd-q{margin:1.5em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-cta{display:inline-block;margin:10px 8px 10px 0;padding:11px 20px;border-radius:999px;border:1px solid currentColor;font-weight:600;text-decoration:none}
+.helpdoc .hd-note{font-size:13px;opacity:.62;margin-top:2.6em;border-top:1px solid rgba(128,128,128,.2);padding-top:14px}
+@media (max-width:520px){.helpdoc .hd-specs th{display:block;padding-bottom:0}.helpdoc .hd-specs td{display:block;padding-top:2px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "url": "https://alice51849.github.io/hourstag-support/help.html", "name": "HoursTag — 說明、常見問題與疑難排解", "inLanguage": "zh-Hant", "mainEntity": [{"@type": "Question", "name": "需要註冊帳號嗎?", "acceptedAnswer": {"@type": "Answer", "text": "不需要。產品頁說明沒有帳號、註冊或登入流程,安裝後即可直接使用。"}}, {"@type": "Question", "name": "這是訂閱制嗎?", "acceptedAnswer": {"@type": "Answer", "text": "不是。產品頁說明採一次性購買,而非週期性訂閱。購買前可在 App Store 產品頁再次確認付款項目,也可在「設定 →(你的名字)→ 訂閱項目」檢視目前有效的訂閱。"}}, {"@type": "Question", "name": "有廣告嗎?", "acceptedAnswer": {"@type": "Answer", "text": "沒有。產品頁說明此 App 不含廣告。"}}, {"@type": "Question", "name": "我已經付款,但 App 還是顯示未解鎖", "acceptedAnswer": {"@type": "Answer", "text": "一次性購買會綁定當初付款的 Apple 帳號。請先用同一個帳號登入(設定 →(你的名字)→ 媒體與購買項目),再使用 App 內的「回復購買項目」(若有),或從 App Store 的「已購買」清單重新下載。用其他 Apple 帳號(包含家人的帳號)購買的項目不會出現。"}}, {"@type": "Question", "name": "換了新 iPhone,需要再付一次錢嗎?", "acceptedAnswer": {"@type": "Answer", "text": "不用。在新裝置上用同一個 Apple 帳號登入並重新下載即可;購買紀錄綁在帳號,不是綁在手機。"}}, {"@type": "Question", "name": "要怎麼申請退款?", "acceptedAnswer": {"@type": "Answer", "text": "在 App Store 的購買一律由 Apple 處理退款,開發者無法代為處理。請前往 reportaproblem.apple.com 登入,找到該筆購買並選擇「要求退款」。我們無法核發、加速或推翻 App Store 的退款決定,但仍歡迎告訴我們出了什麼問題。"}}, {"@type": "Question", "name": "怎麼刪除 App 以及它存的資料?", "acceptedAnswer": {"@type": "Answer", "text": "長按 App 圖示 →「移除 App」→「刪除 App」。刪除 iOS App 會一併移除它的沙盒,存在裝置上的文件與設定也會跟著消失,所以請先把要保留的內容匯出。App 究竟儲存了什麼、存在哪裡,寫在我們的隱私權政策。"}}, {"@type": "Question", "name": "怎麼確認自己用的是最新版?", "acceptedAnswer": {"@type": "Answer", "text": "打開 App Store,點右上角個人頭像,下拉重新整理待更新清單;若 App 出現在清單中,點「更新」。在「設定 → App Store → App 更新項目」開啟自動更新後就不用手動確認。"}}, {"@type": "Question", "name": "HoursTag 需要哪些裝置與 iOS 版本?", "acceptedAnswer": {"@type": "Answer", "text": "請看 App Store 產品頁,該頁「資訊」區塊永遠是相容性、大小與語言最即時且權威的答案。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "HoursTag", "operatingSystem": "iOS", "applicationCategory": "Productivity", "url": "https://apps.apple.com/app/id6754218117", "installUrl": "https://apps.apple.com/app/id6754218117", "softwareHelp": {"@type": "CreativeWork", "url": "https://alice51849.github.io/hourstag-support/help.html"}}</script>
+</head>
+<body>
+<main class="helpdoc">
+<p class="hd-nav"><a href="./">支援首頁</a><a href="privacy.html">隱私權政策</a><a href="https://apps.apple.com/app/id6754218117" rel="noopener">在 App Store 檢視</a></p>
+<h1>HoursTag — 說明與常見問題</h1>
+<p class="lede">HoursTag 最常被問到的問題、疑難排解步驟,以及聯絡真人的方式。</p>
+<p class="hd-toc-label"><strong>本頁內容</strong></p>
+<ul class="hd-toc"><li><a href="#about">HoursTag 是什麼</a></li><li><a href="#start">開始使用</a></li><li><a href="#features">功能一覽</a></li><li><a href="#specs">基本資訊</a></li><li><a href="#faq">常見問題</a></li><li><a href="#troubleshooting">疑難排解</a></li><li><a href="#contact">還是沒解決?寫信給我們</a></li></ul>
+<section id="about"><h2>HoursTag 是什麼</h2><p>這真正要花你多少？不是多少錢——是你生命中的幾個小時。</p><p>HoursTag 把任何價格換算成你需要工作的時數。一雙 $129 的鞋不是「$129」，而是你半天的工作。當你開始這樣看錢，就會花得清楚，而不是事後後悔。</p><p>HoursTag 是一次性購買。沒有訂閱、沒有隱藏升級、沒有任何需要續費的東西。</p><p>時間是你唯一賺不回來的貨幣。把它花在對的地方——用 HoursTag。</p></section>
+<section id="start"><h2>開始使用</h2><ol><li>設定一次收入——時薪或月薪，HoursTag 算出你真實的每小時價值。</li><li>輸入一個價格，立刻看到它等於多少工時。</li><li>標記為「必要、想要、衝動」，消費習慣一目了然。</li></ol></section>
+<section id="features"><h2>功能一覽</h2><h3>你可以做到</h3><ul><li>即時把金錢換算成時間，使用你自己的幣別</li><li>把花費分類為必要、想要、衝動</li><li>用真實工時追蹤目標與願望清單，即時顯示進度</li><li>依類別查看花費洞察，月度明細清楚分明</li><li>把任何一筆消費看成你工作日的百分比</li><li>自訂類別，選擇專屬圖示與顏色</li><li>在精緻的淺色與深色主題間切換</li><li>支援 17 種語言</li><li>隨時備份與還原你的資料</li></ul><h3>從設計就重視隱私</h3><ul><li>無需帳號、不必註冊、不做追蹤、沒有廣告。所有資料永遠只留在你的裝置上。</li></ul></section>
+<section id="specs"><h2>基本資訊</h2><table class="hd-specs"><tbody><tr><th>系統需求</th><td>iOS 15.1+</td></tr><tr><th>支援裝置</th><td>iPhone 與 iPad</td></tr><tr><th>年齡分級</th><td>4+</td></tr><tr><th>類別</th><td>Productivity</td></tr></tbody></table></section>
+<section id="faq"><h2>常見問題</h2><p class="hd-q" id="q-q">需要註冊帳號嗎?</p><p class="hd-a">不需要。產品頁說明沒有帳號、註冊或登入流程,安裝後即可直接使用。</p><p class="hd-q" id="q-q">這是訂閱制嗎?</p><p class="hd-a">不是。產品頁說明採一次性購買,而非週期性訂閱。購買前可在 App Store 產品頁再次確認付款項目,也可在「設定 →(你的名字)→ 訂閱項目」檢視目前有效的訂閱。</p><p class="hd-q" id="q-q">有廣告嗎?</p><p class="hd-a">沒有。產品頁說明此 App 不含廣告。</p><p class="hd-q" id="q-app">我已經付款,但 App 還是顯示未解鎖</p><p class="hd-a">一次性購買會綁定當初付款的 Apple 帳號。請先用同一個帳號登入(設定 →(你的名字)→ 媒體與購買項目),再使用 App 內的「回復購買項目」(若有),或從 App Store 的「已購買」清單重新下載。用其他 Apple 帳號(包含家人的帳號)購買的項目不會出現。</p><p class="hd-q" id="q-iphone">換了新 iPhone,需要再付一次錢嗎?</p><p class="hd-a">不用。在新裝置上用同一個 Apple 帳號登入並重新下載即可;購買紀錄綁在帳號,不是綁在手機。</p><p class="hd-q" id="q-q">要怎麼申請退款?</p><p class="hd-a">在 App Store 的購買一律由 Apple 處理退款,開發者無法代為處理。請前往 <a href="https://reportaproblem.apple.com" rel="nofollow noopener">reportaproblem.apple.com</a> 登入,找到該筆購買並選擇「要求退款」。我們無法核發、加速或推翻 App Store 的退款決定,但仍歡迎告訴我們出了什麼問題。</p><p class="hd-q" id="q-app">怎麼刪除 App 以及它存的資料?</p><p class="hd-a">長按 App 圖示 →「移除 App」→「刪除 App」。刪除 iOS App 會一併移除它的沙盒,存在裝置上的文件與設定也會跟著消失,所以請先把要保留的內容匯出。App 究竟儲存了什麼、存在哪裡,寫在我們的<a href="https://alice51849.github.io/hourstag-support/privacy.html">隱私權政策</a>。</p><p class="hd-q" id="q-q">怎麼確認自己用的是最新版?</p><p class="hd-a">打開 App Store,點右上角個人頭像,下拉重新整理待更新清單;若 App 出現在清單中,點「更新」。在「設定 → App Store → App 更新項目」開啟自動更新後就不用手動確認。</p><p class="hd-q" id="q-hourstag-ios">HoursTag 需要哪些裝置與 iOS 版本?</p><p class="hd-a">請看 <a href="https://apps.apple.com/app/id6754218117" rel="noopener">App Store 產品頁</a>,該頁「資訊」區塊永遠是相容性、大小與語言最即時且權威的答案。</p></section>
+<section id="troubleshooting"><h2>疑難排解</h2><h3>App 打不開,或一開就閃退</h3><p>先強制結束:從螢幕底部往上滑並停住,再把該 App 的卡片往上撥掉,然後重新開啟。若仍然閃退,重新啟動裝置 — 多數一次性的啟動失敗都能靠這步解決。</p><h3>很慢,或處理大檔案時卡住</h3><p>到「設定 → 一般 → iPhone 儲存空間」看剩餘空間。iOS 在剩餘空間低於約 1 GB 時行為會變得不穩定,而任何要寫檔的功能(匯出、掃描、影像處理)會最先出問題。同時關掉其他在背景運作的 App。</p><h3>更新後畫面或功能怪怪的</h3><p>先更新 iOS 本身(設定 → 一般 → 軟體更新),再更新 App。舊版 iOS 搭配新版 App 是版面或功能異常的常見原因。</p><h3>最後手段:重新安裝</h3><p>先匯出想保留的內容,刪除 App,再從 App Store 的「已購買」清單重新安裝。付費解鎖綁在 Apple 帳號,重裝後仍在;只存在裝置本機的資料則不會回來。</p></section>
+<section id="contact"><h2>還是沒解決?寫信給我們</h2><p>請寄到 <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a>。為了第一封回信就能幫到你,請附上:裝置型號(設定 → 一般 → 關於本機)、iOS 版本、App 版本,以及問題出現前你點了什麼。附上截圖或螢幕錄影會更快。</p></section>
+<p style="margin-top:2em"><a class="hd-cta" href="https://apps.apple.com/app/id6754218117" rel="noopener">HoursTag — 在 App Store 檢視</a><a class="hd-cta" href="https://apps.apple.com/app/id6794039979" rel="noopener">HoursTag Lite — 在 App Store 檢視</a></p>
+<p class="hd-note">本頁功能敘述取自該 App 的 App Store 產品頁文案;規格取自 App Store 公開的產品資料,可能隨版本更新而變動。 · 最後更新: 2026-08-10</p>
+</main>
+<footer></footer>
+</body>
+</html>
