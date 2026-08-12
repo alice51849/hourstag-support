@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HoursTag — सहायता, सामान्य प्रश्न और समस्या समाधान</title>
+<meta name="description" content="HoursTag के बारे में सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब, दिक्कत आने पर उसे ठीक करने के तरीके, और हमसे सीधे संपर्क करने का ज़रिया।">
+<link rel="canonical" href="https://alice51849.github.io/hourstag-support/help.hi.html">
+<link rel="alternate" hreflang="en-US" href="https://alice51849.github.io/hourstag-support/help.html">
+<link rel="alternate" hreflang="ar-SA" href="https://alice51849.github.io/hourstag-support/help.ar-SA.html">
+<link rel="alternate" hreflang="de-DE" href="https://alice51849.github.io/hourstag-support/help.de-DE.html">
+<link rel="alternate" hreflang="en-AU" href="https://alice51849.github.io/hourstag-support/help.en-AU.html">
+<link rel="alternate" hreflang="en-GB" href="https://alice51849.github.io/hourstag-support/help.en-GB.html">
+<link rel="alternate" hreflang="fr-FR" href="https://alice51849.github.io/hourstag-support/help.fr-FR.html">
+<link rel="alternate" hreflang="hi" href="https://alice51849.github.io/hourstag-support/help.hi.html">
+<link rel="alternate" hreflang="ja" href="https://alice51849.github.io/hourstag-support/help.ja.html">
+<link rel="alternate" hreflang="ko" href="https://alice51849.github.io/hourstag-support/help.ko.html">
+<link rel="alternate" hreflang="pt-BR" href="https://alice51849.github.io/hourstag-support/help.pt-BR.html">
+<link rel="alternate" hreflang="th" href="https://alice51849.github.io/hourstag-support/help.th.html">
+<link rel="alternate" hreflang="vi" href="https://alice51849.github.io/hourstag-support/help.vi.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://alice51849.github.io/hourstag-support/help.zh-Hans.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://alice51849.github.io/hourstag-support/help.zh-Hant.html">
+<link rel="alternate" hreflang="en-CA" href="https://alice51849.github.io/hourstag-support/help.en-AU.html">
+<link rel="alternate" hreflang="x-default" href="https://alice51849.github.io/hourstag-support/help.html">
+<meta property="og:title" content="HoursTag — सहायता, सामान्य प्रश्न और समस्या समाधान">
+<meta property="og:description" content="HoursTag के बारे में सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब, दिक्कत आने पर उसे ठीक करने के तरीके, और हमसे सीधे संपर्क करने का ज़रिया।">
+<meta property="og:url" content="https://alice51849.github.io/hourstag-support/help.hi.html">
+<meta property="og:type" content="article">
+<style>
+  :root{
+    --bg:#070B16; --bg2:#0B1122; --ink:#EAF0FF; --ink-dim:#A7B3CE; --ink-faint:#6B7A99;
+    --gold:#FFB020; --gold2:#FFD60A; --orange:#FF9F0A; --blue:#0A84FF; --blue2:#5AC8FA; --green:#2FBF71;
+    --glass:rgba(255,255,255,.055); --glass-hi:rgba(255,255,255,.10); --line:rgba(255,255,255,.09);
+    --radius:22px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro TC","PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.75;overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 28px}
+
+  /* ===== ambient mesh ===== */
+  .mesh{position:fixed;inset:0;z-index:-2;background:
+    radial-gradient(720px 520px at 12% -8%, rgba(10,132,255,.22), transparent 62%),
+    radial-gradient(880px 620px at 105% 12%, rgba(255,176,32,.16), transparent 60%),
+    radial-gradient(700px 700px at 50% 118%, rgba(47,191,113,.10), transparent 60%),
+    var(--bg);}
+  .grain{position:fixed;inset:0;z-index:-1;opacity:.5;pointer-events:none;background-image:
+    radial-gradient(rgba(255,255,255,.022) 1px, transparent 1px);background-size:3px 3px}
+
+  /* ===== nav ===== */
+  nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    background:rgba(7,11,22,.55);border-bottom:1px solid var(--line)}
+  .nav-in{max-width:1100px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:28px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;letter-spacing:.3px}
+  .brand img{width:34px;height:34px;border-radius:9px;box-shadow:0 4px 14px rgba(255,176,32,.35)}
+  .nav-links{display:flex;gap:24px;margin-left:auto;font-size:.92rem;color:var(--ink-dim)}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{background:linear-gradient(135deg,var(--gold),var(--orange));color:#1A1200;font-weight:700;
+    padding:9px 20px;border-radius:999px;font-size:.9rem;box-shadow:0 4px 18px rgba(255,159,10,.35);transition:.2s}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 26px rgba(255,159,10,.5)}
+  @media(max-width:720px){.nav-links{display:none}}
+
+  /* ===== hero ===== */
+  header{padding:170px 0 110px;position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--glass);
+    padding:7px 16px;border-radius:999px;font-size:.82rem;color:var(--ink-dim);letter-spacing:.4px}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+  h1{font-size:clamp(2.6rem,6vw,4.3rem);font-weight:800;line-height:1.14;letter-spacing:-.5px;margin:26px 0 8px}
+  .grad{background:linear-gradient(100deg,var(--gold2) 0%,var(--gold) 30%,var(--blue2) 75%,var(--blue) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:clamp(1.02rem,2vw,1.22rem);color:var(--ink-dim);max-width:560px;margin-top:14px}
+  .sub-en{font-size:.95rem;color:var(--ink-faint);margin-top:8px;max-width:560px}
+  .cta-row{display:flex;gap:16px;align-items:center;margin-top:38px;flex-wrap:wrap}
+  .btn-main{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--gold),var(--orange));
+    color:#1A1200;font-weight:800;font-size:1.02rem;padding:16px 34px;border-radius:999px;
+    box-shadow:0 10px 34px rgba(255,159,10,.4);transition:.22s}
+  .btn-main:hover{transform:translateY(-2px) scale(1.015);box-shadow:0 16px 44px rgba(255,159,10,.55)}
+  .btn-ghost{padding:15px 28px;border-radius:999px;border:1px solid var(--line);background:var(--glass);
+    color:var(--ink-dim);font-size:.95rem;transition:.2s}
+  .btn-ghost:hover{color:var(--ink);background:var(--glass-hi)}
+  .hero-note{font-size:.84rem;color:var(--ink-faint);margin-top:16px}
+
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-vis{margin:30px auto 0}}
+
+  /* hero visual: glass phone */
+  .hero-vis{position:relative;width:320px;justify-self:center}
+  .phone{position:relative;border-radius:42px;border:1px solid var(--glass-hi);
+    background:linear-gradient(165deg,rgba(255,255,255,.09),rgba(255,255,255,.025));
+    backdrop-filter:blur(20px);padding:22px 20px 26px;box-shadow:0 40px 90px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.12);
+    animation:float 7s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-14px) rotate(1deg)}}
+  .phone .ptitle{font-size:.78rem;letter-spacing:1.5px;color:var(--ink-faint);text-transform:uppercase}
+  .goal{margin-top:14px;border-radius:18px;border:1px solid var(--line);background:rgba(7,11,22,.5);padding:18px}
+  .goal .gname{font-weight:700;font-size:.98rem;display:flex;justify-content:space-between}
+  .goal .gname span:last-child{color:var(--gold)}
+  .bar{height:9px;border-radius:99px;background:rgba(255,255,255,.08);margin-top:12px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--orange));
+    width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+  .bar.b2 i{background:linear-gradient(90deg,var(--blue),var(--blue2))}
+  .bar.b3 i{background:linear-gradient(90deg,var(--green),#7CE3AC)}
+  .goal .gmeta{display:flex;justify-content:space-between;font-size:.78rem;color:var(--ink-faint);margin-top:8px}
+  .float-chip{position:absolute;border-radius:16px;border:1px solid var(--glass-hi);backdrop-filter:blur(14px);
+    background:rgba(12,18,36,.75);padding:12px 18px;font-size:.85rem;box-shadow:0 18px 40px rgba(0,0,0,.5)}
+  .float-chip b{display:block;font-size:1.15rem;background:linear-gradient(90deg,var(--gold2),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .chip1{top:-26px;right:-58px;animation:float 6s 1s ease-in-out infinite}
+  .chip2{bottom:-20px;left:-66px;animation:float 8s .5s ease-in-out infinite}
+  @media(max-width:560px){.chip1{right:-8px}.chip2{left:-8px}}
+
+  /* ===== sections ===== */
+  section{padding:110px 0;position:relative}
+  .sec-head{text-align:center;max-width:680px;margin:0 auto 64px}
+  .kicker{font-size:.8rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-.4px;margin-top:14px;line-height:1.25}
+  .sec-sub{color:var(--ink-dim);margin-top:14px;font-size:1.02rem}
+  .sec-sub-en{color:var(--ink-faint);font-size:.88rem;margin-top:6px}
+
+  /* calculator */
+  .calc{max-width:860px;margin:0 auto;border-radius:28px;border:1px solid var(--line);
+    background:linear-gradient(170deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+    backdrop-filter:blur(22px);padding:46px;box-shadow:0 30px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.1)}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+  @media(max-width:720px){.calc-grid{grid-template-columns:1fr}}
+  .field label{font-size:.82rem;color:var(--ink-dim);letter-spacing:.5px}
+  .field input{width:100%;margin-top:8px;background:rgba(7,11,22,.6);border:1px solid var(--line);border-radius:14px;
+    color:var(--ink);font-size:1.1rem;font-weight:700;padding:14px 16px;outline:none;transition:.2s;font-family:inherit}
+  .field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,176,32,.18)}
+  .calc-out{text-align:center;margin-top:38px;padding-top:34px;border-top:1px dashed var(--line)}
+  .calc-out .num{font-size:clamp(2.6rem,7vw,4rem);font-weight:800;
+    background:linear-gradient(95deg,var(--gold2),var(--gold),var(--orange));
+    -webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px}
+  .calc-out .lbl{color:var(--ink-dim);font-size:.95rem;margin-top:4px}
+  .calc-out .hint{color:var(--ink-faint);font-size:.8rem;margin-top:14px}
+
+  /* features */
+  .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:860px){.feat-grid{grid-template-columns:1fr}}
+  .feat{border-radius:var(--radius);border:1px solid var(--line);background:var(--glass);padding:36px 30px;
+    transition:.3s;position:relative;overflow:hidden}
+  .feat::before{content:"";position:absolute;inset:0;background:
+    radial-gradient(420px 200px at 50% -40%,rgba(255,176,32,.13),transparent 70%);opacity:0;transition:.35s}
+  .feat:hover{transform:translateY(-6px);border-color:rgba(255,176,32,.35);background:var(--glass-hi)}
+  .feat:hover::before{opacity:1}
+  .feat .ico{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:1.5rem;
+    background:linear-gradient(150deg,rgba(255,176,32,.2),rgba(10,132,255,.14));border:1px solid var(--line)}
+  .feat h3{font-size:1.18rem;font-weight:700;margin:20px 0 10px}
+  .feat p{color:var(--ink-dim);font-size:.93rem}
+  .feat .en{color:var(--ink-faint);font-size:.82rem;margin-top:10px}
+
+  /* steps */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:step}
+  @media(max-width:860px){.steps{grid-template-columns:1fr}}
+  .step{position:relative;padding:38px 30px;border-radius:var(--radius);border:1px solid var(--line);background:var(--glass)}
+  .step::before{counter-increment:step;content:"0" counter(step);font-size:3.4rem;font-weight:800;line-height:1;
+    background:linear-gradient(180deg,rgba(255,255,255,.30),rgba(255,255,255,.04));
+    -webkit-background-clip:text;background-clip:text;color:transparent;display:block;margin-bottom:18px}
+  .step h3{font-size:1.1rem;margin-bottom:8px}
+  .step p{color:var(--ink-dim);font-size:.92rem}
+
+  /* privacy vault */
+  .vault{border-radius:32px;border:1px solid rgba(47,191,113,.25);
+    background:linear-gradient(165deg,rgba(47,191,113,.10),rgba(7,11,22,.4));
+    backdrop-filter:blur(18px);padding:60px 50px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+  @media(max-width:860px){.vault{grid-template-columns:1fr;padding:42px 30px}}
+  .vault h2{margin-top:10px}
+  .vault p{color:var(--ink-dim);margin-top:14px;font-size:.97rem}
+  .badges{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:480px){.badges{grid-template-columns:1fr}}
+  .badge{border-radius:16px;border:1px solid var(--line);background:rgba(7,11,22,.55);padding:20px 18px;text-align:center}
+  .badge .bi{font-size:1.5rem}
+  .badge b{display:block;margin-top:8px;font-size:.92rem}
+  .badge span{display:block;font-size:.74rem;color:var(--ink-faint);margin-top:3px}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{border:1px solid var(--line);border-radius:18px;background:var(--glass);margin-bottom:14px;
+    padding:0 26px;transition:.25s;overflow:hidden}
+  details[open]{background:var(--glass-hi);border-color:rgba(255,176,32,.3)}
+  summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;padding:22px 0;display:flex;
+    justify-content:space-between;align-items:center;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;color:var(--gold);transition:.25s;flex-shrink:0}
+  details[open] summary::after{transform:rotate(45deg)}
+  details .a{padding:0 0 24px;color:var(--ink-dim);font-size:.94rem}
+  details .a .en{color:var(--ink-faint);font-size:.84rem;margin-top:8px}
+
+  /* final CTA */
+  .final{text-align:center;padding:130px 0 150px}
+  .final .icon-big{width:120px;height:120px;border-radius:28px;box-shadow:0 24px 70px rgba(255,159,10,.45);margin-bottom:34px;
+    animation:float 7s ease-in-out infinite}
+  .final h2{font-size:clamp(2rem,5vw,3.2rem)}
+  .final .sec-sub{max-width:520px;margin:18px auto 0}
+
+  footer{border-top:1px solid var(--line);background:rgba(5,8,16,.8);padding:56px 0 44px}
+  .foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+  .foot-brand{display:flex;align-items:center;gap:10px;font-weight:800}
+  .foot-brand img{width:30px;height:30px;border-radius:8px}
+  .foot-links{display:flex;gap:26px;font-size:.9rem;color:var(--ink-dim)}
+  .foot-links a:hover{color:var(--ink)}
+  .copy{color:var(--ink-faint);font-size:.8rem;margin-top:26px}
+
+  /* reveal on scroll */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none}.phone,.chip1,.chip2,.final .icon-big{animation:none}
+  }
+</style>
+<style>
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 20px 64px;line-height:1.75}
+.helpdoc h1{font-size:clamp(26px,4.4vw,38px);line-height:1.25;margin:.2em 0 .35em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.2em 0 .6em;scroll-margin-top:20px}
+.helpdoc h3{font-size:16.5px;margin:1.6em 0 .35em}
+.helpdoc .lede{font-size:17.5px;opacity:.85;margin:0 0 1.6em}
+.helpdoc ul{padding-left:1.15em}
+.helpdoc li{margin:.35em 0}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 22px;opacity:.8}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:6px 12px;border:1px solid currentColor;border-radius:999px;font-size:13.5px;opacity:.75;text-decoration:none}
+.helpdoc .hd-specs{width:100%;border-collapse:collapse;margin:.6em 0;font-size:15px}
+.helpdoc .hd-specs th{text-align:left;font-weight:600;padding:9px 12px 9px 0;white-space:nowrap;vertical-align:top;opacity:.7}
+.helpdoc .hd-specs td{padding:9px 0;border-bottom:1px solid rgba(128,128,128,.18)}
+.helpdoc .hd-q{margin:1.5em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-cta{display:inline-block;margin:10px 8px 10px 0;padding:11px 20px;border-radius:999px;border:1px solid currentColor;font-weight:600;text-decoration:none}
+.helpdoc .hd-note{font-size:13px;opacity:.62;margin-top:2.6em;border-top:1px solid rgba(128,128,128,.2);padding-top:14px}
+.helpdoc .hd-langs{margin:2.4em 0 0;font-size:13.5px;line-height:2;opacity:.75;border-top:1px solid rgba(128,128,128,.2);padding-top:14px}
+.helpdoc .hd-langs a{display:inline-block;margin:0 10px 0 0;text-decoration:none;border-bottom:1px solid rgba(128,128,128,.35)}
+@media (max-width:520px){.helpdoc .hd-specs th{display:block;padding-bottom:0}.helpdoc .hd-specs td{display:block;padding-top:2px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "url": "https://alice51849.github.io/hourstag-support/help.hi.html", "name": "HoursTag — सहायता, सामान्य प्रश्न और समस्या समाधान", "inLanguage": "hi", "mainEntity": [{"@type": "Question", "name": "क्या मुझे खाता बनाना होगा?", "acceptedAnswer": {"@type": "Answer", "text": "नहीं। पेज पर बताया गया है कि कोई खाता, साइन-अप या लॉगिन नहीं है — इंस्टॉल करते ही ऐप इस्तेमाल कर सकते हैं।"}}, {"@type": "Question", "name": "क्या यह सब्सक्रिप्शन है?", "acceptedAnswer": {"@type": "Answer", "text": "नहीं। पेज पर इसे बार-बार चलने वाले सब्सक्रिप्शन के बजाय एक बार की ख़रीद बताया गया है। ख़रीदने से पहले App Store पेज पर देख सकते हैं कि किस चीज़ का शुल्क लिया जा रहा है, और चालू सब्सक्रिप्शन सेटिंग्स → आपका नाम → सब्सक्रिप्शन में देख सकते हैं।"}}, {"@type": "Question", "name": "क्या इसमें विज्ञापन हैं?", "acceptedAnswer": {"@type": "Answer", "text": "नहीं। पेज पर बताया गया है कि ऐप में कोई विज्ञापन नहीं है।"}}, {"@type": "Question", "name": "मैंने पैसे दिए, फिर भी ऐप लॉक वाला वर्शन दिखा रहा है", "acceptedAnswer": {"@type": "Answer", "text": "एक बार की ख़रीद उसी Apple खाते से जुड़ी होती है जिससे भुगतान हुआ था। उसी खाते से साइन इन करें (सेटिंग्स → आपका नाम → मीडिया और ख़रीदारी), फिर ऐप में रीस्टोर का विकल्प हो तो उसे चलाएँ, या App Store की “ख़रीदे गए” सूची से ऐप दोबारा इंस्टॉल करें। किसी दूसरे Apple खाते से — परिवार के सदस्य के खाते से भी — की गई ख़रीद यहाँ नहीं दिखेगी।"}}, {"@type": "Question", "name": "मैंने नया iPhone लिया है — क्या दोबारा पैसे देने होंगे?", "acceptedAnswer": {"@type": "Answer", "text": "नहीं। नए डिवाइस पर उसी Apple खाते से साइन इन करके ऐप फिर से डाउनलोड कर लें; ख़रीद डिवाइस से नहीं, खाते से जुड़ी होती है।"}}, {"@type": "Question", "name": "रिफ़ंड कैसे माँगें?", "acceptedAnswer": {"@type": "Answer", "text": "App Store से की गई किसी भी ख़रीद का रिफ़ंड Apple देखता है, डेवलपर नहीं। reportaproblem.apple.com पर जाकर साइन इन करें, वह ख़रीद ढूँढें और “Request a refund” चुनें। हम App Store के रिफ़ंड फ़ैसले को न दे सकते हैं, न जल्दी करा सकते हैं, न बदल सकते हैं — पर क्या दिक्कत हुई, यह ज़रूर बताइए ताकि हम उसे ठीक कर सकें।"}}, {"@type": "Question", "name": "ऐप और उसका सारा सेव किया हुआ डेटा कैसे हटाएँ?", "acceptedAnswer": {"@type": "Answer", "text": "ऐप आइकन को दबाकर रखें → “ऐप हटाएँ” → “ऐप डिलीट करें”। iOS में ऐप डिलीट करने पर उसका सैंडबॉक्स भी हट जाता है — यानी डिवाइस पर रखे दस्तावेज़ और सेटिंग्स भी साथ चले जाते हैं, इसलिए जो रखना है उसे पहले एक्सपोर्ट कर लें। ऐप क्या और कहाँ सहेजता है, यह हमारी गोपनीयता नीति में लिखा है।"}}, {"@type": "Question", "name": "कैसे पक्का करें कि मेरे पास नया वर्शन है?", "acceptedAnswer": {"@type": "Answer", "text": "App Store खोलें, ऊपर अपनी प्रोफ़ाइल तस्वीर पर टैप करें और बाक़ी अपडेट की सूची को नीचे खींचकर रिफ़्रेश करें। ऐप वहाँ दिखे तो “अपडेट” दबाएँ। सेटिंग्स → App Store → ऐप अपडेट चालू रखने पर यह अपने-आप होता रहेगा।"}}, {"@type": "Question", "name": "HoursTag के लिए कौन-से डिवाइस और कौन-सा iOS वर्शन चाहिए?", "acceptedAnswer": {"@type": "Answer", "text": "App Store पेज देखें — वहाँ का “सूचना” सेक्शन ही अनुकूलता, साइज़ और भाषाओं के लिए हमेशा सबसे सही और ताज़ा जवाब है।"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "HoursTag", "operatingSystem": "iOS", "applicationCategory": "Productivity", "url": "https://apps.apple.com/app/id6754218117", "installUrl": "https://apps.apple.com/app/id6754218117", "softwareHelp": {"@type": "CreativeWork", "url": "https://alice51849.github.io/hourstag-support/help.hi.html"}}</script>
+</head>
+<body>
+<main class="helpdoc">
+<p class="hd-nav"><a href="./">सहायता होम</a><a href="privacy.html">गोपनीयता नीति</a><a href="https://apps.apple.com/app/id6754218117" rel="noopener">App Store पर देखें</a></p>
+<h1>HoursTag — सहायता और सामान्य प्रश्न</h1>
+<p class="lede">HoursTag के बारे में सबसे ज़्यादा पूछे जाने वाले सवालों के जवाब, दिक्कत आने पर उसे ठीक करने के तरीके, और हमसे सीधे संपर्क करने का ज़रिया।</p>
+<p class="hd-toc-label"><strong>इस पेज पर</strong></p>
+<ul class="hd-toc"><li><a href="#about">HoursTag क्या करता है</a></li><li><a href="#features">इसमें क्या शामिल है</a></li><li><a href="#specs">एक नज़र में</a></li><li><a href="#faq">सामान्य प्रश्न</a></li><li><a href="#troubleshooting">समस्या समाधान</a></li><li><a href="#more">इसी डेवलपर के अन्य सहायता पेज</a></li><li><a href="#contact">फिर भी हल नहीं हुआ? हमें ईमेल करें</a></li></ul>
+<section id="about"><h2>HoursTag क्या करता है</h2><p>यह सच में कितना महंगा है? रुपये में नहीं, आपकी ज़िंदगी के घंटों में।</p><p>HoursTag हर कीमत को उस काम के समय में बदलता है जो उसे कमाने में लगता है। आय एक बार सेट करें, कीमत लिखें और खरीदने से पहले असली घंटे देखें।</p><p>एक बार खरीदें। अपना समय सोच-समझकर खर्च करें।</p></section>
+<section id="features"><h2>इसमें क्या शामिल है</h2><ul><li>खर्च को ज़रूरत, चाहत या आवेग में टैग करें</li><li>लक्ष्यों और विशलिस्ट को काम के घंटों में ट्रैक करें</li><li>कैटेगरी और महीने का साफ़ विश्लेषण देखें</li><li>कोई खाता नहीं, विज्ञापन नहीं, ट्रैकिंग नहीं</li></ul></section>
+<section id="specs"><h2>एक नज़र में</h2><table class="hd-specs"><tbody><tr><th>ज़रूरी</th><td>iOS 15.1+</td></tr><tr><th>डिवाइस</th><td>iPhone और iPad</td></tr><tr><th>आयु रेटिंग</th><td>4+</td></tr><tr><th>श्रेणी</th><td>Productivity</td></tr></tbody></table></section>
+<section id="faq"><h2>सामान्य प्रश्न</h2><p class="hd-q" id="q-q">क्या मुझे खाता बनाना होगा?</p><p class="hd-a">नहीं। पेज पर बताया गया है कि कोई खाता, साइन-अप या लॉगिन नहीं है — इंस्टॉल करते ही ऐप इस्तेमाल कर सकते हैं।</p><p class="hd-q" id="q-q">क्या यह सब्सक्रिप्शन है?</p><p class="hd-a">नहीं। पेज पर इसे बार-बार चलने वाले सब्सक्रिप्शन के बजाय एक बार की ख़रीद बताया गया है। ख़रीदने से पहले App Store पेज पर देख सकते हैं कि किस चीज़ का शुल्क लिया जा रहा है, और चालू सब्सक्रिप्शन सेटिंग्स → आपका नाम → सब्सक्रिप्शन में देख सकते हैं।</p><p class="hd-q" id="q-q">क्या इसमें विज्ञापन हैं?</p><p class="hd-a">नहीं। पेज पर बताया गया है कि ऐप में कोई विज्ञापन नहीं है।</p><p class="hd-q" id="q-q">मैंने पैसे दिए, फिर भी ऐप लॉक वाला वर्शन दिखा रहा है</p><p class="hd-a">एक बार की ख़रीद उसी Apple खाते से जुड़ी होती है जिससे भुगतान हुआ था। उसी खाते से साइन इन करें (सेटिंग्स → आपका नाम → मीडिया और ख़रीदारी), फिर ऐप में रीस्टोर का विकल्प हो तो उसे चलाएँ, या App Store की “ख़रीदे गए” सूची से ऐप दोबारा इंस्टॉल करें। किसी दूसरे Apple खाते से — परिवार के सदस्य के खाते से भी — की गई ख़रीद यहाँ नहीं दिखेगी।</p><p class="hd-q" id="q-iphone">मैंने नया iPhone लिया है — क्या दोबारा पैसे देने होंगे?</p><p class="hd-a">नहीं। नए डिवाइस पर उसी Apple खाते से साइन इन करके ऐप फिर से डाउनलोड कर लें; ख़रीद डिवाइस से नहीं, खाते से जुड़ी होती है।</p><p class="hd-q" id="q-q">रिफ़ंड कैसे माँगें?</p><p class="hd-a">App Store से की गई किसी भी ख़रीद का रिफ़ंड Apple देखता है, डेवलपर नहीं। <a href="https://reportaproblem.apple.com" rel="nofollow noopener">reportaproblem.apple.com</a> पर जाकर साइन इन करें, वह ख़रीद ढूँढें और “Request a refund” चुनें। हम App Store के रिफ़ंड फ़ैसले को न दे सकते हैं, न जल्दी करा सकते हैं, न बदल सकते हैं — पर क्या दिक्कत हुई, यह ज़रूर बताइए ताकि हम उसे ठीक कर सकें।</p><p class="hd-q" id="q-q">ऐप और उसका सारा सेव किया हुआ डेटा कैसे हटाएँ?</p><p class="hd-a">ऐप आइकन को दबाकर रखें → “ऐप हटाएँ” → “ऐप डिलीट करें”। iOS में ऐप डिलीट करने पर उसका सैंडबॉक्स भी हट जाता है — यानी डिवाइस पर रखे दस्तावेज़ और सेटिंग्स भी साथ चले जाते हैं, इसलिए जो रखना है उसे पहले एक्सपोर्ट कर लें। ऐप क्या और कहाँ सहेजता है, यह हमारी <a href="https://alice51849.github.io/hourstag-support/privacy.html">गोपनीयता नीति</a> में लिखा है।</p><p class="hd-q" id="q-q">कैसे पक्का करें कि मेरे पास नया वर्शन है?</p><p class="hd-a">App Store खोलें, ऊपर अपनी प्रोफ़ाइल तस्वीर पर टैप करें और बाक़ी अपडेट की सूची को नीचे खींचकर रिफ़्रेश करें। ऐप वहाँ दिखे तो “अपडेट” दबाएँ। सेटिंग्स → App Store → ऐप अपडेट चालू रखने पर यह अपने-आप होता रहेगा।</p><p class="hd-q" id="q-hourstag-ios">HoursTag के लिए कौन-से डिवाइस और कौन-सा iOS वर्शन चाहिए?</p><p class="hd-a"><a href="https://apps.apple.com/app/id6754218117" rel="noopener">App Store पेज</a> देखें — वहाँ का “सूचना” सेक्शन ही अनुकूलता, साइज़ और भाषाओं के लिए हमेशा सबसे सही और ताज़ा जवाब है।</p></section>
+<section id="troubleshooting"><h2>समस्या समाधान</h2><h3>ऐप खुलता नहीं, या खुलते ही बंद हो जाता है</h3><p>पहले उसे ज़बरदस्ती बंद करें: स्क्रीन के नीचे से ऊपर स्वाइप करके रुकें, फिर ऐप का कार्ड ऊपर की ओर हटा दें और ऐप दोबारा खोलें। फिर भी बंद हो तो डिवाइस रीस्टार्ट करें — ज़्यादातर एक-बार की लॉन्च दिक्कतें इसी से हट जाती हैं।</p><h3>ऐप धीमा लगता है या बड़े काम पर अटक जाता है</h3><p>सेटिंग्स → सामान्य → iPhone स्टोरेज में ख़ाली जगह देखें। क़रीब 1 GB से कम ख़ाली जगह पर iOS का बर्ताव अनिश्चित हो जाता है, और फ़ाइल लिखने वाले काम (एक्सपोर्ट, स्कैन, इमेज प्रोसेसिंग) सबसे पहले प्रभावित होते हैं। पीछे चल रहे दूसरे ऐप भी बंद कर दें।</p><h3>अपडेट के बाद कुछ गड़बड़ दिख रहा है</h3><p>पहले iOS को अपडेट करें (सेटिंग्स → सामान्य → सॉफ़्टवेयर अपडेट), उसके बाद ऐप को। पुराना iOS और नया बिल्ड — यह लेआउट या फ़ीचर की गड़बड़ी की आम वजह है।</p><h3>आख़िरी उपाय: दोबारा इंस्टॉल करें</h3><p>जो रखना है उसे एक्सपोर्ट करें, ऐप डिलीट करें, फिर App Store की “ख़रीदे गए” सूची से दोबारा इंस्टॉल करें। पैसे देकर खोले गए फ़ीचर आपके Apple खाते से जुड़े होते हैं इसलिए दोबारा इंस्टॉल करने पर भी बने रहते हैं; सिर्फ़ डिवाइस पर रखा डेटा वापस नहीं आता।</p></section>
+<section id="more"><h2>इसी डेवलपर के अन्य सहायता पेज</h2><ul><li><a href="https://alice51849.github.io/ios-app-guide/hi/guides/hourstag.html">HoursTag की विस्तृत गाइड</a></li><li><a href="https://alice51849.github.io/mochitodo-support/help.hi.html">Mochi</a></li><li><a href="https://alice51849.github.io/lockhour-support/help.hi.html">LockHour Pro</a></li><li><a href="https://alice51849.github.io/gmoney-support/help.hi.html">G+Money</a></li><li><a href="https://alice51849.github.io/unblurry-support/help.hi.html">Unblurry Pro</a></li></ul></section>
+<section id="contact"><h2>फिर भी हल नहीं हुआ? हमें ईमेल करें</h2><p><a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a> पर लिखें। पहले ही जवाब में काम की मदद मिल सके, इसके लिए यह ज़रूर बताएँ: आपके डिवाइस का मॉडल (सेटिंग्स → सामान्य → इसके बारे में), आपका iOS वर्शन, ऐप का वर्शन, और दिक्कत आने से ठीक पहले आपने क्या टैप किया था। स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग हो तो और भी जल्दी वजह पकड़ में आती है।</p></section>
+<p style="margin-top:2em"><a class="hd-cta" href="https://apps.apple.com/app/id6754218117" rel="noopener">HoursTag — App Store पर देखें</a><a class="hd-cta" href="https://apps.apple.com/app/id6794039979" rel="noopener">HoursTag Lite — App Store पर देखें</a></p>
+<nav class="hd-langs" aria-label="यह पेज दूसरी भाषाओं में"><strong>यह पेज दूसरी भाषाओं में:</strong> <a href="https://alice51849.github.io/hourstag-support/help.html" hreflang="en-US" lang="en-US">English</a> <a href="https://alice51849.github.io/hourstag-support/help.ar-SA.html" hreflang="ar-SA" lang="ar-SA">العربية</a> <a href="https://alice51849.github.io/hourstag-support/help.de-DE.html" hreflang="de-DE" lang="de-DE">Deutsch</a> <a href="https://alice51849.github.io/hourstag-support/help.en-AU.html" hreflang="en-AU" lang="en-AU">English (AU)</a> <a href="https://alice51849.github.io/hourstag-support/help.en-GB.html" hreflang="en-GB" lang="en-GB">English (UK)</a> <a href="https://alice51849.github.io/hourstag-support/help.fr-FR.html" hreflang="fr-FR" lang="fr-FR">Français</a> <a href="https://alice51849.github.io/hourstag-support/help.ja.html" hreflang="ja" lang="ja">日本語</a> <a href="https://alice51849.github.io/hourstag-support/help.ko.html" hreflang="ko" lang="ko">한국어</a> <a href="https://alice51849.github.io/hourstag-support/help.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (BR)</a> <a href="https://alice51849.github.io/hourstag-support/help.th.html" hreflang="th" lang="th">ไทย</a> <a href="https://alice51849.github.io/hourstag-support/help.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="https://alice51849.github.io/hourstag-support/help.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="https://alice51849.github.io/hourstag-support/help.zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav>
+<p class="hd-note">इस पेज पर दिए गए फ़ीचर विवरण ऐप के अपने App Store पेज से लिए गए हैं। तकनीकी जानकारी App Store के सार्वजनिक डेटा से आती है और हर अपडेट के साथ बदल सकती है। · आख़िरी बार अपडेट: 2026-08-12</p>
+</main>
+<footer></footer>
+</body>
+</html>
