@@ -1,0 +1,2798 @@
+{
+  "app": {
+    "app_store_get_status": "200",
+    "app_store_id": "6754218117",
+    "kids": false,
+    "monetization": "paid upfront; no subscription or in-app purchase",
+    "name": "HoursTag: Hours to Buy"
+  },
+  "authority_anchors": {
+    "index": [
+      "working hours",
+      "real cost of your time"
+    ],
+    "privacy": [
+      "No account",
+      "third-party advertising"
+    ],
+    "support": [
+      "paid download",
+      "no subscription",
+      "no in-app purchase"
+    ]
+  },
+  "authority_sources": [
+    "00_Standards/localization.md",
+    "00_Standards/kids-compliance.md",
+    "00_Standards/app-requirements.md",
+    "authoritative-session/support_surface_contract.json",
+    "authoritative-session/crosspromo_config.json"
+  ],
+  "base_url": "https://alice51849.github.io/hourstag-support/",
+  "content": {
+    "ar-SA": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "راسلنا على hourstag.app@gmail.com مع ذكر طراز الجهاز وإصدار iOS وإصدار التطبيق وخطوات تكرار المشكلة، مع لقطة شاشة أو تسجيل للشاشة. كلما كانت التفاصيل أدق كان الإصلاح أسرع.",
+        "description": "لا. كما هو مذكور في صفحة HoursTag: Hours to Buy على App Store، لا توجد حسابات ولا تسجيل دخول، ويمكنك البدء فور التثبيت. نعم. كما هو مذكور في صفحة App Store، ينفّذ HoursTag: Hours to Buy العمل الأساسي على الجهاز نفسه، لذلك يعمل في وضع الطيران أو من دون تغطية. الاتصال مطلوب فقط لتنزيل التطبيق وللشراء، لأن ذلك يتم عبر App Store.",
+        "eyebrow": "الخصوصية",
+        "heading": "HoursTag: Hours to Buy · الخصوصية",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "مركز الدعم",
+          "home": "HoursTag: Hours to Buy",
+          "language": "العربية",
+          "privacy": "الخصوصية",
+          "support": "مركز الدعم"
+        },
+        "lead": "لا. كما هو مذكور في صفحة HoursTag: Hours to Buy على App Store، لا توجد حسابات ولا تسجيل دخول، ويمكنك البدء فور التثبيت. نعم. كما هو مذكور في صفحة App Store، ينفّذ HoursTag: Hours to Buy العمل الأساسي على الجهاز نفسه، لذلك يعمل في وضع الطيران أو من دون تغطية. الاتصال مطلوب فقط لتنزيل التطبيق وللشراء، لأن ذلك يتم عبر App Store.",
+        "sections": [
+          [
+            "هل أحتاج إلى حساب؟",
+            "لا. كما هو مذكور في صفحة HoursTag: Hours to Buy على App Store، لا توجد حسابات ولا تسجيل دخول، ويمكنك البدء فور التثبيت."
+          ],
+          [
+            "هل يعمل بدون اتصال بالإنترنت؟",
+            "نعم. كما هو مذكور في صفحة App Store، ينفّذ HoursTag: Hours to Buy العمل الأساسي على الجهاز نفسه، لذلك يعمل في وضع الطيران أو من دون تغطية. الاتصال مطلوب فقط لتنزيل التطبيق وللشراء، لأن ذلك يتم عبر App Store."
+          ],
+          [
+            "هل توجد إعلانات أو تتبّع من أطراف أخرى؟",
+            "لا. لا يحتوي HoursTag: Hours to Buy على إعلانات من أطراف أخرى ولا على حزم تحليلات أو تتبّع بين التطبيقات."
+          ],
+          [
+            "هل هذا اشتراك؟",
+            "HoursTag تطبيق مدفوع يُنزَّل من App Store. تتاح جميع الميزات بعد التثبيت، ولا توجد اشتراكات أو عمليات شراء داخل التطبيق."
+          ],
+          [
+            "كيف أحذف بياناتي؟",
+            "احذف العناصر واحدًا واحدًا داخل التطبيق. ولحذف كل شيء، اضغط مطوّلًا على أيقونة HoursTag: Hours to Buy في الشاشة الرئيسية واحذف التطبيق، فتُحذف معه البيانات المحفوظة على الجهاز (قد تبقى نسخة في نسخة احتياطية أنشأتها أنت)."
+          ]
+        ],
+        "title": "الخصوصية — HoursTag: Hours to Buy"
+      }
+    },
+    "bn-BD": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com ঠিকানায় ডিভাইস মডেল, iOS সংস্করণ, অ্যাপ সংস্করণ, ত্রুটিটি আবার ঘটানোর ধাপগুলো এবং একটি স্ক্রিনশট বা স্ক্রিন রেকর্ডিং পাঠান। বর্ণনা যত সুনির্দিষ্ট, সমাধান তত দ্রুত।",
+        "description": "না। HoursTag: Hours to Buy-এর App Store পাতায় যেমন লেখা আছে, এখানে অ্যাকাউন্ট বা সাইন-ইন কিছুই নেই — ইনস্টল করার সঙ্গে সঙ্গেই শুরু করা যায়। হ্যাঁ। App Store পাতায় যেমন লেখা আছে, HoursTag: Hours to Buy মূল কাজটা ডিভাইসেই করে, তাই ফ্লাইট মোডে বা নেটওয়ার্ক ছাড়াও চলে। শুধু অ্যাপ ডাউনলোড আর কেনাকাটার জন্য সংযোগ লাগে, কারণ সেটা App Store-এর মাধ্যমে হয়।",
+        "eyebrow": "গোপনীয়তা",
+        "heading": "HoursTag: Hours to Buy · গোপনীয়তা",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "সহায়তা কেন্দ্র",
+          "home": "HoursTag: Hours to Buy",
+          "language": "বাংলা",
+          "privacy": "গোপনীয়তা",
+          "support": "সহায়তা কেন্দ্র"
+        },
+        "lead": "না। HoursTag: Hours to Buy-এর App Store পাতায় যেমন লেখা আছে, এখানে অ্যাকাউন্ট বা সাইন-ইন কিছুই নেই — ইনস্টল করার সঙ্গে সঙ্গেই শুরু করা যায়। হ্যাঁ। App Store পাতায় যেমন লেখা আছে, HoursTag: Hours to Buy মূল কাজটা ডিভাইসেই করে, তাই ফ্লাইট মোডে বা নেটওয়ার্ক ছাড়াও চলে। শুধু অ্যাপ ডাউনলোড আর কেনাকাটার জন্য সংযোগ লাগে, কারণ সেটা App Store-এর মাধ্যমে হয়।",
+        "sections": [
+          [
+            "অ্যাকাউন্ট লাগবে কি?",
+            "না। HoursTag: Hours to Buy-এর App Store পাতায় যেমন লেখা আছে, এখানে অ্যাকাউন্ট বা সাইন-ইন কিছুই নেই — ইনস্টল করার সঙ্গে সঙ্গেই শুরু করা যায়।"
+          ],
+          [
+            "ইন্টারনেট ছাড়া কি চলে?",
+            "হ্যাঁ। App Store পাতায় যেমন লেখা আছে, HoursTag: Hours to Buy মূল কাজটা ডিভাইসেই করে, তাই ফ্লাইট মোডে বা নেটওয়ার্ক ছাড়াও চলে। শুধু অ্যাপ ডাউনলোড আর কেনাকাটার জন্য সংযোগ লাগে, কারণ সেটা App Store-এর মাধ্যমে হয়।"
+          ],
+          [
+            "এতে কি বিজ্ঞাপন বা তৃতীয় পক্ষের ট্র্যাকিং আছে?",
+            "না। HoursTag: Hours to Buy-এ তৃতীয় পক্ষের বিজ্ঞাপন নেই, অ্যাপের মধ্যে ট্র্যাক করার অ্যানালিটিক্স বা ট্র্যাকিং SDK-ও নেই।"
+          ],
+          [
+            "এটা কি সাবস্ক্রিপশন?",
+            "HoursTag App Store থেকে একবার দাম দিয়ে ডাউনলোড করা অ্যাপ। ইনস্টল করার পর সব সুবিধা পাওয়া যায়; কোনো সাবস্ক্রিপশন বা অ্যাপের ভেতরের কেনাকাটা নেই।"
+          ],
+          [
+            "আমার তথ্য কীভাবে মুছব?",
+            "আলাদা আলাদা এন্ট্রি অ্যাপের ভেতর থেকেই মুছুন। সবকিছু মুছতে চাইলে হোম স্ক্রিনে HoursTag: Hours to Buy-এর আইকন চেপে ধরে অ্যাপটি মুছে দিন — ডিভাইসে জমা থাকা তথ্যও তার সঙ্গে চলে যায় (আপনার নিজের নেওয়া ব্যাকআপে অনুলিপি থেকে যেতে পারে)।"
+          ]
+        ],
+        "title": "গোপনীয়তা — HoursTag: Hours to Buy"
+      }
+    },
+    "ca": {
+      "privacy": {
+        "app_name": "HoursTag: Horas de compra",
+        "contact": "Escriu a hourstag.app@gmail.com indicant el model del dispositiu, la versió d'iOS, la versió de l'app, els passos per reproduir-ho i una captura o gravació de pantalla. Com més concret sigui, més de pressa ho corregim.",
+        "description": "No. Tal com indica la fitxa de HoursTag: Horas de compra a l'App Store, no hi ha comptes ni inici de sessió: pots començar just després d'instal·lar-la. Sí. Tal com indica la fitxa de l'App Store, HoursTag: Horas de compra processa la feina principal al mateix dispositiu, així que també funciona en mode avió o sense cobertura. Només cal connexió per baixar l'app i per a les compres, que passen per l'App Store.",
+        "eyebrow": "Privadesa",
+        "heading": "HoursTag: Horas de compra · Privadesa",
+        "labels": {
+          "app_store": "HoursTag: Horas de compra · App Store",
+          "contact": "Centre d'assistència",
+          "home": "HoursTag: Horas de compra",
+          "language": "Català",
+          "privacy": "Privadesa",
+          "support": "Centre d'assistència"
+        },
+        "lead": "No. Tal com indica la fitxa de HoursTag: Horas de compra a l'App Store, no hi ha comptes ni inici de sessió: pots començar just després d'instal·lar-la. Sí. Tal com indica la fitxa de l'App Store, HoursTag: Horas de compra processa la feina principal al mateix dispositiu, així que també funciona en mode avió o sense cobertura. Només cal connexió per baixar l'app i per a les compres, que passen per l'App Store.",
+        "sections": [
+          [
+            "Cal registrar-se?",
+            "No. Tal com indica la fitxa de HoursTag: Horas de compra a l'App Store, no hi ha comptes ni inici de sessió: pots començar just després d'instal·lar-la."
+          ],
+          [
+            "Funciona sense connexió?",
+            "Sí. Tal com indica la fitxa de l'App Store, HoursTag: Horas de compra processa la feina principal al mateix dispositiu, així que també funciona en mode avió o sense cobertura. Només cal connexió per baixar l'app i per a les compres, que passen per l'App Store."
+          ],
+          [
+            "Hi ha publicitat o seguiment de tercers?",
+            "No. HoursTag: Horas de compra no conté publicitat de tercers ni SDK d'analítica o de seguiment entre apps."
+          ],
+          [
+            "És una subscripció?",
+            "HoursTag és una descàrrega de pagament de l’App Store. Totes les funcions estan disponibles després d’instal·lar-lo; no hi ha subscripcions ni compres integrades."
+          ],
+          [
+            "Com esborro les meves dades?",
+            "Elimina els elements un a un dins l'app. Per esborrar-ho tot, mantén premuda la icona de HoursTag: Horas de compra a la pantalla d'inici i elimina l'app: també desapareixen les dades desades al dispositiu (pot quedar-ne una còpia en una còpia de seguretat que hagis fet tu)."
+          ]
+        ],
+        "title": "Privadesa — HoursTag: Horas de compra"
+      }
+    },
+    "cs": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Napište na hourstag.app@gmail.com model zařízení, verzi iOS, verzi aplikace, postup, kterým se chyba vyvolá, a snímek nebo záznam obrazovky. Čím konkrétnější popis, tím rychleji chybu opravíme.",
+        "description": "Ne. Jak uvádí stránka aplikace HoursTag: Hours to Buy v App Storu, žádné účty ani přihlašování tu nejsou — můžete začít hned po instalaci. Ano. Jak uvádí stránka v App Storu, HoursTag: Hours to Buy zpracovává to podstatné přímo v zařízení, takže funguje i v režimu Letadlo nebo bez signálu. Připojení potřebuje jen stažení aplikace a nákupy, které probíhají přes App Store.",
+        "eyebrow": "Soukromí",
+        "heading": "HoursTag: Hours to Buy · Soukromí",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centrum podpory",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Čeština",
+          "privacy": "Soukromí",
+          "support": "Centrum podpory"
+        },
+        "lead": "Ne. Jak uvádí stránka aplikace HoursTag: Hours to Buy v App Storu, žádné účty ani přihlašování tu nejsou — můžete začít hned po instalaci. Ano. Jak uvádí stránka v App Storu, HoursTag: Hours to Buy zpracovává to podstatné přímo v zařízení, takže funguje i v režimu Letadlo nebo bez signálu. Připojení potřebuje jen stažení aplikace a nákupy, které probíhají přes App Store.",
+        "sections": [
+          [
+            "Potřebuji účet?",
+            "Ne. Jak uvádí stránka aplikace HoursTag: Hours to Buy v App Storu, žádné účty ani přihlašování tu nejsou — můžete začít hned po instalaci."
+          ],
+          [
+            "Funguje to bez internetu?",
+            "Ano. Jak uvádí stránka v App Storu, HoursTag: Hours to Buy zpracovává to podstatné přímo v zařízení, takže funguje i v režimu Letadlo nebo bez signálu. Připojení potřebuje jen stažení aplikace a nákupy, které probíhají přes App Store."
+          ],
+          [
+            "Jsou v aplikaci reklamy nebo sledování třetích stran?",
+            "Ne. HoursTag: Hours to Buy neobsahuje reklamy třetích stran ani analytické či sledovací SDK, které by vás sledovaly napříč aplikacemi."
+          ],
+          [
+            "Je to předplatné?",
+            "HoursTag je placená aplikace z App Storu. Po instalaci jsou dostupné všechny funkce; neobsahuje předplatné ani nákupy v aplikaci."
+          ],
+          [
+            "Jak smažu svá data?",
+            "Jednotlivé položky mažte přímo v aplikaci. Pokud chcete smazat všechno, podržte ikonu HoursTag: Hours to Buy na ploše a aplikaci odstraňte — spolu s ní zmizí i data uložená v zařízení (kopie může zůstat v záloze, kterou jste si sami pořídili)."
+          ]
+        ],
+        "title": "Soukromí — HoursTag: Hours to Buy"
+      }
+    },
+    "da": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Skriv til hourstag.app@gmail.com med enhedsmodel, iOS-version, appversion, trinene der fremkalder fejlen, og et skærmbillede eller en skærmoptagelse. Jo mere konkret, jo hurtigere kan vi rette det.",
+        "description": "Nej. Som der står på HoursTag: Hours to Buys side i App Store, er der hverken konti eller login: du kan gå i gang lige efter installationen. Ja. Som der står på App Store-siden, klarer HoursTag: Hours to Buy det væsentlige på selve enheden, så det virker også i flytilstand eller uden dækning. Kun download af appen og køb, som går gennem App Store, kræver forbindelse.",
+        "eyebrow": "Privatliv",
+        "heading": "HoursTag: Hours to Buy · Privatliv",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Supportcenter",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Dansk",
+          "privacy": "Privatliv",
+          "support": "Supportcenter"
+        },
+        "lead": "Nej. Som der står på HoursTag: Hours to Buys side i App Store, er der hverken konti eller login: du kan gå i gang lige efter installationen. Ja. Som der står på App Store-siden, klarer HoursTag: Hours to Buy det væsentlige på selve enheden, så det virker også i flytilstand eller uden dækning. Kun download af appen og køb, som går gennem App Store, kræver forbindelse.",
+        "sections": [
+          [
+            "Skal jeg oprette en konto?",
+            "Nej. Som der står på HoursTag: Hours to Buys side i App Store, er der hverken konti eller login: du kan gå i gang lige efter installationen."
+          ],
+          [
+            "Virker det uden internet?",
+            "Ja. Som der står på App Store-siden, klarer HoursTag: Hours to Buy det væsentlige på selve enheden, så det virker også i flytilstand eller uden dækning. Kun download af appen og køb, som går gennem App Store, kræver forbindelse."
+          ],
+          [
+            "Er der reklamer eller tredjepartssporing?",
+            "Nej. HoursTag: Hours to Buy indeholder hverken tredjepartsreklamer eller analyse- og sporings-SDK'er, der følger dig på tværs af apps."
+          ],
+          [
+            "Er det et abonnement?",
+            "HoursTag er en betalt download fra App Store. Alle funktioner er tilgængelige efter installationen; der er hverken abonnement eller køb i appen."
+          ],
+          [
+            "Hvordan sletter jeg mine data?",
+            "Slet de enkelte emner inde i appen. Vil du slette det hele, så hold fingeren på HoursTag: Hours to Buy-symbolet på hjemmeskærmen og slet appen: de data, der er gemt på enheden, forsvinder med den (der kan stadig ligge en kopi i en sikkerhedskopi, du selv har lavet)."
+          ]
+        ],
+        "title": "Privatliv — HoursTag: Hours to Buy"
+      }
+    },
+    "de-DE": {
+      "privacy": {
+        "app_name": "HoursTag: Stunden zum Kauf",
+        "contact": "Schreiben Sie an hourstag.app@gmail.com mit Gerätemodell, iOS-Version, App-Version, den Schritten zum Nachstellen sowie Screenshots oder einer Bildschirmaufnahme. Je konkreter, desto schneller die Korrektur.",
+        "description": "Nein. Laut der App-Store-Produktseite kommt HoursTag: Stunden zum Kauf ohne Konto, Registrierung und Anmeldung aus. Sie können direkt nach der Installation loslegen. Ja. Laut Produktseite findet die eigentliche Verarbeitung von HoursTag: Stunden zum Kauf auf Ihrem Gerät statt, die App arbeitet also auch im Flugmodus oder ohne Empfang. Nur der Download und ein Kauf benötigen eine Verbindung, weil beides über den App Store läuft.",
+        "eyebrow": "Datenschutz",
+        "heading": "HoursTag: Stunden zum Kauf · Datenschutz",
+        "labels": {
+          "app_store": "HoursTag: Stunden zum Kauf · App Store",
+          "contact": "Support-Center",
+          "home": "HoursTag: Stunden zum Kauf",
+          "language": "Deutsch",
+          "privacy": "Datenschutz",
+          "support": "Support-Center"
+        },
+        "lead": "Nein. Laut der App-Store-Produktseite kommt HoursTag: Stunden zum Kauf ohne Konto, Registrierung und Anmeldung aus. Sie können direkt nach der Installation loslegen. Ja. Laut Produktseite findet die eigentliche Verarbeitung von HoursTag: Stunden zum Kauf auf Ihrem Gerät statt, die App arbeitet also auch im Flugmodus oder ohne Empfang. Nur der Download und ein Kauf benötigen eine Verbindung, weil beides über den App Store läuft.",
+        "sections": [
+          [
+            "Brauche ich ein Benutzerkonto?",
+            "Nein. Laut der App-Store-Produktseite kommt HoursTag: Stunden zum Kauf ohne Konto, Registrierung und Anmeldung aus. Sie können direkt nach der Installation loslegen."
+          ],
+          [
+            "Funktioniert die App ohne Internetverbindung?",
+            "Ja. Laut Produktseite findet die eigentliche Verarbeitung von HoursTag: Stunden zum Kauf auf Ihrem Gerät statt, die App arbeitet also auch im Flugmodus oder ohne Empfang. Nur der Download und ein Kauf benötigen eine Verbindung, weil beides über den App Store läuft."
+          ],
+          [
+            "Gibt es Werbung oder Tracking durch Dritte?",
+            "Nein. HoursTag: Stunden zum Kauf enthält weder Werbung von Dritten noch Analyse- oder App-übergreifende Tracking-SDKs."
+          ],
+          [
+            "Ist das ein Abo?",
+            "HoursTag ist ein kostenpflichtiger Download aus dem App Store. Nach der Installation stehen alle Funktionen zur Verfügung; es gibt weder Abonnement noch In-App-Käufe."
+          ],
+          [
+            "Wie lösche ich meine Daten?",
+            "Löschen Sie den jeweiligen Eintrag in der App. Um alles auf einmal zu entfernen, halten Sie das Symbol von HoursTag: Stunden zum Kauf auf dem Home-Bildschirm gedrückt und löschen Sie die App; die auf dem Gerät gespeicherten Daten werden mitgelöscht (in einem Geräte-Backup können noch Kopien liegen)."
+          ]
+        ],
+        "title": "Datenschutz — HoursTag: Stunden zum Kauf"
+      }
+    },
+    "el": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Στείλτε στο hourstag.app@gmail.com το μοντέλο της συσκευής, την έκδοση iOS, την έκδοση της εφαρμογής, τα βήματα που αναπαράγουν το πρόβλημα και ένα στιγμιότυπο ή εγγραφή οθόνης. Όσο πιο συγκεκριμένα, τόσο πιο γρήγορα το διορθώνουμε.",
+        "description": "Όχι. Όπως αναφέρει η σελίδα του HoursTag: Hours to Buy στο App Store, δεν υπάρχουν λογαριασμοί ούτε σύνδεση — μπορείτε να ξεκινήσετε αμέσως μετά την εγκατάσταση. Ναι. Όπως αναφέρει η σελίδα στο App Store, το HoursTag: Hours to Buy κάνει τη βασική δουλειά πάνω στη συσκευή, οπότε λειτουργεί και σε λειτουργία πτήσης ή χωρίς σήμα. Σύνδεση χρειάζονται μόνο η λήψη της εφαρμογής και οι αγορές, που γίνονται μέσω App Store.",
+        "eyebrow": "Απόρρητο",
+        "heading": "HoursTag: Hours to Buy · Απόρρητο",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Κέντρο υποστήριξης",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Ελληνικά",
+          "privacy": "Απόρρητο",
+          "support": "Κέντρο υποστήριξης"
+        },
+        "lead": "Όχι. Όπως αναφέρει η σελίδα του HoursTag: Hours to Buy στο App Store, δεν υπάρχουν λογαριασμοί ούτε σύνδεση — μπορείτε να ξεκινήσετε αμέσως μετά την εγκατάσταση. Ναι. Όπως αναφέρει η σελίδα στο App Store, το HoursTag: Hours to Buy κάνει τη βασική δουλειά πάνω στη συσκευή, οπότε λειτουργεί και σε λειτουργία πτήσης ή χωρίς σήμα. Σύνδεση χρειάζονται μόνο η λήψη της εφαρμογής και οι αγορές, που γίνονται μέσω App Store.",
+        "sections": [
+          [
+            "Χρειάζομαι λογαριασμό;",
+            "Όχι. Όπως αναφέρει η σελίδα του HoursTag: Hours to Buy στο App Store, δεν υπάρχουν λογαριασμοί ούτε σύνδεση — μπορείτε να ξεκινήσετε αμέσως μετά την εγκατάσταση."
+          ],
+          [
+            "Λειτουργεί χωρίς σύνδεση;",
+            "Ναι. Όπως αναφέρει η σελίδα στο App Store, το HoursTag: Hours to Buy κάνει τη βασική δουλειά πάνω στη συσκευή, οπότε λειτουργεί και σε λειτουργία πτήσης ή χωρίς σήμα. Σύνδεση χρειάζονται μόνο η λήψη της εφαρμογής και οι αγορές, που γίνονται μέσω App Store."
+          ],
+          [
+            "Υπάρχουν διαφημίσεις ή παρακολούθηση από τρίτους;",
+            "Όχι. Το HoursTag: Hours to Buy δεν περιέχει διαφημίσεις τρίτων ούτε SDK ανάλυσης ή παρακολούθησης μεταξύ εφαρμογών."
+          ],
+          [
+            "Είναι συνδρομή;",
+            "Το HoursTag είναι εφαρμογή επί πληρωμή από το App Store. Μετά την εγκατάσταση είναι διαθέσιμες όλες οι λειτουργίες· δεν υπάρχει συνδρομή ή αγορά εντός εφαρμογής."
+          ],
+          [
+            "Πώς διαγράφω τα δεδομένα μου;",
+            "Διαγράψτε τις επιμέρους καταχωρίσεις μέσα στην εφαρμογή. Για να τα σβήσετε όλα, κρατήστε πατημένο το εικονίδιο HoursTag: Hours to Buy στην αρχική οθόνη και διαγράψτε την εφαρμογή — μαζί της φεύγουν και τα δεδομένα που είναι αποθηκευμένα στη συσκευή (ένα αντίγραφο μπορεί να παραμείνει σε εφεδρικό αντίγραφο που κάνατε εσείς)."
+          ]
+        ],
+        "title": "Απόρρητο — HoursTag: Hours to Buy"
+      }
+    },
+    "en-AU": {
+      "index": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "eyebrow": "Official support site",
+        "heading": "HoursTag: Hours to Buy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ]
+        ],
+        "title": "HoursTag: Hours to Buy — Official support site"
+      },
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Hours to Buy · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Hours to Buy"
+      },
+      "support": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "eyebrow": "Support",
+        "heading": "HoursTag: Hours to Buy · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — HoursTag: Hours to Buy"
+      }
+    },
+    "en-CA": {
+      "index": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "eyebrow": "Official support site",
+        "heading": "HoursTag: Hours to Buy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ]
+        ],
+        "title": "HoursTag: Hours to Buy — Official support site"
+      },
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Hours to Buy · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Hours to Buy"
+      },
+      "support": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "eyebrow": "Support",
+        "heading": "HoursTag: Hours to Buy · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — HoursTag: Hours to Buy"
+      }
+    },
+    "en-GB": {
+      "index": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "eyebrow": "Official support site",
+        "heading": "HoursTag: Hours to Buy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ]
+        ],
+        "title": "HoursTag: Hours to Buy — Official support site"
+      },
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Hours to Buy · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Hours to Buy"
+      },
+      "support": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "eyebrow": "Support",
+        "heading": "HoursTag: Hours to Buy · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — HoursTag: Hours to Buy"
+      }
+    },
+    "en-US": {
+      "index": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "eyebrow": "Official support site",
+        "heading": "HoursTag: Hours to Buy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ]
+        ],
+        "title": "HoursTag: Hours to Buy — Official support site"
+      },
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Hours to Buy · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Hours to Buy"
+      },
+      "support": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used.",
+        "eyebrow": "Support",
+        "heading": "HoursTag: Hours to Buy · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Turn a price into the working hours needed to earn it, then review goals and spending through the real cost of your time."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Salary, working-hour, goal and spending records stay on your device. No account, third-party advertising, tracking or third-party analytics is used. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — HoursTag: Hours to Buy"
+      }
+    },
+    "es-ES": {
+      "privacy": {
+        "app_name": "HoursTag: Horas de compra",
+        "contact": "Escribe a hourstag.app@gmail.com indicando el modelo del dispositivo, la versión de iOS, la versión de la app, los pasos para reproducirlo y adjunta una captura o grabación de pantalla. Cuanto más concreto, antes se corrige.",
+        "description": "No. La ficha del App Store indica que HoursTag: Horas de compra no requiere cuenta ni inicio de sesión: puedes empezar nada más instalarla. Sí. La ficha indica que el procesamiento principal de HoursTag: Horas de compra ocurre en tu dispositivo, así que sigue funcionando en modo avión o sin cobertura. Solo la descarga y la compra necesitan conexión, porque pasan por el App Store.",
+        "eyebrow": "Privacidad",
+        "heading": "HoursTag: Horas de compra · Privacidad",
+        "labels": {
+          "app_store": "HoursTag: Horas de compra · App Store",
+          "contact": "Centro de soporte",
+          "home": "HoursTag: Horas de compra",
+          "language": "Español (España)",
+          "privacy": "Privacidad",
+          "support": "Centro de soporte"
+        },
+        "lead": "No. La ficha del App Store indica que HoursTag: Horas de compra no requiere cuenta ni inicio de sesión: puedes empezar nada más instalarla. Sí. La ficha indica que el procesamiento principal de HoursTag: Horas de compra ocurre en tu dispositivo, así que sigue funcionando en modo avión o sin cobertura. Solo la descarga y la compra necesitan conexión, porque pasan por el App Store.",
+        "sections": [
+          [
+            "¿Necesito crear una cuenta?",
+            "No. La ficha del App Store indica que HoursTag: Horas de compra no requiere cuenta ni inicio de sesión: puedes empezar nada más instalarla."
+          ],
+          [
+            "¿Funciona sin conexión a Internet?",
+            "Sí. La ficha indica que el procesamiento principal de HoursTag: Horas de compra ocurre en tu dispositivo, así que sigue funcionando en modo avión o sin cobertura. Solo la descarga y la compra necesitan conexión, porque pasan por el App Store."
+          ],
+          [
+            "¿Hay publicidad o rastreo de terceros?",
+            "No. HoursTag: Horas de compra no incluye publicidad de terceros ni SDK de analítica o de rastreo entre apps."
+          ],
+          [
+            "¿Es una suscripción?",
+            "HoursTag es una app de pago que se descarga desde el App Store. Todas las funciones están disponibles tras instalarla; no hay suscripción ni compras dentro de la app."
+          ],
+          [
+            "¿Cómo borro mis datos?",
+            "Borra el elemento correspondiente dentro de la app. Para eliminarlo todo de una vez, mantén pulsado el icono de HoursTag: Horas de compra en la pantalla de inicio y elimina la app: los datos guardados en el dispositivo se van con ella (una copia de seguridad del dispositivo puede conservar una copia)."
+          ]
+        ],
+        "title": "Privacidad — HoursTag: Horas de compra"
+      }
+    },
+    "es-MX": {
+      "privacy": {
+        "app_name": "HoursTag: Horas para comprar",
+        "contact": "Escribe a hourstag.app@gmail.com con el modelo de tu dispositivo, la versión de iOS, la versión de la app, los pasos para reproducirlo y una captura o grabación de pantalla. Entre más concreto, más rápido lo corregimos.",
+        "description": "No. Como dice la ficha de HoursTag: Horas para comprar en el App Store, no hay cuentas ni inicio de sesión: puedes empezar justo después de instalarla. Sí. Como dice la ficha del App Store, HoursTag: Horas para comprar procesa lo principal en el propio dispositivo, así que también funciona en modo avión o sin señal. Solo necesitas conexión para descargar la app y para las compras, que pasan por el App Store.",
+        "eyebrow": "Privacidad",
+        "heading": "HoursTag: Horas para comprar · Privacidad",
+        "labels": {
+          "app_store": "HoursTag: Horas para comprar · App Store",
+          "contact": "Centro de soporte",
+          "home": "HoursTag: Horas para comprar",
+          "language": "Español (México)",
+          "privacy": "Privacidad",
+          "support": "Centro de soporte"
+        },
+        "lead": "No. Como dice la ficha de HoursTag: Horas para comprar en el App Store, no hay cuentas ni inicio de sesión: puedes empezar justo después de instalarla. Sí. Como dice la ficha del App Store, HoursTag: Horas para comprar procesa lo principal en el propio dispositivo, así que también funciona en modo avión o sin señal. Solo necesitas conexión para descargar la app y para las compras, que pasan por el App Store.",
+        "sections": [
+          [
+            "¿Necesito una cuenta?",
+            "No. Como dice la ficha de HoursTag: Horas para comprar en el App Store, no hay cuentas ni inicio de sesión: puedes empezar justo después de instalarla."
+          ],
+          [
+            "¿Funciona sin conexión?",
+            "Sí. Como dice la ficha del App Store, HoursTag: Horas para comprar procesa lo principal en el propio dispositivo, así que también funciona en modo avión o sin señal. Solo necesitas conexión para descargar la app y para las compras, que pasan por el App Store."
+          ],
+          [
+            "¿Tiene publicidad o rastreo de terceros?",
+            "No. HoursTag: Horas para comprar no trae publicidad de terceros ni kits de analítica o de rastreo que te sigan de una app a otra."
+          ],
+          [
+            "¿Es una suscripción?",
+            "HoursTag es una app de pago que se descarga desde App Store. Todas las funciones quedan disponibles después de instalarla; no hay suscripción ni compras dentro de la app."
+          ],
+          [
+            "¿Cómo borro mis datos?",
+            "Elimina cada elemento dentro de la app. Para borrar todo, mantén presionado el ícono de HoursTag: Horas para comprar en la pantalla de inicio y elimina la app: también se van los datos guardados en el dispositivo (puede quedar una copia en un respaldo que tú hayas hecho)."
+          ]
+        ],
+        "title": "Privacidad — HoursTag: Horas para comprar"
+      }
+    },
+    "fi": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Lähetä osoitteeseen hourstag.app@gmail.com laitemalli, iOS-versio, sovelluksen versio, vaiheet joilla virhe toistuu sekä kuvakaappaus tai näytön tallenne. Mitä tarkempi kuvaus, sitä nopeammin korjaamme sen.",
+        "description": "Ei. Kuten sovelluksen HoursTag: Hours to Buy App Store -sivulla kerrotaan, tilejä tai kirjautumista ei ole: voit aloittaa heti asennuksen jälkeen. Kyllä. Kuten App Store -sivulla kerrotaan, HoursTag: Hours to Buy käsittelee olennaisen laitteessa, joten se toimii myös lentokonetilassa tai ilman kenttää. Vain sovelluksen lataus ja ostot, jotka kulkevat App Storen kautta, vaativat yhteyden.",
+        "eyebrow": "Tietosuoja",
+        "heading": "HoursTag: Hours to Buy · Tietosuoja",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Tukikeskus",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Suomi",
+          "privacy": "Tietosuoja",
+          "support": "Tukikeskus"
+        },
+        "lead": "Ei. Kuten sovelluksen HoursTag: Hours to Buy App Store -sivulla kerrotaan, tilejä tai kirjautumista ei ole: voit aloittaa heti asennuksen jälkeen. Kyllä. Kuten App Store -sivulla kerrotaan, HoursTag: Hours to Buy käsittelee olennaisen laitteessa, joten se toimii myös lentokonetilassa tai ilman kenttää. Vain sovelluksen lataus ja ostot, jotka kulkevat App Storen kautta, vaativat yhteyden.",
+        "sections": [
+          [
+            "Tarvitseeko luoda tili?",
+            "Ei. Kuten sovelluksen HoursTag: Hours to Buy App Store -sivulla kerrotaan, tilejä tai kirjautumista ei ole: voit aloittaa heti asennuksen jälkeen."
+          ],
+          [
+            "Toimiiko tämä ilman verkkoyhteyttä?",
+            "Kyllä. Kuten App Store -sivulla kerrotaan, HoursTag: Hours to Buy käsittelee olennaisen laitteessa, joten se toimii myös lentokonetilassa tai ilman kenttää. Vain sovelluksen lataus ja ostot, jotka kulkevat App Storen kautta, vaativat yhteyden."
+          ],
+          [
+            "Onko sovelluksessa mainoksia tai kolmansien osapuolten seurantaa?",
+            "Ei. Sovelluksessa HoursTag: Hours to Buy ei ole kolmansien osapuolten mainoksia eikä analytiikka- tai seuranta-SDK:ita, jotka seuraisivat sinua sovellusten välillä."
+          ],
+          [
+            "Onko tämä tilaus?",
+            "HoursTag on maksullinen lataus App Storesta. Kaikki ominaisuudet ovat käytettävissä asennuksen jälkeen; sovelluksessa ei ole tilausta eikä appiostoja."
+          ],
+          [
+            "Miten poistan tietoni?",
+            "Poista yksittäiset merkinnät sovelluksessa. Jos haluat poistaa kaiken, paina HoursTag: Hours to Buy-kuvaketta Koti-valikossa pitkään ja poista sovellus: samalla poistuvat laitteelle tallennetut tiedot (kopio voi jäädä itse tekemääsi varmuuskopioon)."
+          ]
+        ],
+        "title": "Tietosuoja — HoursTag: Hours to Buy"
+      }
+    },
+    "fr-CA": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Écrivez à hourstag.app@gmail.com en indiquant le modèle de l'appareil, la version d'iOS, la version de l'app, les étapes pour reproduire le problème et une capture ou un enregistrement d'écran. Plus c'est précis, plus la correction est rapide.",
+        "description": "Non. Comme l'indique la fiche de HoursTag: Hours to Buy dans l'App Store, il n'y a ni compte ni connexion : vous pouvez commencer dès l'installation. Oui. Comme l'indique la fiche de l'App Store, HoursTag: Hours to Buy traite l'essentiel directement sur l'appareil, donc ça fonctionne aussi en mode avion ou sans réseau. Seuls le téléchargement de l'app et les achats, qui passent par l'App Store, nécessitent une connexion.",
+        "eyebrow": "Confidentialité",
+        "heading": "HoursTag: Hours to Buy · Confidentialité",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centre d'assistance",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Français (Canada)",
+          "privacy": "Confidentialité",
+          "support": "Centre d'assistance"
+        },
+        "lead": "Non. Comme l'indique la fiche de HoursTag: Hours to Buy dans l'App Store, il n'y a ni compte ni connexion : vous pouvez commencer dès l'installation. Oui. Comme l'indique la fiche de l'App Store, HoursTag: Hours to Buy traite l'essentiel directement sur l'appareil, donc ça fonctionne aussi en mode avion ou sans réseau. Seuls le téléchargement de l'app et les achats, qui passent par l'App Store, nécessitent une connexion.",
+        "sections": [
+          [
+            "Faut-il créer un compte ?",
+            "Non. Comme l'indique la fiche de HoursTag: Hours to Buy dans l'App Store, il n'y a ni compte ni connexion : vous pouvez commencer dès l'installation."
+          ],
+          [
+            "Est-ce que ça fonctionne hors ligne ?",
+            "Oui. Comme l'indique la fiche de l'App Store, HoursTag: Hours to Buy traite l'essentiel directement sur l'appareil, donc ça fonctionne aussi en mode avion ou sans réseau. Seuls le téléchargement de l'app et les achats, qui passent par l'App Store, nécessitent une connexion."
+          ],
+          [
+            "Y a-t-il de la publicité ou du suivi par des tiers ?",
+            "Non. HoursTag: Hours to Buy ne contient aucune publicité tierce ni trousse d'analyse ou de suivi entre applications."
+          ],
+          [
+            "Est-ce un abonnement ?",
+            "HoursTag est une app payante à télécharger dans l’App Store. Toutes les fonctions sont offertes après l’installation; il n’y a ni abonnement ni achat intégré."
+          ],
+          [
+            "Comment supprimer mes données ?",
+            "Supprimez les éléments un à un dans l'app. Pour tout effacer, gardez le doigt sur l'icône de HoursTag: Hours to Buy à l'écran d'accueil et supprimez l'app : les données enregistrées sur l'appareil partent avec elle (une copie peut subsister dans une sauvegarde que vous avez faite)."
+          ]
+        ],
+        "title": "Confidentialité — HoursTag: Hours to Buy"
+      }
+    },
+    "fr-FR": {
+      "privacy": {
+        "app_name": "HoursTag : Heures d'achat",
+        "contact": "Écrivez à hourstag.app@gmail.com en précisant le modèle de l'appareil, la version d'iOS, la version de l'app, les étapes pour reproduire le problème, et joignez une capture ou un enregistrement d'écran. Plus c'est précis, plus la correction est rapide.",
+        "description": "Non. La fiche App Store indique que HoursTag : Heures d'achat fonctionne sans compte ni connexion : vous pouvez commencer dès l'installation. Oui. La fiche indique que le traitement principal de HoursTag : Heures d'achat se fait sur votre appareil : l'app continue de fonctionner en mode Avion ou sans réseau. Seuls le téléchargement et un achat nécessitent une connexion, car ils passent par l'App Store.",
+        "eyebrow": "Confidentialité",
+        "heading": "HoursTag : Heures d'achat · Confidentialité",
+        "labels": {
+          "app_store": "HoursTag : Heures d'achat · App Store",
+          "contact": "Centre d'assistance",
+          "home": "HoursTag : Heures d'achat",
+          "language": "Français (France)",
+          "privacy": "Confidentialité",
+          "support": "Centre d'assistance"
+        },
+        "lead": "Non. La fiche App Store indique que HoursTag : Heures d'achat fonctionne sans compte ni connexion : vous pouvez commencer dès l'installation. Oui. La fiche indique que le traitement principal de HoursTag : Heures d'achat se fait sur votre appareil : l'app continue de fonctionner en mode Avion ou sans réseau. Seuls le téléchargement et un achat nécessitent une connexion, car ils passent par l'App Store.",
+        "sections": [
+          [
+            "Faut-il créer un compte ?",
+            "Non. La fiche App Store indique que HoursTag : Heures d'achat fonctionne sans compte ni connexion : vous pouvez commencer dès l'installation."
+          ],
+          [
+            "L'app fonctionne-t-elle sans connexion Internet ?",
+            "Oui. La fiche indique que le traitement principal de HoursTag : Heures d'achat se fait sur votre appareil : l'app continue de fonctionner en mode Avion ou sans réseau. Seuls le téléchargement et un achat nécessitent une connexion, car ils passent par l'App Store."
+          ],
+          [
+            "Y a-t-il de la publicité ou du suivi tiers ?",
+            "Non. HoursTag : Heures d'achat ne contient ni publicité tierce, ni SDK d'analyse ou de suivi entre apps."
+          ],
+          [
+            "S'agit-il d'un abonnement ?",
+            "HoursTag est une app payante à télécharger sur l’App Store. Toutes les fonctions sont disponibles après l’installation ; il n’y a ni abonnement ni achat intégré."
+          ],
+          [
+            "Comment supprimer mes données ?",
+            "Supprimez l'élément concerné dans l'app. Pour tout effacer d'un coup, maintenez l'icône de HoursTag : Heures d'achat sur l'écran d'accueil et supprimez l'app : les données stockées sur l'appareil partent avec elle (une sauvegarde de l'appareil peut encore en contenir une copie)."
+          ]
+        ],
+        "title": "Confidentialité — HoursTag : Heures d'achat"
+      }
+    },
+    "gu-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com પર ઉપકરણનું મૉડલ, iOS આવૃત્તિ, ઍપ આવૃત્તિ, ખામી ફરી લાવવાનાં પગલાં અને સ્ક્રીનશૉટ કે સ્ક્રીન રેકોર્ડિંગ મોકલો. વર્ણન જેટલું ચોક્કસ, સુધારો એટલો ઝડપી.",
+        "description": "ના. HoursTag: Hours to Buy ના App Store પાના પર લખ્યા મુજબ અહીં ખાતું કે સાઇન-ઇન કશું નથી — ઇન્સ્ટૉલ કરતાં જ શરૂ કરી શકાય છે. હા. App Store પાના પર લખ્યા મુજબ HoursTag: Hours to Buy મુખ્ય કામ ઉપકરણ પર જ કરે છે, એટલે એરપ્લેન મોડમાં કે નેટવર્ક વગર પણ ચાલે છે. જોડાણ ફક્ત ઍપ ડાઉનલોડ કરવા અને ખરીદી માટે જોઈએ, કારણ કે એ App Store મારફતે થાય છે.",
+        "eyebrow": "ગોપનીયતા",
+        "heading": "HoursTag: Hours to Buy · ગોપનીયતા",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "સહાય કેન્દ્ર",
+          "home": "HoursTag: Hours to Buy",
+          "language": "ગુજરાતી",
+          "privacy": "ગોપનીયતા",
+          "support": "સહાય કેન્દ્ર"
+        },
+        "lead": "ના. HoursTag: Hours to Buy ના App Store પાના પર લખ્યા મુજબ અહીં ખાતું કે સાઇન-ઇન કશું નથી — ઇન્સ્ટૉલ કરતાં જ શરૂ કરી શકાય છે. હા. App Store પાના પર લખ્યા મુજબ HoursTag: Hours to Buy મુખ્ય કામ ઉપકરણ પર જ કરે છે, એટલે એરપ્લેન મોડમાં કે નેટવર્ક વગર પણ ચાલે છે. જોડાણ ફક્ત ઍપ ડાઉનલોડ કરવા અને ખરીદી માટે જોઈએ, કારણ કે એ App Store મારફતે થાય છે.",
+        "sections": [
+          [
+            "શું ખાતું બનાવવું પડે છે?",
+            "ના. HoursTag: Hours to Buy ના App Store પાના પર લખ્યા મુજબ અહીં ખાતું કે સાઇન-ઇન કશું નથી — ઇન્સ્ટૉલ કરતાં જ શરૂ કરી શકાય છે."
+          ],
+          [
+            "શું ઇન્ટરનેટ વગર ચાલે છે?",
+            "હા. App Store પાના પર લખ્યા મુજબ HoursTag: Hours to Buy મુખ્ય કામ ઉપકરણ પર જ કરે છે, એટલે એરપ્લેન મોડમાં કે નેટવર્ક વગર પણ ચાલે છે. જોડાણ ફક્ત ઍપ ડાઉનલોડ કરવા અને ખરીદી માટે જોઈએ, કારણ કે એ App Store મારફતે થાય છે."
+          ],
+          [
+            "શું એમાં જાહેરાત કે ત્રીજા પક્ષનું ટ્રૅકિંગ છે?",
+            "ના. HoursTag: Hours to Buy માં ત્રીજા પક્ષની જાહેરાતો નથી, અને ઍપ વચ્ચે ટ્રૅક કરતા એનાલિટિક્સ કે ટ્રૅકિંગ SDK પણ નથી."
+          ],
+          [
+            "શું આ સબ્સ્ક્રિપ્શન છે?",
+            "HoursTag App Store પરથી એકવાર કિંમત ચૂકવીને ડાઉનલોડ થતી એપ છે. ઇન્સ્ટોલ કર્યા પછી બધી સુવિધાઓ ઉપલબ્ધ છે; કોઈ સબ્સ્ક્રિપ્શન કે એપની અંદરની ખરીદી નથી."
+          ],
+          [
+            "મારો ડેટા કેવી રીતે કાઢું?",
+            "અલગ અલગ નોંધ ઍપની અંદરથી જ કાઢો. બધું ભૂંસવું હોય તો હોમ સ્ક્રીન પર HoursTag: Hours to Buy ના ચિહ્નને દબાવી રાખો અને ઍપ કાઢી નાખો — ઉપકરણ પર સાચવેલો ડેટા પણ એની સાથે જાય છે (તમે જાતે લીધેલા બૅકઅપમાં નકલ રહી શકે છે)."
+          ]
+        ],
+        "title": "ગોપનીયતા — HoursTag: Hours to Buy"
+      }
+    },
+    "he": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "כתבו אל hourstag.app@gmail.com את דגם המכשיר, גרסת iOS, גרסת האפליקציה, השלבים שמשחזרים את התקלה וצילום או הקלטת מסך. ככל שהתיאור מדויק יותר, כך נתקן מהר יותר.",
+        "description": "לא. כפי שכתוב בדף של HoursTag: Hours to Buy ב-App Store, אין חשבונות ואין התחברות — אפשר להתחיל מיד אחרי ההתקנה. כן. כפי שכתוב בדף ב-App Store, HoursTag: Hours to Buy מבצע את העיקר על המכשיר עצמו, ולכן פועל גם במצב טיסה או בלי קליטה. חיבור נדרש רק להורדת האפליקציה ולרכישות, שעוברות דרך App Store.",
+        "eyebrow": "פרטיות",
+        "heading": "HoursTag: Hours to Buy · פרטיות",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "מרכז התמיכה",
+          "home": "HoursTag: Hours to Buy",
+          "language": "עברית",
+          "privacy": "פרטיות",
+          "support": "מרכז התמיכה"
+        },
+        "lead": "לא. כפי שכתוב בדף של HoursTag: Hours to Buy ב-App Store, אין חשבונות ואין התחברות — אפשר להתחיל מיד אחרי ההתקנה. כן. כפי שכתוב בדף ב-App Store, HoursTag: Hours to Buy מבצע את העיקר על המכשיר עצמו, ולכן פועל גם במצב טיסה או בלי קליטה. חיבור נדרש רק להורדת האפליקציה ולרכישות, שעוברות דרך App Store.",
+        "sections": [
+          [
+            "צריך חשבון?",
+            "לא. כפי שכתוב בדף של HoursTag: Hours to Buy ב-App Store, אין חשבונות ואין התחברות — אפשר להתחיל מיד אחרי ההתקנה."
+          ],
+          [
+            "האם זה עובד בלי אינטרנט?",
+            "כן. כפי שכתוב בדף ב-App Store, HoursTag: Hours to Buy מבצע את העיקר על המכשיר עצמו, ולכן פועל גם במצב טיסה או בלי קליטה. חיבור נדרש רק להורדת האפליקציה ולרכישות, שעוברות דרך App Store."
+          ],
+          [
+            "יש פרסומות או מעקב של צד שלישי?",
+            "לא. ב-HoursTag: Hours to Buy אין פרסומות של צד שלישי ואין ערכות אנליטיקה או מעקב בין אפליקציות."
+          ],
+          [
+            "זה מנוי?",
+            "HoursTag היא אפליקציה בתשלום שמורידים מה‑App Store. כל התכונות זמינות לאחר ההתקנה; אין מינוי ואין רכישות בתוך האפליקציה."
+          ],
+          [
+            "איך מוחקים את הנתונים שלי?",
+            "מחקו פריטים בודדים בתוך האפליקציה. כדי למחוק הכול, לחצו לחיצה ארוכה על הסמל של HoursTag: Hours to Buy במסך הבית ומחקו את האפליקציה — יחד איתה נמחקים גם הנתונים ששמורים במכשיר (עותק עשוי להישאר בגיבוי שיצרתם בעצמכם)."
+          ]
+        ],
+        "title": "פרטיות — HoursTag: Hours to Buy"
+      }
+    },
+    "hi": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com पर डिवाइस मॉडल, iOS संस्करण, ऐप संस्करण, गड़बड़ी दोहराने के चरण और एक स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग भेजें। जानकारी जितनी ठोस होगी, सुधार उतनी ही जल्दी होगा।",
+        "description": "नहीं। जैसा HoursTag: Hours to Buy के App Store पेज पर लिखा है, यहाँ न अकाउंट है न साइन-इन — इंस्टॉल करते ही आप शुरू कर सकते हैं। हाँ। जैसा App Store पेज पर लिखा है, HoursTag: Hours to Buy मुख्य काम डिवाइस पर ही करता है, इसलिए यह एयरप्लेन मोड में या नेटवर्क के बिना भी चलता है। कनेक्शन सिर्फ़ ऐप डाउनलोड करने और ख़रीदारी के लिए चाहिए, क्योंकि वह App Store से होती है।",
+        "eyebrow": "निजता",
+        "heading": "HoursTag: Hours to Buy · निजता",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "सहायता केंद्र",
+          "home": "HoursTag: Hours to Buy",
+          "language": "हिन्दी",
+          "privacy": "निजता",
+          "support": "सहायता केंद्र"
+        },
+        "lead": "नहीं। जैसा HoursTag: Hours to Buy के App Store पेज पर लिखा है, यहाँ न अकाउंट है न साइन-इन — इंस्टॉल करते ही आप शुरू कर सकते हैं। हाँ। जैसा App Store पेज पर लिखा है, HoursTag: Hours to Buy मुख्य काम डिवाइस पर ही करता है, इसलिए यह एयरप्लेन मोड में या नेटवर्क के बिना भी चलता है। कनेक्शन सिर्फ़ ऐप डाउनलोड करने और ख़रीदारी के लिए चाहिए, क्योंकि वह App Store से होती है।",
+        "sections": [
+          [
+            "क्या अकाउंट बनाना ज़रूरी है?",
+            "नहीं। जैसा HoursTag: Hours to Buy के App Store पेज पर लिखा है, यहाँ न अकाउंट है न साइन-इन — इंस्टॉल करते ही आप शुरू कर सकते हैं।"
+          ],
+          [
+            "क्या यह इंटरनेट के बिना चलता है?",
+            "हाँ। जैसा App Store पेज पर लिखा है, HoursTag: Hours to Buy मुख्य काम डिवाइस पर ही करता है, इसलिए यह एयरप्लेन मोड में या नेटवर्क के बिना भी चलता है। कनेक्शन सिर्फ़ ऐप डाउनलोड करने और ख़रीदारी के लिए चाहिए, क्योंकि वह App Store से होती है।"
+          ],
+          [
+            "क्या इसमें विज्ञापन या तीसरे पक्ष की ट्रैकिंग है?",
+            "नहीं। HoursTag: Hours to Buy में तीसरे पक्ष के विज्ञापन नहीं हैं, और ऐप्स के बीच ट्रैक करने वाले एनालिटिक्स या ट्रैकिंग SDK भी नहीं हैं।"
+          ],
+          [
+            "क्या यह सब्सक्रिप्शन है?",
+            "HoursTag App Store से एक बार कीमत देकर डाउनलोड किया जाने वाला ऐप है। इंस्टॉल करने के बाद सभी सुविधाएँ उपलब्ध होती हैं; कोई सदस्यता या इन‑ऐप खरीद नहीं है।"
+          ],
+          [
+            "अपना डेटा कैसे हटाऊँ?",
+            "अलग-अलग प्रविष्टियाँ ऐप के भीतर से हटाएँ। सब कुछ मिटाना हो तो होम स्क्रीन पर HoursTag: Hours to Buy के आइकन को दबाए रखें और ऐप हटा दें — डिवाइस पर सहेजा गया डेटा भी उसी के साथ चला जाता है (आपके अपने बनाए बैकअप में प्रति रह सकती है)।"
+          ]
+        ],
+        "title": "निजता — HoursTag: Hours to Buy"
+      }
+    },
+    "hr": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Pišite na hourstag.app@gmail.com i navedite model uređaja, verziju iOS-a, verziju aplikacije, korake kojima se pogreška izazove te snimku zaslona ili videosnimku. Što konkretnije, to brže ispravljamo.",
+        "description": "Ne. Kako piše na stranici aplikacije HoursTag: Hours to Buy u App Storeu, nema računa ni prijave — možete početi odmah nakon instalacije. Da. Kako piše na stranici u App Storeu, HoursTag: Hours to Buy ono bitno obavlja na samom uređaju, pa radi i u zrakoplovnom načinu rada ili bez signala. Vezu trebaju samo preuzimanje aplikacije i kupnja, koja ide preko App Storea.",
+        "eyebrow": "Privatnost",
+        "heading": "HoursTag: Hours to Buy · Privatnost",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centar za podršku",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Hrvatski",
+          "privacy": "Privatnost",
+          "support": "Centar za podršku"
+        },
+        "lead": "Ne. Kako piše na stranici aplikacije HoursTag: Hours to Buy u App Storeu, nema računa ni prijave — možete početi odmah nakon instalacije. Da. Kako piše na stranici u App Storeu, HoursTag: Hours to Buy ono bitno obavlja na samom uređaju, pa radi i u zrakoplovnom načinu rada ili bez signala. Vezu trebaju samo preuzimanje aplikacije i kupnja, koja ide preko App Storea.",
+        "sections": [
+          [
+            "Treba li mi račun?",
+            "Ne. Kako piše na stranici aplikacije HoursTag: Hours to Buy u App Storeu, nema računa ni prijave — možete početi odmah nakon instalacije."
+          ],
+          [
+            "Radi li bez interneta?",
+            "Da. Kako piše na stranici u App Storeu, HoursTag: Hours to Buy ono bitno obavlja na samom uređaju, pa radi i u zrakoplovnom načinu rada ili bez signala. Vezu trebaju samo preuzimanje aplikacije i kupnja, koja ide preko App Storea."
+          ],
+          [
+            "Ima li oglasa ili praćenja trećih strana?",
+            "Nema. HoursTag: Hours to Buy ne sadrži oglase trećih strana ni analitičke ili prateće SDK-ove koji bi vas pratili među aplikacijama."
+          ],
+          [
+            "Je li ovo pretplata?",
+            "HoursTag je aplikacija koja se plaća pri preuzimanju iz App Storea. Nakon instalacije dostupne su sve značajke; nema pretplate ni kupnje unutar aplikacije."
+          ],
+          [
+            "Kako obrisati svoje podatke?",
+            "Pojedine stavke brišite unutar aplikacije. Želite li obrisati sve, zadržite prst na ikoni HoursTag: Hours to Buy na početnom zaslonu i izbrišite aplikaciju — s njom nestaju i podaci spremljeni na uređaju (kopija može ostati u sigurnosnoj kopiji koju ste sami napravili)."
+          ]
+        ],
+        "title": "Privatnost — HoursTag: Hours to Buy"
+      }
+    },
+    "hu": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Írd meg a hourstag.app@gmail.com címre a készülék típusát, az iOS verzióját, az alkalmazás verzióját, a hiba előidézésének lépéseit, és küldj képernyőképet vagy felvételt. Minél konkrétabb, annál hamarabb javítjuk.",
+        "description": "Nem. Ahogy a(z) HoursTag: Hours to Buy App Store-oldalán is szerepel, nincs fiók és nincs bejelentkezés — a telepítés után azonnal kezdheted. Igen. Ahogy az App Store-oldal írja, a(z) HoursTag: Hours to Buy a lényegi munkát magán a készüléken végzi, így repülő üzemmódban vagy térerő nélkül is működik. Csak az alkalmazás letöltéséhez és a vásárláshoz kell kapcsolat, mert azok az App Store-on keresztül történnek.",
+        "eyebrow": "Adatvédelem",
+        "heading": "HoursTag: Hours to Buy · Adatvédelem",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Ügyfélszolgálat",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Magyar",
+          "privacy": "Adatvédelem",
+          "support": "Ügyfélszolgálat"
+        },
+        "lead": "Nem. Ahogy a(z) HoursTag: Hours to Buy App Store-oldalán is szerepel, nincs fiók és nincs bejelentkezés — a telepítés után azonnal kezdheted. Igen. Ahogy az App Store-oldal írja, a(z) HoursTag: Hours to Buy a lényegi munkát magán a készüléken végzi, így repülő üzemmódban vagy térerő nélkül is működik. Csak az alkalmazás letöltéséhez és a vásárláshoz kell kapcsolat, mert azok az App Store-on keresztül történnek.",
+        "sections": [
+          [
+            "Kell hozzá fiók?",
+            "Nem. Ahogy a(z) HoursTag: Hours to Buy App Store-oldalán is szerepel, nincs fiók és nincs bejelentkezés — a telepítés után azonnal kezdheted."
+          ],
+          [
+            "Működik internet nélkül?",
+            "Igen. Ahogy az App Store-oldal írja, a(z) HoursTag: Hours to Buy a lényegi munkát magán a készüléken végzi, így repülő üzemmódban vagy térerő nélkül is működik. Csak az alkalmazás letöltéséhez és a vásárláshoz kell kapcsolat, mert azok az App Store-on keresztül történnek."
+          ],
+          [
+            "Van benne hirdetés vagy külső követés?",
+            "Nincs. A(z) HoursTag: Hours to Buy nem tartalmaz harmadik féltől származó hirdetést, sem analitikai vagy alkalmazások közti követésre szolgáló SDK-t."
+          ],
+          [
+            "Ez előfizetés?",
+            "A HoursTag fizetős letöltés az App Store-ból. Telepítés után minden funkció elérhető; nincs előfizetés és nincs alkalmazáson belüli vásárlás."
+          ],
+          [
+            "Hogyan törlöm az adataimat?",
+            "Az egyes tételeket az alkalmazáson belül töröld. Ha mindent törölnél, tartsd nyomva a(z) HoursTag: Hours to Buy ikonját a kezdőképernyőn, és töröld az alkalmazást — vele együtt a készüléken tárolt adatok is eltűnnek (egy általad készített biztonsági mentésben maradhat másolat)."
+          ]
+        ],
+        "title": "Adatvédelem — HoursTag: Hours to Buy"
+      }
+    },
+    "id": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Kirim ke hourstag.app@gmail.com model perangkat, versi iOS, versi aplikasi, langkah-langkah yang memunculkan masalah, serta tangkapan atau rekaman layar. Makin konkret, makin cepat kami perbaiki.",
+        "description": "Tidak. Seperti tertulis di halaman HoursTag: Hours to Buy di App Store, tidak ada akun maupun proses masuk — Anda bisa langsung mulai setelah memasang aplikasinya. Bisa. Seperti tertulis di halaman App Store, HoursTag: Hours to Buy mengerjakan bagian utamanya di perangkat, jadi tetap jalan dalam mode pesawat atau tanpa sinyal. Koneksi hanya diperlukan untuk mengunduh aplikasi dan untuk pembelian, karena itu lewat App Store.",
+        "eyebrow": "Privasi",
+        "heading": "HoursTag: Hours to Buy · Privasi",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Pusat dukungan",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Bahasa Indonesia",
+          "privacy": "Privasi",
+          "support": "Pusat dukungan"
+        },
+        "lead": "Tidak. Seperti tertulis di halaman HoursTag: Hours to Buy di App Store, tidak ada akun maupun proses masuk — Anda bisa langsung mulai setelah memasang aplikasinya. Bisa. Seperti tertulis di halaman App Store, HoursTag: Hours to Buy mengerjakan bagian utamanya di perangkat, jadi tetap jalan dalam mode pesawat atau tanpa sinyal. Koneksi hanya diperlukan untuk mengunduh aplikasi dan untuk pembelian, karena itu lewat App Store.",
+        "sections": [
+          [
+            "Apakah saya perlu akun?",
+            "Tidak. Seperti tertulis di halaman HoursTag: Hours to Buy di App Store, tidak ada akun maupun proses masuk — Anda bisa langsung mulai setelah memasang aplikasinya."
+          ],
+          [
+            "Apakah bisa dipakai tanpa internet?",
+            "Bisa. Seperti tertulis di halaman App Store, HoursTag: Hours to Buy mengerjakan bagian utamanya di perangkat, jadi tetap jalan dalam mode pesawat atau tanpa sinyal. Koneksi hanya diperlukan untuk mengunduh aplikasi dan untuk pembelian, karena itu lewat App Store."
+          ],
+          [
+            "Apakah ada iklan atau pelacakan pihak ketiga?",
+            "Tidak. HoursTag: Hours to Buy tidak memuat iklan pihak ketiga maupun SDK analitik atau pelacakan antar-aplikasi."
+          ],
+          [
+            "Apakah ini langganan?",
+            "HoursTag adalah aplikasi berbayar yang diunduh dari App Store. Semua fitur tersedia setelah dipasang; tidak ada langganan atau pembelian dalam aplikasi."
+          ],
+          [
+            "Bagaimana cara menghapus data saya?",
+            "Hapus entri satu per satu di dalam aplikasi. Untuk menghapus semuanya, tekan lama ikon HoursTag: Hours to Buy di Layar Utama lalu hapus aplikasinya — data yang tersimpan di perangkat ikut terhapus (salinan mungkin masih ada di cadangan yang Anda buat sendiri)."
+          ]
+        ],
+        "title": "Privasi — HoursTag: Hours to Buy"
+      }
+    },
+    "it": {
+      "privacy": {
+        "app_name": "HoursTag: Ore per comprare",
+        "contact": "Scrivi a hourstag.app@gmail.com indicando il modello del dispositivo, la versione di iOS, la versione dell'app, i passaggi per riprodurre il problema e uno screenshot o una registrazione dello schermo. Più dettagli ci dai, più in fretta lo correggiamo.",
+        "description": "No. Come indicato sulla scheda di HoursTag: Ore per comprare su App Store, non servono account né accessi: puoi iniziare subito dopo l'installazione. Sì. Come indicato sulla scheda su App Store, le funzioni principali di HoursTag: Ore per comprare vengono elaborate sul dispositivo, quindi funzionano anche in modalità aereo o senza rete. Servono i dati solo per scaricare l'app e per gli acquisti, che passano da App Store.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Ore per comprare · Privacy",
+        "labels": {
+          "app_store": "HoursTag: Ore per comprare · App Store",
+          "contact": "Centro assistenza",
+          "home": "HoursTag: Ore per comprare",
+          "language": "Italiano",
+          "privacy": "Privacy",
+          "support": "Centro assistenza"
+        },
+        "lead": "No. Come indicato sulla scheda di HoursTag: Ore per comprare su App Store, non servono account né accessi: puoi iniziare subito dopo l'installazione. Sì. Come indicato sulla scheda su App Store, le funzioni principali di HoursTag: Ore per comprare vengono elaborate sul dispositivo, quindi funzionano anche in modalità aereo o senza rete. Servono i dati solo per scaricare l'app e per gli acquisti, che passano da App Store.",
+        "sections": [
+          [
+            "Serve un account?",
+            "No. Come indicato sulla scheda di HoursTag: Ore per comprare su App Store, non servono account né accessi: puoi iniziare subito dopo l'installazione."
+          ],
+          [
+            "Funziona senza connessione?",
+            "Sì. Come indicato sulla scheda su App Store, le funzioni principali di HoursTag: Ore per comprare vengono elaborate sul dispositivo, quindi funzionano anche in modalità aereo o senza rete. Servono i dati solo per scaricare l'app e per gli acquisti, che passano da App Store."
+          ],
+          [
+            "Ci sono pubblicità o tracciamento di terze parti?",
+            "No. HoursTag: Ore per comprare non contiene pubblicità di terze parti né SDK di analytics o di tracciamento tra app."
+          ],
+          [
+            "È un abbonamento?",
+            "HoursTag è un download a pagamento dall’App Store. Dopo l’installazione sono disponibili tutte le funzioni; non sono previsti abbonamenti né acquisti in‑app."
+          ],
+          [
+            "Come cancello i miei dati?",
+            "Elimina le singole voci dentro l'app. Per cancellare tutto, tieni premuta l'icona di HoursTag: Ore per comprare nella schermata Home ed elimina l'app: spariscono anche i dati salvati sul dispositivo (una copia può restare in un backup che hai fatto tu)."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Ore per comprare"
+      }
+    },
+    "ja": {
+      "privacy": {
+        "app_name": "HoursTag: 価格を時間に",
+        "contact": "hourstag.app@gmail.com まで、端末の機種名、iOS のバージョン、アプリのバージョン、再現手順、スクリーンショットまたは画面収録を添えてご連絡ください。情報が具体的なほど修正が早くなります。",
+        "description": "必要ありません。HoursTag: 価格を時間に の App Store 製品ページに記載のとおり、アカウントもログインも不要で、インストール後すぐに使い始められます。 使えます。製品ページに記載のとおり、HoursTag: 価格を時間に の主な処理は端末内で完結するため、機内モードや圏外でも動作します。アプリのダウンロードと購入手続きは App Store を経由するため、通信が必要です。",
+        "eyebrow": "プライバシー",
+        "heading": "HoursTag: 価格を時間に · プライバシー",
+        "labels": {
+          "app_store": "HoursTag: 価格を時間に · App Store",
+          "contact": "サポートセンター",
+          "home": "HoursTag: 価格を時間に",
+          "language": "日本語",
+          "privacy": "プライバシー",
+          "support": "サポートセンター"
+        },
+        "lead": "必要ありません。HoursTag: 価格を時間に の App Store 製品ページに記載のとおり、アカウントもログインも不要で、インストール後すぐに使い始められます。 使えます。製品ページに記載のとおり、HoursTag: 価格を時間に の主な処理は端末内で完結するため、機内モードや圏外でも動作します。アプリのダウンロードと購入手続きは App Store を経由するため、通信が必要です。",
+        "sections": [
+          [
+            "アカウント登録は必要ですか?",
+            "必要ありません。HoursTag: 価格を時間に の App Store 製品ページに記載のとおり、アカウントもログインも不要で、インストール後すぐに使い始められます。"
+          ],
+          [
+            "オフラインでも使えますか?",
+            "使えます。製品ページに記載のとおり、HoursTag: 価格を時間に の主な処理は端末内で完結するため、機内モードや圏外でも動作します。アプリのダウンロードと購入手続きは App Store を経由するため、通信が必要です。"
+          ],
+          [
+            "広告や第三者のトラッキングはありますか?",
+            "ありません。HoursTag: 価格を時間に には第三者の広告も、第三者のアナリティクスやアプリ間トラッキングの SDK も含まれていません。"
+          ],
+          [
+            "サブスクリプションですか?",
+            "HoursTag は App Store から購入する有料アプリです。インストール後はすべての機能を利用でき、サブスクリプションやアプリ内課金はありません。"
+          ],
+          [
+            "データを削除するには?",
+            "アプリ内で該当の項目を削除してください。まとめて消す場合は、ホーム画面の HoursTag: 価格を時間に のアイコンを長押しして App を削除すると、端末内に保存されたデータも一緒に削除されます(端末のバックアップをお持ちの場合、そちらには残ることがあります)。"
+          ]
+        ],
+        "title": "プライバシー — HoursTag: 価格を時間に"
+      }
+    },
+    "kn-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com ಗೆ ಸಾಧನದ ಮಾದರಿ, iOS ಆವೃತ್ತಿ, ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ, ದೋಷ ಮತ್ತೆ ಬರುವ ಹಂತಗಳು ಮತ್ತು ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಅಥವಾ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಕಳುಹಿಸಿ. ವಿವರಣೆ ಎಷ್ಟು ಸ್ಪಷ್ಟವೋ ಸರಿಪಡಿಸುವುದು ಅಷ್ಟು ಬೇಗ.",
+        "description": "ಬೇಡ. HoursTag: Hours to Buy ನ App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ ಇಲ್ಲಿ ಖಾತೆಯೂ ಇಲ್ಲ, ಸೈನ್-ಇನ್ ಕೂಡ ಇಲ್ಲ — ಸ್ಥಾಪಿಸಿದ ಕೂಡಲೇ ಆರಂಭಿಸಬಹುದು. ಹೌದು. App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ HoursTag: Hours to Buy ಮುಖ್ಯ ಕೆಲಸವನ್ನು ಸಾಧನದಲ್ಲೇ ಮಾಡುತ್ತದೆ; ಹಾಗಾಗಿ ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್‌ನಲ್ಲಿ ಅಥವಾ ಸಿಗ್ನಲ್ ಇಲ್ಲದಿದ್ದರೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್‌ಲೋಡ್‌ಗೆ ಮತ್ತು App Store ಮೂಲಕ ನಡೆಯುವ ಖರೀದಿಗೆ ಮಾತ್ರ ಸಂಪರ್ಕ ಬೇಕು.",
+        "eyebrow": "ಗೌಪ್ಯತೆ",
+        "heading": "HoursTag: Hours to Buy · ಗೌಪ್ಯತೆ",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "ನೆರವು ಕೇಂದ್ರ",
+          "home": "HoursTag: Hours to Buy",
+          "language": "ಕನ್ನಡ",
+          "privacy": "ಗೌಪ್ಯತೆ",
+          "support": "ನೆರವು ಕೇಂದ್ರ"
+        },
+        "lead": "ಬೇಡ. HoursTag: Hours to Buy ನ App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ ಇಲ್ಲಿ ಖಾತೆಯೂ ಇಲ್ಲ, ಸೈನ್-ಇನ್ ಕೂಡ ಇಲ್ಲ — ಸ್ಥಾಪಿಸಿದ ಕೂಡಲೇ ಆರಂಭಿಸಬಹುದು. ಹೌದು. App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ HoursTag: Hours to Buy ಮುಖ್ಯ ಕೆಲಸವನ್ನು ಸಾಧನದಲ್ಲೇ ಮಾಡುತ್ತದೆ; ಹಾಗಾಗಿ ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್‌ನಲ್ಲಿ ಅಥವಾ ಸಿಗ್ನಲ್ ಇಲ್ಲದಿದ್ದರೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್‌ಲೋಡ್‌ಗೆ ಮತ್ತು App Store ಮೂಲಕ ನಡೆಯುವ ಖರೀದಿಗೆ ಮಾತ್ರ ಸಂಪರ್ಕ ಬೇಕು.",
+        "sections": [
+          [
+            "ಖಾತೆ ಬೇಕೇ?",
+            "ಬೇಡ. HoursTag: Hours to Buy ನ App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ ಇಲ್ಲಿ ಖಾತೆಯೂ ಇಲ್ಲ, ಸೈನ್-ಇನ್ ಕೂಡ ಇಲ್ಲ — ಸ್ಥಾಪಿಸಿದ ಕೂಡಲೇ ಆರಂಭಿಸಬಹುದು."
+          ],
+          [
+            "ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ?",
+            "ಹೌದು. App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ HoursTag: Hours to Buy ಮುಖ್ಯ ಕೆಲಸವನ್ನು ಸಾಧನದಲ್ಲೇ ಮಾಡುತ್ತದೆ; ಹಾಗಾಗಿ ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್‌ನಲ್ಲಿ ಅಥವಾ ಸಿಗ್ನಲ್ ಇಲ್ಲದಿದ್ದರೂ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್‌ಲೋಡ್‌ಗೆ ಮತ್ತು App Store ಮೂಲಕ ನಡೆಯುವ ಖರೀದಿಗೆ ಮಾತ್ರ ಸಂಪರ್ಕ ಬೇಕು."
+          ],
+          [
+            "ಜಾಹೀರಾತು ಅಥವಾ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಟ್ರ್ಯಾಕಿಂಗ್ ಇದೆಯೇ?",
+            "ಇಲ್ಲ. HoursTag: Hours to Buy ನಲ್ಲಿ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಜಾಹೀರಾತುಗಳಿಲ್ಲ; ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ನಡುವೆ ಟ್ರ್ಯಾಕ್ ಮಾಡುವ ಅನಲಿಟಿಕ್ಸ್ ಅಥವಾ ಟ್ರ್ಯಾಕಿಂಗ್ SDK ಗಳೂ ಇಲ್ಲ."
+          ],
+          [
+            "ಇದು ಚಂದಾದಾರಿಕೆಯೇ?",
+            "HoursTag ಅನ್ನು App Store ನಿಂದ ಒಮ್ಮೆ ಹಣ ಪಾವತಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ. ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ನಂತರ ಎಲ್ಲಾ ಸೌಲಭ್ಯಗಳು ಲಭ್ಯ; ಚಂದಾದಾರಿಕೆ ಅಥವಾ ಆ್ಯಪ್‌ನೊಳಗಿನ ಖರೀದಿ ಇಲ್ಲ."
+          ],
+          [
+            "ನನ್ನ ಮಾಹಿತಿಯನ್ನು ಹೇಗೆ ಅಳಿಸುವುದು?",
+            "ಪ್ರತ್ಯೇಕ ನಮೂದುಗಳನ್ನು ಅಪ್ಲಿಕೇಶನ್ ಒಳಗೇ ಅಳಿಸಿ. ಎಲ್ಲವನ್ನೂ ಅಳಿಸಬೇಕಿದ್ದರೆ ಮುಖಪುಟ ಪರದೆಯಲ್ಲಿ HoursTag: Hours to Buy ಚಿಹ್ನೆಯನ್ನು ಒತ್ತಿ ಹಿಡಿದು ಅಪ್ಲಿಕೇಶನ್ ಅಳಿಸಿ — ಸಾಧನದಲ್ಲಿ ಉಳಿಸಿದ ಮಾಹಿತಿಯೂ ಅದರೊಂದಿಗೆ ಹೋಗುತ್ತದೆ (ನೀವೇ ತೆಗೆದ ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ ಪ್ರತಿ ಉಳಿಯಬಹುದು)."
+          ]
+        ],
+        "title": "ಗೌಪ್ಯತೆ — HoursTag: Hours to Buy"
+      }
+    },
+    "ko": {
+      "privacy": {
+        "app_name": "HoursTag: 가격을 시간으로",
+        "contact": "hourstag.app@gmail.com로 기기 모델, iOS 버전, 앱 버전, 재현 절차, 스크린샷 또는 화면 기록을 보내주세요. 정보가 구체적일수록 더 빨리 고칠 수 있습니다.",
+        "description": "아니요. HoursTag: 가격을 시간으로의 App Store 제품 페이지에 안내된 대로 계정이나 로그인이 필요 없으며, 설치 후 바로 사용할 수 있습니다. 사용할 수 있습니다. 제품 페이지에 안내된 대로 HoursTag: 가격을 시간으로의 핵심 처리는 기기 안에서 이루어지므로 비행기 모드나 신호가 없는 곳에서도 동작합니다. 앱 다운로드와 구매는 App Store를 거치므로 연결이 필요합니다.",
+        "eyebrow": "개인정보 처리방침",
+        "heading": "HoursTag: 가격을 시간으로 · 개인정보 처리방침",
+        "labels": {
+          "app_store": "HoursTag: 가격을 시간으로 · App Store",
+          "contact": "지원 센터",
+          "home": "HoursTag: 가격을 시간으로",
+          "language": "한국어",
+          "privacy": "개인정보 처리방침",
+          "support": "지원 센터"
+        },
+        "lead": "아니요. HoursTag: 가격을 시간으로의 App Store 제품 페이지에 안내된 대로 계정이나 로그인이 필요 없으며, 설치 후 바로 사용할 수 있습니다. 사용할 수 있습니다. 제품 페이지에 안내된 대로 HoursTag: 가격을 시간으로의 핵심 처리는 기기 안에서 이루어지므로 비행기 모드나 신호가 없는 곳에서도 동작합니다. 앱 다운로드와 구매는 App Store를 거치므로 연결이 필요합니다.",
+        "sections": [
+          [
+            "계정을 만들어야 하나요?",
+            "아니요. HoursTag: 가격을 시간으로의 App Store 제품 페이지에 안내된 대로 계정이나 로그인이 필요 없으며, 설치 후 바로 사용할 수 있습니다."
+          ],
+          [
+            "인터넷 없이도 사용할 수 있나요?",
+            "사용할 수 있습니다. 제품 페이지에 안내된 대로 HoursTag: 가격을 시간으로의 핵심 처리는 기기 안에서 이루어지므로 비행기 모드나 신호가 없는 곳에서도 동작합니다. 앱 다운로드와 구매는 App Store를 거치므로 연결이 필요합니다."
+          ],
+          [
+            "광고나 제3자 추적이 있나요?",
+            "없습니다. HoursTag: 가격을 시간으로에는 제3자 광고도, 제3자 분석이나 앱 간 추적 SDK도 포함되어 있지 않습니다."
+          ],
+          [
+            "구독형인가요?",
+            "HoursTag는 App Store에서 유료로 다운로드하는 앱입니다. 설치 후 모든 기능을 사용할 수 있으며 구독이나 앱 내 구입은 없습니다."
+          ],
+          [
+            "데이터를 삭제하려면 어떻게 하나요?",
+            "앱 안에서 해당 항목을 삭제하면 됩니다. 한 번에 모두 지우려면 홈 화면에서 HoursTag: 가격을 시간으로 아이콘을 길게 눌러 앱을 삭제하세요. 기기에 저장된 데이터도 함께 삭제됩니다(기기 백업이 있다면 백업에는 남아 있을 수 있습니다)."
+          ]
+        ],
+        "title": "개인정보 처리방침 — HoursTag: 가격을 시간으로"
+      }
+    },
+    "ml-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com എന്ന വിലാസത്തിലേക്ക് ഉപകരണ മോഡൽ, iOS പതിപ്പ്, ആപ്പ് പതിപ്പ്, പിഴവ് വീണ്ടും വരുത്തുന്ന ഘട്ടങ്ങൾ, സ്ക്രീൻഷോട്ട് അല്ലെങ്കിൽ സ്ക്രീൻ റെക്കോർഡിംഗ് എന്നിവ അയക്കുക. വിവരണം എത്ര വ്യക്തമോ അത്ര വേഗത്തിൽ പരിഹരിക്കാം.",
+        "description": "വേണ്ട. HoursTag: Hours to Buy-ന്റെ App Store പേജിൽ പറയുന്നതുപോലെ ഇവിടെ അക്കൗണ്ടോ സൈൻ-ഇന്നോ ഇല്ല — ഇൻസ്റ്റാൾ ചെയ്ത ഉടനെ തുടങ്ങാം. പ്രവർത്തിക്കും. App Store പേജിൽ പറയുന്നതുപോലെ HoursTag: Hours to Buy പ്രധാന ജോലി ഉപകരണത്തിൽത്തന്നെ ചെയ്യുന്നു; അതുകൊണ്ട് എയർപ്ലെയിൻ മോഡിലും റേഞ്ച് ഇല്ലാത്തിടത്തും പ്രവർത്തിക്കും. ആപ്പ് ഡൗൺലോഡ് ചെയ്യാനും App Store വഴി നടക്കുന്ന വാങ്ങലിനും മാത്രമേ കണക്ഷൻ വേണ്ടൂ.",
+        "eyebrow": "സ്വകാര്യത",
+        "heading": "HoursTag: Hours to Buy · സ്വകാര്യത",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "പിന്തുണാ കേന്ദ്രം",
+          "home": "HoursTag: Hours to Buy",
+          "language": "മലയാളം",
+          "privacy": "സ്വകാര്യത",
+          "support": "പിന്തുണാ കേന്ദ്രം"
+        },
+        "lead": "വേണ്ട. HoursTag: Hours to Buy-ന്റെ App Store പേജിൽ പറയുന്നതുപോലെ ഇവിടെ അക്കൗണ്ടോ സൈൻ-ഇന്നോ ഇല്ല — ഇൻസ്റ്റാൾ ചെയ്ത ഉടനെ തുടങ്ങാം. പ്രവർത്തിക്കും. App Store പേജിൽ പറയുന്നതുപോലെ HoursTag: Hours to Buy പ്രധാന ജോലി ഉപകരണത്തിൽത്തന്നെ ചെയ്യുന്നു; അതുകൊണ്ട് എയർപ്ലെയിൻ മോഡിലും റേഞ്ച് ഇല്ലാത്തിടത്തും പ്രവർത്തിക്കും. ആപ്പ് ഡൗൺലോഡ് ചെയ്യാനും App Store വഴി നടക്കുന്ന വാങ്ങലിനും മാത്രമേ കണക്ഷൻ വേണ്ടൂ.",
+        "sections": [
+          [
+            "അക്കൗണ്ട് വേണോ?",
+            "വേണ്ട. HoursTag: Hours to Buy-ന്റെ App Store പേജിൽ പറയുന്നതുപോലെ ഇവിടെ അക്കൗണ്ടോ സൈൻ-ഇന്നോ ഇല്ല — ഇൻസ്റ്റാൾ ചെയ്ത ഉടനെ തുടങ്ങാം."
+          ],
+          [
+            "ഇന്റർനെറ്റ് ഇല്ലാതെ പ്രവർത്തിക്കുമോ?",
+            "പ്രവർത്തിക്കും. App Store പേജിൽ പറയുന്നതുപോലെ HoursTag: Hours to Buy പ്രധാന ജോലി ഉപകരണത്തിൽത്തന്നെ ചെയ്യുന്നു; അതുകൊണ്ട് എയർപ്ലെയിൻ മോഡിലും റേഞ്ച് ഇല്ലാത്തിടത്തും പ്രവർത്തിക്കും. ആപ്പ് ഡൗൺലോഡ് ചെയ്യാനും App Store വഴി നടക്കുന്ന വാങ്ങലിനും മാത്രമേ കണക്ഷൻ വേണ്ടൂ."
+          ],
+          [
+            "പരസ്യങ്ങളോ മൂന്നാം കക്ഷിയുടെ ട്രാക്കിംഗോ ഉണ്ടോ?",
+            "ഇല്ല. HoursTag: Hours to Buy-ൽ മൂന്നാം കക്ഷിയുടെ പരസ്യങ്ങളില്ല; ആപ്പുകൾക്കിടയിൽ പിന്തുടരുന്ന അനലിറ്റിക്സ് അല്ലെങ്കിൽ ട്രാക്കിംഗ് SDK-കളും ഇല്ല."
+          ],
+          [
+            "ഇത് സബ്സ്ക്രിപ്ഷനാണോ?",
+            "HoursTag App Store-ൽ നിന്ന് ഒരിക്കൽ പണം നൽകി ഡൗൺലോഡ് ചെയ്യുന്ന ആപ്പാണ്. ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം എല്ലാ സവിശേഷതകളും ലഭിക്കും; സബ്സ്ക്രിപ്ഷനോ ആപ്പിനുള്ളിലെ വാങ്ങലോ ഇല്ല."
+          ],
+          [
+            "എന്റെ വിവരങ്ങൾ എങ്ങനെ മായ്ക്കും?",
+            "ഓരോ എൻട്രിയും ആപ്പിനുള്ളിൽത്തന്നെ മായ്ക്കുക. എല്ലാം മായ്ക്കണമെങ്കിൽ ഹോം സ്ക്രീനിൽ HoursTag: Hours to Buy ചിഹ്നം അമർത്തിപ്പിടിച്ച് ആപ്പ് നീക്കം ചെയ്യുക — ഉപകരണത്തിൽ സൂക്ഷിച്ച വിവരങ്ങളും അതോടൊപ്പം പോകും (നിങ്ങൾതന്നെ എടുത്ത ബാക്കപ്പിൽ പകർപ്പ് ശേഷിക്കാം)."
+          ]
+        ],
+        "title": "സ്വകാര്യത — HoursTag: Hours to Buy"
+      }
+    },
+    "mr-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com वर उपकरणाचे मॉडेल, iOS आवृत्ती, अॅप आवृत्ती, त्रुटी पुन्हा घडवण्याच्या पायऱ्या आणि स्क्रीनशॉट किंवा स्क्रीन रेकॉर्डिंग पाठवा. वर्णन जितके नेमके, दुरुस्ती तितकी लवकर.",
+        "description": "नाही. HoursTag: Hours to Buy च्या App Store पानावर लिहिल्याप्रमाणे इथे खाते किंवा साइन-इन काहीच नाही — इन्स्टॉल केल्यावर लगेच सुरुवात करता येते. होय. App Store पानावर लिहिल्याप्रमाणे HoursTag: Hours to Buy मुख्य काम उपकरणावरच करते, त्यामुळे विमान मोडमध्ये किंवा नेटवर्कशिवायही ते चालते. फक्त अॅप डाउनलोड करण्यासाठी आणि खरेदीसाठी जोडणी लागते, कारण ती App Store मार्फत होते.",
+        "eyebrow": "गोपनीयता",
+        "heading": "HoursTag: Hours to Buy · गोपनीयता",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "साहाय्य केंद्र",
+          "home": "HoursTag: Hours to Buy",
+          "language": "मराठी",
+          "privacy": "गोपनीयता",
+          "support": "साहाय्य केंद्र"
+        },
+        "lead": "नाही. HoursTag: Hours to Buy च्या App Store पानावर लिहिल्याप्रमाणे इथे खाते किंवा साइन-इन काहीच नाही — इन्स्टॉल केल्यावर लगेच सुरुवात करता येते. होय. App Store पानावर लिहिल्याप्रमाणे HoursTag: Hours to Buy मुख्य काम उपकरणावरच करते, त्यामुळे विमान मोडमध्ये किंवा नेटवर्कशिवायही ते चालते. फक्त अॅप डाउनलोड करण्यासाठी आणि खरेदीसाठी जोडणी लागते, कारण ती App Store मार्फत होते.",
+        "sections": [
+          [
+            "खाते तयार करावे लागते का?",
+            "नाही. HoursTag: Hours to Buy च्या App Store पानावर लिहिल्याप्रमाणे इथे खाते किंवा साइन-इन काहीच नाही — इन्स्टॉल केल्यावर लगेच सुरुवात करता येते."
+          ],
+          [
+            "इंटरनेटशिवाय चालते का?",
+            "होय. App Store पानावर लिहिल्याप्रमाणे HoursTag: Hours to Buy मुख्य काम उपकरणावरच करते, त्यामुळे विमान मोडमध्ये किंवा नेटवर्कशिवायही ते चालते. फक्त अॅप डाउनलोड करण्यासाठी आणि खरेदीसाठी जोडणी लागते, कारण ती App Store मार्फत होते."
+          ],
+          [
+            "यात जाहिराती किंवा तिसऱ्या पक्षाचा मागोवा आहे का?",
+            "नाही. HoursTag: Hours to Buy मध्ये तिसऱ्या पक्षाच्या जाहिराती नाहीत, तसेच अॅपांदरम्यान मागोवा घेणारे अॅनालिटिक्स किंवा ट्रॅकिंग SDK देखील नाहीत."
+          ],
+          [
+            "ही वर्गणी आहे का?",
+            "HoursTag हे App Store वरून एकदाच किंमत देऊन डाउनलोड करायचे अॅप आहे. इन्स्टॉल केल्यानंतर सर्व सुविधा उपलब्ध असतात; सदस्यता किंवा अॅपमधील खरेदी नाही."
+          ],
+          [
+            "माझी माहिती कशी हटवायची?",
+            "स्वतंत्र नोंदी अॅपमधूनच हटवा. सगळे मिटवायचे असेल तर मुख्य पडद्यावर HoursTag: Hours to Buy च्या चिन्हावर दाबून धरा आणि अॅप हटवा — उपकरणावर साठवलेली माहितीही त्यासोबत जाते (तुम्ही स्वतः घेतलेल्या बॅकअपमध्ये प्रत राहू शकते)."
+          ]
+        ],
+        "title": "गोपनीयता — HoursTag: Hours to Buy"
+      }
+    },
+    "ms": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "E-mel hourstag.app@gmail.com dengan model peranti, versi iOS, versi apl, langkah untuk menghasilkan semula masalah, serta tangkapan atau rakaman skrin. Lebih terperinci, lebih cepat kami baiki.",
+        "description": "Tidak. Seperti tertera pada halaman HoursTag: Hours to Buy dalam App Store, tiada akaun dan tiada log masuk — anda boleh terus mula selepas memasangnya. Boleh. Seperti tertera pada halaman App Store, HoursTag: Hours to Buy melakukan kerja utama pada peranti itu sendiri, jadi ia berfungsi dalam mod pesawat atau tanpa liputan. Sambungan hanya diperlukan untuk memuat turun apl dan untuk pembelian, kerana itu melalui App Store.",
+        "eyebrow": "Privasi",
+        "heading": "HoursTag: Hours to Buy · Privasi",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Pusat sokongan",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Bahasa Melayu",
+          "privacy": "Privasi",
+          "support": "Pusat sokongan"
+        },
+        "lead": "Tidak. Seperti tertera pada halaman HoursTag: Hours to Buy dalam App Store, tiada akaun dan tiada log masuk — anda boleh terus mula selepas memasangnya. Boleh. Seperti tertera pada halaman App Store, HoursTag: Hours to Buy melakukan kerja utama pada peranti itu sendiri, jadi ia berfungsi dalam mod pesawat atau tanpa liputan. Sambungan hanya diperlukan untuk memuat turun apl dan untuk pembelian, kerana itu melalui App Store.",
+        "sections": [
+          [
+            "Adakah saya perlukan akaun?",
+            "Tidak. Seperti tertera pada halaman HoursTag: Hours to Buy dalam App Store, tiada akaun dan tiada log masuk — anda boleh terus mula selepas memasangnya."
+          ],
+          [
+            "Bolehkah ia digunakan tanpa internet?",
+            "Boleh. Seperti tertera pada halaman App Store, HoursTag: Hours to Buy melakukan kerja utama pada peranti itu sendiri, jadi ia berfungsi dalam mod pesawat atau tanpa liputan. Sambungan hanya diperlukan untuk memuat turun apl dan untuk pembelian, kerana itu melalui App Store."
+          ],
+          [
+            "Adakah terdapat iklan atau penjejakan pihak ketiga?",
+            "Tidak. HoursTag: Hours to Buy tidak mengandungi iklan pihak ketiga mahupun SDK analitis atau penjejakan merentas apl."
+          ],
+          [
+            "Adakah ini langganan?",
+            "HoursTag ialah muat turun berbayar dari App Store. Semua ciri tersedia selepas dipasang; tiada langganan atau pembelian dalam app."
+          ],
+          [
+            "Bagaimana saya memadam data saya?",
+            "Padam entri satu per satu di dalam apl. Untuk memadam semuanya, tekan lama ikon HoursTag: Hours to Buy pada Skrin Utama dan padam apl itu — data yang disimpan pada peranti turut hilang (salinan mungkin masih ada dalam sandaran yang anda buat sendiri)."
+          ]
+        ],
+        "title": "Privasi — HoursTag: Hours to Buy"
+      }
+    },
+    "nl-NL": {
+      "privacy": {
+        "app_name": "HoursTag: Uren om te kopen",
+        "contact": "Mail hourstag.app@gmail.com met je toestelmodel, iOS-versie, app-versie, de stappen om het probleem op te roepen en een schermafbeelding of schermopname. Hoe concreter, hoe sneller we het oplossen.",
+        "description": "Nee. Zoals op de App Store-pagina van HoursTag: Uren om te kopen staat, zijn er geen accounts of inlogschermen: na de installatie kun je meteen beginnen. Ja. Zoals op de App Store-pagina staat, verwerkt HoursTag: Uren om te kopen het belangrijkste werk op je toestel, dus ook in vliegtuigmodus of zonder bereik. Alleen het downloaden van de app en aankopen lopen via de App Store en hebben verbinding nodig.",
+        "eyebrow": "Privacy",
+        "heading": "HoursTag: Uren om te kopen · Privacy",
+        "labels": {
+          "app_store": "HoursTag: Uren om te kopen · App Store",
+          "contact": "Supportcentrum",
+          "home": "HoursTag: Uren om te kopen",
+          "language": "Nederlands",
+          "privacy": "Privacy",
+          "support": "Supportcentrum"
+        },
+        "lead": "Nee. Zoals op de App Store-pagina van HoursTag: Uren om te kopen staat, zijn er geen accounts of inlogschermen: na de installatie kun je meteen beginnen. Ja. Zoals op de App Store-pagina staat, verwerkt HoursTag: Uren om te kopen het belangrijkste werk op je toestel, dus ook in vliegtuigmodus of zonder bereik. Alleen het downloaden van de app en aankopen lopen via de App Store en hebben verbinding nodig.",
+        "sections": [
+          [
+            "Heb ik een account nodig?",
+            "Nee. Zoals op de App Store-pagina van HoursTag: Uren om te kopen staat, zijn er geen accounts of inlogschermen: na de installatie kun je meteen beginnen."
+          ],
+          [
+            "Werkt het zonder internet?",
+            "Ja. Zoals op de App Store-pagina staat, verwerkt HoursTag: Uren om te kopen het belangrijkste werk op je toestel, dus ook in vliegtuigmodus of zonder bereik. Alleen het downloaden van de app en aankopen lopen via de App Store en hebben verbinding nodig."
+          ],
+          [
+            "Zitten er advertenties of trackers van derden in?",
+            "Nee. HoursTag: Uren om te kopen bevat geen advertenties van derden en geen analytics- of trackingSDK's die je tussen apps volgen."
+          ],
+          [
+            "Is dit een abonnement?",
+            "HoursTag is een betaalde download uit de App Store. Na installatie zijn alle functies beschikbaar; er is geen abonnement en er zijn geen in-app aankopen."
+          ],
+          [
+            "Hoe verwijder ik mijn gegevens?",
+            "Verwijder losse items in de app zelf. Wil je alles weg, houd dan het symbool van HoursTag: Uren om te kopen op het beginscherm ingedrukt en verwijder de app: de lokaal bewaarde gegevens gaan mee (in een back-up die je zelf maakte, kan nog een kopie staan)."
+          ]
+        ],
+        "title": "Privacy — HoursTag: Uren om te kopen"
+      }
+    },
+    "no": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Skriv til hourstag.app@gmail.com med enhetsmodell, iOS-versjon, appversjon, trinnene som utløser feilen, og et skjermbilde eller skjermopptak. Jo mer konkret, desto raskere kan vi rette det.",
+        "description": "Nei. Som det står på HoursTag: Hours to Buys side i App Store, finnes verken kontoer eller innlogging: du kan begynne rett etter installasjonen. Ja. Som det står på App Store-siden, gjør HoursTag: Hours to Buy det vesentligste på selve enheten, så det virker også i flymodus eller uten dekning. Bare nedlasting av appen og kjøp, som går via App Store, krever forbindelse.",
+        "eyebrow": "Personvern",
+        "heading": "HoursTag: Hours to Buy · Personvern",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Støttesenter",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Norsk",
+          "privacy": "Personvern",
+          "support": "Støttesenter"
+        },
+        "lead": "Nei. Som det står på HoursTag: Hours to Buys side i App Store, finnes verken kontoer eller innlogging: du kan begynne rett etter installasjonen. Ja. Som det står på App Store-siden, gjør HoursTag: Hours to Buy det vesentligste på selve enheten, så det virker også i flymodus eller uten dekning. Bare nedlasting av appen og kjøp, som går via App Store, krever forbindelse.",
+        "sections": [
+          [
+            "Trenger jeg en konto?",
+            "Nei. Som det står på HoursTag: Hours to Buys side i App Store, finnes verken kontoer eller innlogging: du kan begynne rett etter installasjonen."
+          ],
+          [
+            "Virker det uten internett?",
+            "Ja. Som det står på App Store-siden, gjør HoursTag: Hours to Buy det vesentligste på selve enheten, så det virker også i flymodus eller uten dekning. Bare nedlasting av appen og kjøp, som går via App Store, krever forbindelse."
+          ],
+          [
+            "Er det annonser eller sporing fra tredjeparter?",
+            "Nei. HoursTag: Hours to Buy inneholder verken tredjepartsannonser eller analyse- og sporings-SDK-er som følger deg på tvers av apper."
+          ],
+          [
+            "Er dette et abonnement?",
+            "HoursTag er en betalt nedlasting fra App Store. Alle funksjoner er tilgjengelige etter installering; det finnes verken abonnement eller kjøp i appen."
+          ],
+          [
+            "Hvordan sletter jeg dataene mine?",
+            "Slett enkeltoppføringer inne i appen. Vil du slette alt, holder du fingeren på HoursTag: Hours to Buy-symbolet på hjemskjermen og sletter appen: da forsvinner også det som er lagret på enheten (en kopi kan ligge igjen i en sikkerhetskopi du selv har tatt)."
+          ]
+        ],
+        "title": "Personvern — HoursTag: Hours to Buy"
+      }
+    },
+    "or-IN": {
+      "index": {
+        "app_name": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "କୌଣସି ଦାମକୁ ସେହି ଟଙ୍କା ଉପାର୍ଜନ ପାଇଁ ଲାଗୁଥିବା କାମ ସମୟରେ ବଦଳାନ୍ତୁ, ପରେ ନିଜ ସମୟର ପ୍ରକୃତ ମୂଲ୍ୟରେ ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ବୁଝନ୍ତୁ।",
+        "eyebrow": "ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍",
+        "heading": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "କୌଣସି ଦାମକୁ ସେହି ଟଙ୍କା ଉପାର୍ଜନ ପାଇଁ ଲାଗୁଥିବା କାମ ସମୟରେ ବଦଳାନ୍ତୁ, ପରେ ନିଜ ସମୟର ପ୍ରକୃତ ମୂଲ୍ୟରେ ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ବୁଝନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "କୌଣସି ଦାମକୁ ସେହି ଟଙ୍କା ଉପାର୍ଜନ ପାଇଁ ଲାଗୁଥିବା କାମ ସମୟରେ ବଦଳାନ୍ତୁ, ପରେ ନିଜ ସମୟର ପ୍ରକୃତ ମୂଲ୍ୟରେ ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ବୁଝନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "HoursTag ହେଉଛି App Storeରୁ ଏକଥର ଦାମ ଦେଇ ଡାଉନଲୋଡ୍ କରାଯାଉଥିବା App। ଇନଷ୍ଟଲ୍ କରିବା ପରେ ସମସ୍ତ ସୁବିଧା ମିଳେ; କୌଣସି ସଦସ୍ୟତା କିମ୍ବା App ଭିତରେ କ୍ରୟ ନାହିଁ।"
+          ]
+        ],
+        "title": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ — ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍"
+      },
+      "privacy": {
+        "app_name": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ। HoursTag ହେଉଛି App Storeରୁ ଏକଥର ଦାମ ଦେଇ ଡାଉନଲୋଡ୍ କରାଯାଉଥିବା App। ଇନଷ୍ଟଲ୍ କରିବା ପରେ ସମସ୍ତ ସୁବିଧା ମିଳେ; କୌଣସି ସଦସ୍ୟତା କିମ୍ବା App ଭିତରେ କ୍ରୟ ନାହିଁ।",
+        "eyebrow": "ଗୋପନୀୟତା",
+        "heading": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ · ଗୋପନୀୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।",
+        "sections": [
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ ଓ ଟ୍ରାକିଂ",
+            "କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "HoursTag ହେଉଛି App Storeରୁ ଏକଥର ଦାମ ଦେଇ ଡାଉନଲୋଡ୍ କରାଯାଉଥିବା App। ଇନଷ୍ଟଲ୍ କରିବା ପରେ ସମସ୍ତ ସୁବିଧା ମିଳେ; କୌଣସି ସଦସ୍ୟତା କିମ୍ବା App ଭିତରେ କ୍ରୟ ନାହିଁ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ଗୋପନୀୟତା — HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ"
+      },
+      "support": {
+        "app_name": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ। ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।",
+        "eyebrow": "ସହାୟତା",
+        "heading": "HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ · ସହାୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "କୌଣସି ଦାମକୁ ସେହି ଟଙ୍କା ଉପାର୍ଜନ ପାଇଁ ଲାଗୁଥିବା କାମ ସମୟରେ ବଦଳାନ୍ତୁ, ପରେ ନିଜ ସମୟର ପ୍ରକୃତ ମୂଲ୍ୟରେ ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ବୁଝନ୍ତୁ।"
+          ],
+          [
+            "ସମସ୍ୟା ସମାଧାନ",
+            "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ବେତନ, କାମ ସମୟ, ଲକ୍ଷ୍ୟ ଓ ଖର୍ଚ୍ଚ ରେକର୍ଡ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ। ଆକାଉଣ୍ଟ, ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ। କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "HoursTag ହେଉଛି App Storeରୁ ଏକଥର ଦାମ ଦେଇ ଡାଉନଲୋଡ୍ କରାଯାଉଥିବା App। ଇନଷ୍ଟଲ୍ କରିବା ପରେ ସମସ୍ତ ସୁବିଧା ମିଳେ; କୌଣସି ସଦସ୍ୟତା କିମ୍ବା App ଭିତରେ କ୍ରୟ ନାହିଁ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ସହାୟତା — HoursTag: କିଣିବାକୁ କେତେ କାମ ସମୟ"
+      }
+    },
+    "pa-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com ਉੱਤੇ ਡਿਵਾਈਸ ਮਾਡਲ, iOS ਵਰਜਨ, ਐਪ ਵਰਜਨ, ਖ਼ਾਮੀ ਦੁਬਾਰਾ ਵਾਪਰਨ ਦੇ ਕਦਮ ਅਤੇ ਸਕਰੀਨਸ਼ਾਟ ਜਾਂ ਸਕਰੀਨ ਰਿਕਾਰਡਿੰਗ ਭੇਜੋ। ਵੇਰਵਾ ਜਿੰਨਾ ਸਾਫ਼, ਸੁਧਾਰ ਓਨਾ ਛੇਤੀ।",
+        "description": "ਨਹੀਂ। ਜਿਵੇਂ HoursTag: Hours to Buy ਦੇ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, ਇੱਥੇ ਨਾ ਖਾਤਾ ਹੈ ਨਾ ਸਾਈਨ-ਇਨ — ਇੰਸਟਾਲ ਕਰਦਿਆਂ ਹੀ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ। ਹਾਂ। ਜਿਵੇਂ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, HoursTag: Hours to Buy ਮੁੱਖ ਕੰਮ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਕਰਦੀ ਹੈ, ਇਸ ਲਈ ਏਅਰਪਲੇਨ ਮੋਡ ਵਿੱਚ ਜਾਂ ਨੈੱਟਵਰਕ ਤੋਂ ਬਿਨਾਂ ਵੀ ਚੱਲਦੀ ਹੈ। ਕੁਨੈਕਸ਼ਨ ਸਿਰਫ਼ ਐਪ ਡਾਊਨਲੋਡ ਕਰਨ ਅਤੇ ਖ਼ਰੀਦ ਲਈ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਉਹ App Store ਰਾਹੀਂ ਹੁੰਦੀ ਹੈ।",
+        "eyebrow": "ਨਿੱਜਤਾ",
+        "heading": "HoursTag: Hours to Buy · ਨਿੱਜਤਾ",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "ਸਹਾਇਤਾ ਕੇਂਦਰ",
+          "home": "HoursTag: Hours to Buy",
+          "language": "ਪੰਜਾਬੀ",
+          "privacy": "ਨਿੱਜਤਾ",
+          "support": "ਸਹਾਇਤਾ ਕੇਂਦਰ"
+        },
+        "lead": "ਨਹੀਂ। ਜਿਵੇਂ HoursTag: Hours to Buy ਦੇ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, ਇੱਥੇ ਨਾ ਖਾਤਾ ਹੈ ਨਾ ਸਾਈਨ-ਇਨ — ਇੰਸਟਾਲ ਕਰਦਿਆਂ ਹੀ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ। ਹਾਂ। ਜਿਵੇਂ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, HoursTag: Hours to Buy ਮੁੱਖ ਕੰਮ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਕਰਦੀ ਹੈ, ਇਸ ਲਈ ਏਅਰਪਲੇਨ ਮੋਡ ਵਿੱਚ ਜਾਂ ਨੈੱਟਵਰਕ ਤੋਂ ਬਿਨਾਂ ਵੀ ਚੱਲਦੀ ਹੈ। ਕੁਨੈਕਸ਼ਨ ਸਿਰਫ਼ ਐਪ ਡਾਊਨਲੋਡ ਕਰਨ ਅਤੇ ਖ਼ਰੀਦ ਲਈ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਉਹ App Store ਰਾਹੀਂ ਹੁੰਦੀ ਹੈ।",
+        "sections": [
+          [
+            "ਕੀ ਖਾਤਾ ਬਣਾਉਣਾ ਪੈਂਦਾ ਹੈ?",
+            "ਨਹੀਂ। ਜਿਵੇਂ HoursTag: Hours to Buy ਦੇ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, ਇੱਥੇ ਨਾ ਖਾਤਾ ਹੈ ਨਾ ਸਾਈਨ-ਇਨ — ਇੰਸਟਾਲ ਕਰਦਿਆਂ ਹੀ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ।"
+          ],
+          [
+            "ਕੀ ਇਹ ਇੰਟਰਨੈੱਟ ਤੋਂ ਬਿਨਾਂ ਚੱਲਦੀ ਹੈ?",
+            "ਹਾਂ। ਜਿਵੇਂ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, HoursTag: Hours to Buy ਮੁੱਖ ਕੰਮ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਕਰਦੀ ਹੈ, ਇਸ ਲਈ ਏਅਰਪਲੇਨ ਮੋਡ ਵਿੱਚ ਜਾਂ ਨੈੱਟਵਰਕ ਤੋਂ ਬਿਨਾਂ ਵੀ ਚੱਲਦੀ ਹੈ। ਕੁਨੈਕਸ਼ਨ ਸਿਰਫ਼ ਐਪ ਡਾਊਨਲੋਡ ਕਰਨ ਅਤੇ ਖ਼ਰੀਦ ਲਈ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਉਹ App Store ਰਾਹੀਂ ਹੁੰਦੀ ਹੈ।"
+          ],
+          [
+            "ਕੀ ਇਸ ਵਿੱਚ ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਤੀਜੀ ਧਿਰ ਦੀ ਟ੍ਰੈਕਿੰਗ ਹੈ?",
+            "ਨਹੀਂ। HoursTag: Hours to Buy ਵਿੱਚ ਤੀਜੀ ਧਿਰ ਦੇ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ ਹਨ, ਅਤੇ ਐਪਾਂ ਵਿਚਕਾਰ ਟ੍ਰੈਕ ਕਰਨ ਵਾਲੇ ਐਨਾਲਿਟਿਕਸ ਜਾਂ ਟ੍ਰੈਕਿੰਗ SDK ਵੀ ਨਹੀਂ ਹਨ।"
+          ],
+          [
+            "ਕੀ ਇਹ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਹੈ?",
+            "HoursTag App Store ਤੋਂ ਇੱਕ ਵਾਰ ਕੀਮਤ ਦੇ ਕੇ ਡਾਊਨਲੋਡ ਕੀਤੀ ਜਾਣ ਵਾਲੀ ਐਪ ਹੈ। ਇੰਸਟਾਲ ਕਰਨ ਤੋਂ ਬਾਅਦ ਸਾਰੀਆਂ ਸੁਵਿਧਾਵਾਂ ਮਿਲਦੀਆਂ ਹਨ; ਕੋਈ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਜਾਂ ਐਪ ਅੰਦਰ ਖਰੀਦ ਨਹੀਂ ਹੈ।"
+          ],
+          [
+            "ਮੈਂ ਆਪਣਾ ਡਾਟਾ ਕਿਵੇਂ ਮਿਟਾਵਾਂ?",
+            "ਵੱਖ-ਵੱਖ ਇੰਦਰਾਜ ਐਪ ਵਿੱਚੋਂ ਹੀ ਮਿਟਾਓ। ਸਭ ਕੁਝ ਮਿਟਾਉਣਾ ਹੋਵੇ ਤਾਂ ਮੁੱਖ ਸਕਰੀਨ ਉੱਤੇ HoursTag: Hours to Buy ਦੇ ਨਿਸ਼ਾਨ ਨੂੰ ਦੱਬੀ ਰੱਖੋ ਅਤੇ ਐਪ ਹਟਾ ਦਿਓ — ਡਿਵਾਈਸ ਉੱਤੇ ਸਾਂਭਿਆ ਡਾਟਾ ਵੀ ਨਾਲ ਹੀ ਚਲਾ ਜਾਂਦਾ ਹੈ (ਤੁਹਾਡੇ ਆਪਣੇ ਲਏ ਬੈਕਅੱਪ ਵਿੱਚ ਨਕਲ ਰਹਿ ਸਕਦੀ ਹੈ)।"
+          ]
+        ],
+        "title": "ਨਿੱਜਤਾ — HoursTag: Hours to Buy"
+      }
+    },
+    "pl": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Napisz na hourstag.app@gmail.com, podając model urządzenia, wersję iOS, wersję aplikacji, kroki prowadzące do błędu oraz zrzut ekranu lub nagranie. Im konkretniej, tym szybciej to naprawimy.",
+        "description": "Nie. Jak podaje strona aplikacji HoursTag: Hours to Buy w App Store, nie ma tu kont ani logowania — możesz zacząć od razu po instalacji. Tak. Jak podaje strona w App Store, HoursTag: Hours to Buy wykonuje najważniejsze operacje na samym urządzeniu, więc działa też w trybie samolotowym lub bez zasięgu. Połączenia wymaga tylko pobranie aplikacji i zakupy, które odbywają się przez App Store.",
+        "eyebrow": "Prywatność",
+        "heading": "HoursTag: Hours to Buy · Prywatność",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centrum pomocy",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Polski",
+          "privacy": "Prywatność",
+          "support": "Centrum pomocy"
+        },
+        "lead": "Nie. Jak podaje strona aplikacji HoursTag: Hours to Buy w App Store, nie ma tu kont ani logowania — możesz zacząć od razu po instalacji. Tak. Jak podaje strona w App Store, HoursTag: Hours to Buy wykonuje najważniejsze operacje na samym urządzeniu, więc działa też w trybie samolotowym lub bez zasięgu. Połączenia wymaga tylko pobranie aplikacji i zakupy, które odbywają się przez App Store.",
+        "sections": [
+          [
+            "Czy potrzebuję konta?",
+            "Nie. Jak podaje strona aplikacji HoursTag: Hours to Buy w App Store, nie ma tu kont ani logowania — możesz zacząć od razu po instalacji."
+          ],
+          [
+            "Czy działa bez internetu?",
+            "Tak. Jak podaje strona w App Store, HoursTag: Hours to Buy wykonuje najważniejsze operacje na samym urządzeniu, więc działa też w trybie samolotowym lub bez zasięgu. Połączenia wymaga tylko pobranie aplikacji i zakupy, które odbywają się przez App Store."
+          ],
+          [
+            "Czy są reklamy albo śledzenie przez firmy trzecie?",
+            "Nie. HoursTag: Hours to Buy nie zawiera reklam firm trzecich ani zestawów SDK do analityki czy śledzenia między aplikacjami."
+          ],
+          [
+            "Czy to subskrypcja?",
+            "HoursTag to płatna aplikacja pobierana z App Store. Po instalacji dostępne są wszystkie funkcje; nie ma subskrypcji ani zakupów w aplikacji."
+          ],
+          [
+            "Jak usunąć moje dane?",
+            "Pojedyncze wpisy usuwaj w samej aplikacji. Żeby skasować wszystko, przytrzymaj ikonę HoursTag: Hours to Buy na ekranie początkowym i usuń aplikację — razem z nią znikną dane zapisane na urządzeniu (kopia może zostać w kopii zapasowej, którą wykonałeś samodzielnie)."
+          ]
+        ],
+        "title": "Prywatność — HoursTag: Hours to Buy"
+      }
+    },
+    "pt-BR": {
+      "privacy": {
+        "app_name": "HoursTag: Horas p/ comprar",
+        "contact": "Escreva para hourstag.app@gmail.com com o modelo do aparelho, a versão do iOS, a versão do app, os passos para reproduzir e uma captura ou gravação de tela. Quanto mais específico, mais rápido sai a correção.",
+        "description": "Não. A página na App Store informa que o HoursTag: Horas p/ comprar não exige conta nem login: dá para começar logo depois de instalar. Funciona. A página informa que o processamento principal do HoursTag: Horas p/ comprar acontece no seu aparelho, então ele continua funcionando em modo avião ou sem sinal. Só o download e a compra precisam de conexão, porque passam pela App Store.",
+        "eyebrow": "Privacidade",
+        "heading": "HoursTag: Horas p/ comprar · Privacidade",
+        "labels": {
+          "app_store": "HoursTag: Horas p/ comprar · App Store",
+          "contact": "Central de suporte",
+          "home": "HoursTag: Horas p/ comprar",
+          "language": "Português (Brasil)",
+          "privacy": "Privacidade",
+          "support": "Central de suporte"
+        },
+        "lead": "Não. A página na App Store informa que o HoursTag: Horas p/ comprar não exige conta nem login: dá para começar logo depois de instalar. Funciona. A página informa que o processamento principal do HoursTag: Horas p/ comprar acontece no seu aparelho, então ele continua funcionando em modo avião ou sem sinal. Só o download e a compra precisam de conexão, porque passam pela App Store.",
+        "sections": [
+          [
+            "Preciso criar uma conta?",
+            "Não. A página na App Store informa que o HoursTag: Horas p/ comprar não exige conta nem login: dá para começar logo depois de instalar."
+          ],
+          [
+            "Funciona sem internet?",
+            "Funciona. A página informa que o processamento principal do HoursTag: Horas p/ comprar acontece no seu aparelho, então ele continua funcionando em modo avião ou sem sinal. Só o download e a compra precisam de conexão, porque passam pela App Store."
+          ],
+          [
+            "Tem publicidade ou rastreamento de terceiros?",
+            "Não. O HoursTag: Horas p/ comprar não tem publicidade de terceiros nem SDKs de análise ou rastreamento entre apps."
+          ],
+          [
+            "É assinatura?",
+            "HoursTag é um app pago baixado pela App Store. Todos os recursos ficam disponíveis após a instalação; não há assinatura nem compra dentro do app."
+          ],
+          [
+            "Como apago meus dados?",
+            "Apague o item dentro do app. Para limpar tudo de uma vez, mantenha o ícone do HoursTag: Horas p/ comprar pressionado na tela de início e apague o app: os dados guardados no aparelho vão junto (um backup do aparelho ainda pode conter uma cópia)."
+          ]
+        ],
+        "title": "Privacidade — HoursTag: Horas p/ comprar"
+      }
+    },
+    "pt-PT": {
+      "privacy": {
+        "app_name": "HoursTag: Horas para comprar",
+        "contact": "Escreva para hourstag.app@gmail.com com o modelo do dispositivo, a versão do iOS, a versão da aplicação, os passos para reproduzir e uma captura ou gravação de ecrã. Quanto mais concreto, mais depressa corrigimos.",
+        "description": "Não. Tal como indica a página da HoursTag: Horas para comprar na App Store, não há contas nem início de sessão: pode começar logo após instalar. Sim. Tal como indica a página da App Store, a HoursTag: Horas para comprar processa o essencial no próprio dispositivo, pelo que funciona também em modo de voo ou sem rede. Só a transferência da aplicação e as compras, que passam pela App Store, precisam de ligação.",
+        "eyebrow": "Privacidade",
+        "heading": "HoursTag: Horas para comprar · Privacidade",
+        "labels": {
+          "app_store": "HoursTag: Horas para comprar · App Store",
+          "contact": "Centro de apoio",
+          "home": "HoursTag: Horas para comprar",
+          "language": "Português (Portugal)",
+          "privacy": "Privacidade",
+          "support": "Centro de apoio"
+        },
+        "lead": "Não. Tal como indica a página da HoursTag: Horas para comprar na App Store, não há contas nem início de sessão: pode começar logo após instalar. Sim. Tal como indica a página da App Store, a HoursTag: Horas para comprar processa o essencial no próprio dispositivo, pelo que funciona também em modo de voo ou sem rede. Só a transferência da aplicação e as compras, que passam pela App Store, precisam de ligação.",
+        "sections": [
+          [
+            "É preciso criar conta?",
+            "Não. Tal como indica a página da HoursTag: Horas para comprar na App Store, não há contas nem início de sessão: pode começar logo após instalar."
+          ],
+          [
+            "Funciona sem ligação à internet?",
+            "Sim. Tal como indica a página da App Store, a HoursTag: Horas para comprar processa o essencial no próprio dispositivo, pelo que funciona também em modo de voo ou sem rede. Só a transferência da aplicação e as compras, que passam pela App Store, precisam de ligação."
+          ],
+          [
+            "Tem publicidade ou rastreio de terceiros?",
+            "Não. A HoursTag: Horas para comprar não inclui publicidade de terceiros nem SDK de análise ou de rastreio entre aplicações."
+          ],
+          [
+            "É uma subscrição?",
+            "HoursTag é uma app paga descarregada da App Store. Todas as funcionalidades ficam disponíveis após a instalação; não há subscrição nem compras integradas."
+          ],
+          [
+            "Como apago os meus dados?",
+            "Elimine cada item dentro da aplicação. Para apagar tudo, mantenha premido o ícone da HoursTag: Horas para comprar no ecrã principal e elimine a aplicação: os dados guardados no dispositivo desaparecem também (pode ficar uma cópia numa cópia de segurança que tenha feito)."
+          ]
+        ],
+        "title": "Privacidade — HoursTag: Horas para comprar"
+      }
+    },
+    "ro": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Scrie la hourstag.app@gmail.com modelul dispozitivului, versiunea de iOS, versiunea aplicației, pașii prin care apare problema și o captură sau înregistrare de ecran. Cu cât e mai concret, cu atât o rezolvăm mai repede.",
+        "description": "Nu. Așa cum scrie pe pagina HoursTag: Hours to Buy din App Store, nu există conturi și nici autentificare — poți începe imediat după instalare. Da. Așa cum scrie pe pagina din App Store, HoursTag: Hours to Buy face partea esențială chiar pe dispozitiv, deci merge și în modul avion sau fără semnal. Doar descărcarea aplicației și cumpărăturile, care trec prin App Store, au nevoie de conexiune.",
+        "eyebrow": "Confidențialitate",
+        "heading": "HoursTag: Hours to Buy · Confidențialitate",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centru de asistență",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Română",
+          "privacy": "Confidențialitate",
+          "support": "Centru de asistență"
+        },
+        "lead": "Nu. Așa cum scrie pe pagina HoursTag: Hours to Buy din App Store, nu există conturi și nici autentificare — poți începe imediat după instalare. Da. Așa cum scrie pe pagina din App Store, HoursTag: Hours to Buy face partea esențială chiar pe dispozitiv, deci merge și în modul avion sau fără semnal. Doar descărcarea aplicației și cumpărăturile, care trec prin App Store, au nevoie de conexiune.",
+        "sections": [
+          [
+            "Am nevoie de un cont?",
+            "Nu. Așa cum scrie pe pagina HoursTag: Hours to Buy din App Store, nu există conturi și nici autentificare — poți începe imediat după instalare."
+          ],
+          [
+            "Funcționează fără internet?",
+            "Da. Așa cum scrie pe pagina din App Store, HoursTag: Hours to Buy face partea esențială chiar pe dispozitiv, deci merge și în modul avion sau fără semnal. Doar descărcarea aplicației și cumpărăturile, care trec prin App Store, au nevoie de conexiune."
+          ],
+          [
+            "Există reclame sau urmărire de la terți?",
+            "Nu. HoursTag: Hours to Buy nu conține reclame de la terți și nici SDK-uri de analiză sau de urmărire între aplicații."
+          ],
+          [
+            "Este un abonament?",
+            "HoursTag este o aplicație cu plată descărcată din App Store. După instalare sunt disponibile toate funcțiile; nu există abonament sau achiziții în aplicație."
+          ],
+          [
+            "Cum îmi șterg datele?",
+            "Șterge elementele unul câte unul din aplicație. Dacă vrei să ștergi tot, ține apăsat pe pictograma HoursTag: Hours to Buy de pe ecranul principal și șterge aplicația — dispar și datele salvate pe dispozitiv (o copie poate rămâne într-o copie de siguranță făcută de tine)."
+          ]
+        ],
+        "title": "Confidențialitate — HoursTag: Hours to Buy"
+      }
+    },
+    "ru": {
+      "privacy": {
+        "app_name": "HoursTag: Часы для покупки",
+        "contact": "Напишите на hourstag.app@gmail.com модель устройства, версию iOS, версию приложения, шаги для воспроизведения и приложите снимок или запись экрана. Чем конкретнее, тем быстрее мы всё исправим.",
+        "description": "Нет. Как указано на странице HoursTag: Часы для покупки в App Store, аккаунтов и входа здесь нет — можно начать сразу после установки. Да. Как указано на странице в App Store, HoursTag: Часы для покупки выполняет основную работу прямо на устройстве, поэтому приложение работает и в авиарежиме, и без сети. Подключение нужно только для загрузки приложения и покупок, которые проходят через App Store.",
+        "eyebrow": "Конфиденциальность",
+        "heading": "HoursTag: Часы для покупки · Конфиденциальность",
+        "labels": {
+          "app_store": "HoursTag: Часы для покупки · App Store",
+          "contact": "Центр поддержки",
+          "home": "HoursTag: Часы для покупки",
+          "language": "Русский",
+          "privacy": "Конфиденциальность",
+          "support": "Центр поддержки"
+        },
+        "lead": "Нет. Как указано на странице HoursTag: Часы для покупки в App Store, аккаунтов и входа здесь нет — можно начать сразу после установки. Да. Как указано на странице в App Store, HoursTag: Часы для покупки выполняет основную работу прямо на устройстве, поэтому приложение работает и в авиарежиме, и без сети. Подключение нужно только для загрузки приложения и покупок, которые проходят через App Store.",
+        "sections": [
+          [
+            "Нужен ли аккаунт?",
+            "Нет. Как указано на странице HoursTag: Часы для покупки в App Store, аккаунтов и входа здесь нет — можно начать сразу после установки."
+          ],
+          [
+            "Работает ли без интернета?",
+            "Да. Как указано на странице в App Store, HoursTag: Часы для покупки выполняет основную работу прямо на устройстве, поэтому приложение работает и в авиарежиме, и без сети. Подключение нужно только для загрузки приложения и покупок, которые проходят через App Store."
+          ],
+          [
+            "Есть ли реклама или сторонняя слежка?",
+            "Нет. В HoursTag: Часы для покупки нет сторонней рекламы и нет SDK аналитики или межприложенного отслеживания."
+          ],
+          [
+            "Это подписка?",
+            "HoursTag — платное приложение из App Store. После установки доступны все функции; подписки и встроенных покупок нет."
+          ],
+          [
+            "Как удалить свои данные?",
+            "Отдельные записи удаляйте внутри приложения. Чтобы стереть всё, удерживайте значок HoursTag: Часы для покупки на экране «Домой» и удалите приложение — вместе с ним пропадут и данные, сохранённые на устройстве (копия может остаться в резервной копии, которую вы сделали сами)."
+          ]
+        ],
+        "title": "Конфиденциальность — HoursTag: Часы для покупки"
+      }
+    },
+    "sk": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Napíšte na hourstag.app@gmail.com model zariadenia, verziu iOS, verziu aplikácie, postup na vyvolanie chyby a snímku alebo záznam obrazovky. Čím konkrétnejšie, tým rýchlejšie to opravíme.",
+        "description": "Nie. Ako uvádza stránka aplikácie HoursTag: Hours to Buy v App Store, nie sú tu žiadne účty ani prihlasovanie — začať môžete hneď po inštalácii. Áno. Ako uvádza stránka v App Store, HoursTag: Hours to Buy spracúva to podstatné priamo v zariadení, takže funguje aj v režime Lietadlo alebo bez signálu. Pripojenie potrebuje len stiahnutie aplikácie a nákupy, ktoré prebiehajú cez App Store.",
+        "eyebrow": "Súkromie",
+        "heading": "HoursTag: Hours to Buy · Súkromie",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Centrum podpory",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Slovenčina",
+          "privacy": "Súkromie",
+          "support": "Centrum podpory"
+        },
+        "lead": "Nie. Ako uvádza stránka aplikácie HoursTag: Hours to Buy v App Store, nie sú tu žiadne účty ani prihlasovanie — začať môžete hneď po inštalácii. Áno. Ako uvádza stránka v App Store, HoursTag: Hours to Buy spracúva to podstatné priamo v zariadení, takže funguje aj v režime Lietadlo alebo bez signálu. Pripojenie potrebuje len stiahnutie aplikácie a nákupy, ktoré prebiehajú cez App Store.",
+        "sections": [
+          [
+            "Potrebujem účet?",
+            "Nie. Ako uvádza stránka aplikácie HoursTag: Hours to Buy v App Store, nie sú tu žiadne účty ani prihlasovanie — začať môžete hneď po inštalácii."
+          ],
+          [
+            "Funguje to bez internetu?",
+            "Áno. Ako uvádza stránka v App Store, HoursTag: Hours to Buy spracúva to podstatné priamo v zariadení, takže funguje aj v režime Lietadlo alebo bez signálu. Pripojenie potrebuje len stiahnutie aplikácie a nákupy, ktoré prebiehajú cez App Store."
+          ],
+          [
+            "Sú v aplikácii reklamy alebo sledovanie tretích strán?",
+            "Nie. HoursTag: Hours to Buy neobsahuje reklamy tretích strán ani analytické či sledovacie SDK, ktoré by vás sledovali naprieč aplikáciami."
+          ],
+          [
+            "Je to predplatné?",
+            "HoursTag je platená aplikácia z App Storu. Po nainštalovaní sú dostupné všetky funkcie; neobsahuje predplatné ani nákupy v aplikácii."
+          ],
+          [
+            "Ako vymažem svoje údaje?",
+            "Jednotlivé položky mažte priamo v aplikácii. Ak chcete vymazať všetko, podržte ikonu HoursTag: Hours to Buy na ploche a aplikáciu odstráňte — spolu s ňou zmiznú aj údaje uložené v zariadení (kópia môže zostať v zálohe, ktorú ste si sami vytvorili)."
+          ]
+        ],
+        "title": "Súkromie — HoursTag: Hours to Buy"
+      }
+    },
+    "sl-SI": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Pišite na hourstag.app@gmail.com in navedite model naprave, različico iOS, različico aplikacije, korake, s katerimi se napaka pojavi, ter posnetek zaslona ali videoposnetek. Bolj ko je opis konkreten, hitreje napako odpravimo.",
+        "description": "Ne. Kot piše na strani aplikacije HoursTag: Hours to Buy v App Storu, računov in prijave ni — začnete lahko takoj po namestitvi. Da. Kot piše na strani v App Storu, HoursTag: Hours to Buy bistveno opravi kar na napravi, zato deluje tudi v načinu za letalo ali brez signala. Povezavo potrebujeta le prenos aplikacije in nakup, ki poteka prek App Stora.",
+        "eyebrow": "Zasebnost",
+        "heading": "HoursTag: Hours to Buy · Zasebnost",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Center za podporo",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Slovenščina",
+          "privacy": "Zasebnost",
+          "support": "Center za podporo"
+        },
+        "lead": "Ne. Kot piše na strani aplikacije HoursTag: Hours to Buy v App Storu, računov in prijave ni — začnete lahko takoj po namestitvi. Da. Kot piše na strani v App Storu, HoursTag: Hours to Buy bistveno opravi kar na napravi, zato deluje tudi v načinu za letalo ali brez signala. Povezavo potrebujeta le prenos aplikacije in nakup, ki poteka prek App Stora.",
+        "sections": [
+          [
+            "Ali potrebujem račun?",
+            "Ne. Kot piše na strani aplikacije HoursTag: Hours to Buy v App Storu, računov in prijave ni — začnete lahko takoj po namestitvi."
+          ],
+          [
+            "Ali deluje brez interneta?",
+            "Da. Kot piše na strani v App Storu, HoursTag: Hours to Buy bistveno opravi kar na napravi, zato deluje tudi v načinu za letalo ali brez signala. Povezavo potrebujeta le prenos aplikacije in nakup, ki poteka prek App Stora."
+          ],
+          [
+            "So v aplikaciji oglasi ali sledenje tretjih oseb?",
+            "Ne. HoursTag: Hours to Buy ne vsebuje oglasov tretjih oseb niti analitičnih ali sledilnih kompletov SDK, ki bi vam sledili med aplikacijami."
+          ],
+          [
+            "Je to naročnina?",
+            "HoursTag je plačljiva aplikacija iz trgovine App Store. Po namestitvi so na voljo vse funkcije; naročnine in nakupov v aplikaciji ni."
+          ],
+          [
+            "Kako izbrišem svoje podatke?",
+            "Posamezne vnose brišite v aplikaciji. Če želite izbrisati vse, pridržite ikono HoursTag: Hours to Buy na začetnem zaslonu in odstranite aplikacijo — z njo izginejo tudi podatki, shranjeni na napravi (kopija lahko ostane v varnostni kopiji, ki ste jo naredili sami)."
+          ]
+        ],
+        "title": "Zasebnost — HoursTag: Hours to Buy"
+      }
+    },
+    "sv": {
+      "privacy": {
+        "app_name": "HoursTag: Timmar att köpa",
+        "contact": "Mejla hourstag.app@gmail.com med enhetsmodell, iOS-version, appversion, stegen som framkallar felet samt en skärmbild eller skärminspelning. Ju mer konkret, desto snabbare kan vi rätta det.",
+        "description": "Nej. Som det står på HoursTag: Timmar att köpas sida i App Store finns varken konton eller inloggning: du kan börja direkt efter installationen. Ja. Som det står på App Store-sidan sköter HoursTag: Timmar att köpa det viktigaste på själva enheten, så det fungerar även i flygplansläge eller utan täckning. Bara nedladdningen av appen och köp, som går via App Store, kräver uppkoppling.",
+        "eyebrow": "Integritet",
+        "heading": "HoursTag: Timmar att köpa · Integritet",
+        "labels": {
+          "app_store": "HoursTag: Timmar att köpa · App Store",
+          "contact": "Supportcenter",
+          "home": "HoursTag: Timmar att köpa",
+          "language": "Svenska",
+          "privacy": "Integritet",
+          "support": "Supportcenter"
+        },
+        "lead": "Nej. Som det står på HoursTag: Timmar att köpas sida i App Store finns varken konton eller inloggning: du kan börja direkt efter installationen. Ja. Som det står på App Store-sidan sköter HoursTag: Timmar att köpa det viktigaste på själva enheten, så det fungerar även i flygplansläge eller utan täckning. Bara nedladdningen av appen och köp, som går via App Store, kräver uppkoppling.",
+        "sections": [
+          [
+            "Behöver jag ett konto?",
+            "Nej. Som det står på HoursTag: Timmar att köpas sida i App Store finns varken konton eller inloggning: du kan börja direkt efter installationen."
+          ],
+          [
+            "Fungerar det utan internet?",
+            "Ja. Som det står på App Store-sidan sköter HoursTag: Timmar att köpa det viktigaste på själva enheten, så det fungerar även i flygplansläge eller utan täckning. Bara nedladdningen av appen och köp, som går via App Store, kräver uppkoppling."
+          ],
+          [
+            "Finns det annonser eller spårning från tredje part?",
+            "Nej. HoursTag: Timmar att köpa innehåller varken tredjepartsannonser eller analys- och spårnings-SDK:er som följer dig mellan appar."
+          ],
+          [
+            "Är det en prenumeration?",
+            "HoursTag är en betalapp som hämtas från App Store. Alla funktioner är tillgängliga efter installationen; det finns ingen prenumeration och inga köp i appen."
+          ],
+          [
+            "Hur raderar jag mina uppgifter?",
+            "Radera enskilda poster inne i appen. Vill du radera allt håller du fingret på HoursTag: Timmar att köpa-symbolen på hemskärmen och raderar appen: då försvinner även det som sparats på enheten (en kopia kan finnas kvar i en säkerhetskopia du själv gjort)."
+          ]
+        ],
+        "title": "Integritet — HoursTag: Timmar att köpa"
+      }
+    },
+    "ta-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com முகவரிக்கு சாதன மாடல், iOS பதிப்பு, பயன்பாட்டுப் பதிப்பு, பிழையை மீண்டும் உருவாக்கும் படிகள், திரைப்பிடிப்பு அல்லது திரைப் பதிவு ஆகியவற்றை அனுப்புங்கள். விவரம் தெளிவாக இருக்கும்போது திருத்தம் விரைவாக நடக்கும்.",
+        "description": "இல்லை. HoursTag: Hours to Buy இன் App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, இங்கே கணக்கும் இல்லை, உள்நுழைவும் இல்லை — நிறுவியவுடன் தொடங்கலாம். ஆம். App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, HoursTag: Hours to Buy முக்கியப் பணியைச் சாதனத்திலேயே செய்கிறது; எனவே விமானப் பயன்முறையிலும் சமிக்ஞை இல்லாத இடத்திலும் வேலை செய்யும். பயன்பாட்டைப் பதிவிறக்கவும், App Store வழியாக நடக்கும் வாங்குதலுக்கும் மட்டுமே இணைப்பு தேவை.",
+        "eyebrow": "தனியுரிமை",
+        "heading": "HoursTag: Hours to Buy · தனியுரிமை",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "ஆதரவு மையம்",
+          "home": "HoursTag: Hours to Buy",
+          "language": "தமிழ்",
+          "privacy": "தனியுரிமை",
+          "support": "ஆதரவு மையம்"
+        },
+        "lead": "இல்லை. HoursTag: Hours to Buy இன் App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, இங்கே கணக்கும் இல்லை, உள்நுழைவும் இல்லை — நிறுவியவுடன் தொடங்கலாம். ஆம். App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, HoursTag: Hours to Buy முக்கியப் பணியைச் சாதனத்திலேயே செய்கிறது; எனவே விமானப் பயன்முறையிலும் சமிக்ஞை இல்லாத இடத்திலும் வேலை செய்யும். பயன்பாட்டைப் பதிவிறக்கவும், App Store வழியாக நடக்கும் வாங்குதலுக்கும் மட்டுமே இணைப்பு தேவை.",
+        "sections": [
+          [
+            "கணக்கு தேவையா?",
+            "இல்லை. HoursTag: Hours to Buy இன் App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, இங்கே கணக்கும் இல்லை, உள்நுழைவும் இல்லை — நிறுவியவுடன் தொடங்கலாம்."
+          ],
+          [
+            "இணையம் இல்லாமல் வேலை செய்யுமா?",
+            "ஆம். App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, HoursTag: Hours to Buy முக்கியப் பணியைச் சாதனத்திலேயே செய்கிறது; எனவே விமானப் பயன்முறையிலும் சமிக்ஞை இல்லாத இடத்திலும் வேலை செய்யும். பயன்பாட்டைப் பதிவிறக்கவும், App Store வழியாக நடக்கும் வாங்குதலுக்கும் மட்டுமே இணைப்பு தேவை."
+          ],
+          [
+            "விளம்பரங்களோ மூன்றாம் தரப்புக் கண்காணிப்போ உள்ளதா?",
+            "இல்லை. HoursTag: Hours to Buy இல் மூன்றாம் தரப்பு விளம்பரங்கள் இல்லை; பயன்பாடுகளுக்கு இடையே கண்காணிக்கும் பகுப்பாய்வு அல்லது கண்காணிப்பு SDK களும் இல்லை."
+          ],
+          [
+            "இது சந்தாவா?",
+            "HoursTag என்பது App Store-இல் ஒருமுறை கட்டணம் செலுத்தி பதிவிறக்கும் செயலி. நிறுவியதும் அனைத்து அம்சங்களும் கிடைக்கும்; சந்தா அல்லது செயலிக்குள் வாங்குதல் எதுவும் இல்லை."
+          ],
+          [
+            "என் தரவை எப்படி நீக்குவது?",
+            "தனித்தனி உள்ளீடுகளைப் பயன்பாட்டிற்குள்ளேயே நீக்குங்கள். எல்லாவற்றையும் அழிக்க வேண்டுமெனில், முகப்புத் திரையில் HoursTag: Hours to Buy சின்னத்தை அழுத்திப் பிடித்து பயன்பாட்டை நீக்குங்கள் — சாதனத்தில் சேமித்த தரவும் அதனுடன் நீங்கிவிடும் (நீங்களே எடுத்த காப்புப்பிரதியில் நகல் இருக்கக்கூடும்)."
+          ]
+        ],
+        "title": "தனியுரிமை — HoursTag: Hours to Buy"
+      }
+    },
+    "te-IN": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com కు పరికరం మోడల్, iOS వెర్షన్, యాప్ వెర్షన్, లోపం మళ్లీ వచ్చే దశలు, స్క్రీన్‌షాట్ లేదా స్క్రీన్ రికార్డింగ్ పంపండి. వివరణ ఎంత స్పష్టంగా ఉంటే సరిదిద్దడం అంత వేగంగా జరుగుతుంది.",
+        "description": "అవసరం లేదు. HoursTag: Hours to Buy యొక్క App Store పేజీలో ఉన్నట్టుగా ఇక్కడ ఖాతా గానీ సైన్-ఇన్ గానీ లేదు — ఇన్‌స్టాల్ చేసిన వెంటనే మొదలుపెట్టవచ్చు. చేస్తుంది. App Store పేజీలో ఉన్నట్టుగా HoursTag: Hours to Buy ముఖ్యమైన పనిని పరికరంలోనే చేస్తుంది; కాబట్టి ఎయిర్‌ప్లేన్ మోడ్‌లో లేదా సిగ్నల్ లేకపోయినా పని చేస్తుంది. యాప్ డౌన్‌లోడ్‌కు, App Store ద్వారా జరిగే కొనుగోలుకు మాత్రమే కనెక్షన్ కావాలి.",
+        "eyebrow": "గోప్యత",
+        "heading": "HoursTag: Hours to Buy · గోప్యత",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "సహాయ కేంద్రం",
+          "home": "HoursTag: Hours to Buy",
+          "language": "తెలుగు",
+          "privacy": "గోప్యత",
+          "support": "సహాయ కేంద్రం"
+        },
+        "lead": "అవసరం లేదు. HoursTag: Hours to Buy యొక్క App Store పేజీలో ఉన్నట్టుగా ఇక్కడ ఖాతా గానీ సైన్-ఇన్ గానీ లేదు — ఇన్‌స్టాల్ చేసిన వెంటనే మొదలుపెట్టవచ్చు. చేస్తుంది. App Store పేజీలో ఉన్నట్టుగా HoursTag: Hours to Buy ముఖ్యమైన పనిని పరికరంలోనే చేస్తుంది; కాబట్టి ఎయిర్‌ప్లేన్ మోడ్‌లో లేదా సిగ్నల్ లేకపోయినా పని చేస్తుంది. యాప్ డౌన్‌లోడ్‌కు, App Store ద్వారా జరిగే కొనుగోలుకు మాత్రమే కనెక్షన్ కావాలి.",
+        "sections": [
+          [
+            "ఖాతా అవసరమా?",
+            "అవసరం లేదు. HoursTag: Hours to Buy యొక్క App Store పేజీలో ఉన్నట్టుగా ఇక్కడ ఖాతా గానీ సైన్-ఇన్ గానీ లేదు — ఇన్‌స్టాల్ చేసిన వెంటనే మొదలుపెట్టవచ్చు."
+          ],
+          [
+            "ఇంటర్నెట్ లేకుండా పని చేస్తుందా?",
+            "చేస్తుంది. App Store పేజీలో ఉన్నట్టుగా HoursTag: Hours to Buy ముఖ్యమైన పనిని పరికరంలోనే చేస్తుంది; కాబట్టి ఎయిర్‌ప్లేన్ మోడ్‌లో లేదా సిగ్నల్ లేకపోయినా పని చేస్తుంది. యాప్ డౌన్‌లోడ్‌కు, App Store ద్వారా జరిగే కొనుగోలుకు మాత్రమే కనెక్షన్ కావాలి."
+          ],
+          [
+            "ప్రకటనలు లేదా మూడో పక్షం ట్రాకింగ్ ఉందా?",
+            "లేదు. HoursTag: Hours to Buy లో మూడో పక్షం ప్రకటనలు లేవు; యాప్‌ల మధ్య ట్రాక్ చేసే అనలిటిక్స్ లేదా ట్రాకింగ్ SDK లు కూడా లేవు."
+          ],
+          [
+            "ఇది సబ్‌స్క్రిప్షనా?",
+            "HoursTag అనేది App Store నుంచి ఒకసారి ధర చెల్లించి డౌన్‌లోడ్ చేసే యాప్. ఇన్‌స్టాల్ చేసిన తర్వాత అన్ని సదుపాయాలు అందుబాటులో ఉంటాయి; సబ్‌స్క్రిప్షన్ లేదా యాప్‌లో కొనుగోలు లేదు."
+          ],
+          [
+            "నా సమాచారాన్ని ఎలా తొలగించాలి?",
+            "ఒక్కో నమోదును యాప్ లోపలే తొలగించండి. అన్నీ తుడిచేయాలంటే హోమ్ స్క్రీన్‌లో HoursTag: Hours to Buy చిహ్నాన్ని నొక్కి పట్టి యాప్‌ను తొలగించండి — పరికరంలో నిల్వ ఉన్న సమాచారం కూడా దానితోపాటే పోతుంది (మీరే తీసుకున్న బ్యాకప్‌లో ప్రతి ఉండవచ్చు)."
+          ]
+        ],
+        "title": "గోప్యత — HoursTag: Hours to Buy"
+      }
+    },
+    "th": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "ส่งมาที่ hourstag.app@gmail.com พร้อมรุ่นเครื่อง เวอร์ชัน iOS เวอร์ชันแอป ขั้นตอนที่ทำให้เกิดปัญหา และภาพหน้าจอหรือวิดีโอบันทึกหน้าจอ ยิ่งละเอียดเท่าไร เราก็ยิ่งแก้ได้เร็วขึ้น",
+        "description": "ไม่ต้อง ตามที่ระบุไว้ในหน้า HoursTag: Hours to Buy บน App Store ไม่มีบัญชีและไม่มีการลงชื่อเข้าใช้ ติดตั้งเสร็จก็เริ่มใช้ได้ทันที ได้ ตามที่ระบุไว้ในหน้า App Store HoursTag: Hours to Buy ประมวลผลงานหลักบนเครื่องของคุณเอง จึงใช้งานได้ในโหมดเครื่องบินหรือตอนไม่มีสัญญาณ จะต้องต่อเน็ตก็เฉพาะตอนดาวน์โหลดแอปและตอนซื้อ เพราะส่วนนั้นผ่าน App Store",
+        "eyebrow": "ความเป็นส่วนตัว",
+        "heading": "HoursTag: Hours to Buy · ความเป็นส่วนตัว",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "ศูนย์ช่วยเหลือ",
+          "home": "HoursTag: Hours to Buy",
+          "language": "ไทย",
+          "privacy": "ความเป็นส่วนตัว",
+          "support": "ศูนย์ช่วยเหลือ"
+        },
+        "lead": "ไม่ต้อง ตามที่ระบุไว้ในหน้า HoursTag: Hours to Buy บน App Store ไม่มีบัญชีและไม่มีการลงชื่อเข้าใช้ ติดตั้งเสร็จก็เริ่มใช้ได้ทันที ได้ ตามที่ระบุไว้ในหน้า App Store HoursTag: Hours to Buy ประมวลผลงานหลักบนเครื่องของคุณเอง จึงใช้งานได้ในโหมดเครื่องบินหรือตอนไม่มีสัญญาณ จะต้องต่อเน็ตก็เฉพาะตอนดาวน์โหลดแอปและตอนซื้อ เพราะส่วนนั้นผ่าน App Store",
+        "sections": [
+          [
+            "ต้องสมัครบัญชีไหม",
+            "ไม่ต้อง ตามที่ระบุไว้ในหน้า HoursTag: Hours to Buy บน App Store ไม่มีบัญชีและไม่มีการลงชื่อเข้าใช้ ติดตั้งเสร็จก็เริ่มใช้ได้ทันที"
+          ],
+          [
+            "ใช้งานโดยไม่มีอินเทอร์เน็ตได้ไหม",
+            "ได้ ตามที่ระบุไว้ในหน้า App Store HoursTag: Hours to Buy ประมวลผลงานหลักบนเครื่องของคุณเอง จึงใช้งานได้ในโหมดเครื่องบินหรือตอนไม่มีสัญญาณ จะต้องต่อเน็ตก็เฉพาะตอนดาวน์โหลดแอปและตอนซื้อ เพราะส่วนนั้นผ่าน App Store"
+          ],
+          [
+            "มีโฆษณาหรือการติดตามจากบุคคลที่สามไหม",
+            "ไม่มี HoursTag: Hours to Buy ไม่มีโฆษณาของบุคคลที่สาม และไม่มี SDK วิเคราะห์หรือติดตามข้ามแอป"
+          ],
+          [
+            "นี่เป็นแบบสมัครสมาชิกหรือเปล่า",
+            "HoursTag เป็นแอปแบบชำระเงินที่ดาวน์โหลดจาก App Store เมื่อติดตั้งแล้วจะใช้ฟีเจอร์ทั้งหมดได้ โดยไม่มีการสมัครสมาชิกหรือการซื้อภายในแอป"
+          ],
+          [
+            "จะลบข้อมูลของฉันได้อย่างไร",
+            "ลบรายการทีละอย่างได้ในแอป ถ้าต้องการลบทั้งหมด ให้แตะค้างที่ไอคอน HoursTag: Hours to Buy บนหน้าจอโฮมแล้วลบแอป ข้อมูลที่เก็บไว้ในเครื่องจะถูกลบไปพร้อมกัน (สำเนาอาจยังอยู่ในไฟล์สำรองข้อมูลที่คุณสร้างเอง)"
+          ]
+        ],
+        "title": "ความเป็นส่วนตัว — HoursTag: Hours to Buy"
+      }
+    },
+    "tr": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com adresine cihaz modeli, iOS sürümü, uygulama sürümü, hatayı ortaya çıkaran adımlar ve bir ekran görüntüsü veya ekran kaydı gönderin. Ne kadar somut olursa o kadar hızlı düzeltiriz.",
+        "description": "Hayır. HoursTag: Hours to Buy uygulamasının App Store sayfasında da belirtildiği gibi hesap ve oturum açma yok — kurulumdan hemen sonra başlayabilirsiniz. Evet. App Store sayfasında belirtildiği gibi HoursTag: Hours to Buy asıl işi cihazın kendisinde yapar; uçak modunda veya şebeke olmadan da çalışır. Yalnızca uygulamanın indirilmesi ve App Store üzerinden yapılan satın alımlar bağlantı gerektirir.",
+        "eyebrow": "Gizlilik",
+        "heading": "HoursTag: Hours to Buy · Gizlilik",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Destek merkezi",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Türkçe",
+          "privacy": "Gizlilik",
+          "support": "Destek merkezi"
+        },
+        "lead": "Hayır. HoursTag: Hours to Buy uygulamasının App Store sayfasında da belirtildiği gibi hesap ve oturum açma yok — kurulumdan hemen sonra başlayabilirsiniz. Evet. App Store sayfasında belirtildiği gibi HoursTag: Hours to Buy asıl işi cihazın kendisinde yapar; uçak modunda veya şebeke olmadan da çalışır. Yalnızca uygulamanın indirilmesi ve App Store üzerinden yapılan satın alımlar bağlantı gerektirir.",
+        "sections": [
+          [
+            "Hesap açmam gerekiyor mu?",
+            "Hayır. HoursTag: Hours to Buy uygulamasının App Store sayfasında da belirtildiği gibi hesap ve oturum açma yok — kurulumdan hemen sonra başlayabilirsiniz."
+          ],
+          [
+            "İnternet olmadan çalışır mı?",
+            "Evet. App Store sayfasında belirtildiği gibi HoursTag: Hours to Buy asıl işi cihazın kendisinde yapar; uçak modunda veya şebeke olmadan da çalışır. Yalnızca uygulamanın indirilmesi ve App Store üzerinden yapılan satın alımlar bağlantı gerektirir."
+          ],
+          [
+            "Üçüncü taraf reklam veya izleme var mı?",
+            "Yok. HoursTag: Hours to Buy içinde üçüncü taraf reklamı ve uygulamalar arası izleme yapan analiz ya da izleme SDK'sı bulunmuyor."
+          ],
+          [
+            "Bu bir abonelik mi?",
+            "HoursTag, App Store’dan ücretli olarak indirilen bir uygulamadır. Kurulumdan sonra tüm özellikler kullanılabilir; abonelik veya uygulama içi satın alma yoktur."
+          ],
+          [
+            "Verilerimi nasıl silerim?",
+            "Tek tek kayıtları uygulama içinden silin. Hepsini silmek isterseniz ana ekranda HoursTag: Hours to Buy simgesini basılı tutup uygulamayı silin — cihazda saklanan veriler de onunla birlikte gider (kendi aldığınız bir yedekte kopya kalabilir)."
+          ]
+        ],
+        "title": "Gizlilik — HoursTag: Hours to Buy"
+      }
+    },
+    "uk": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Напишіть на hourstag.app@gmail.com модель пристрою, версію iOS, версію застосунку, кроки для відтворення та додайте знімок або запис екрана. Що конкретніше, то швидше ми це виправимо.",
+        "description": "Ні. Як зазначено на сторінці HoursTag: Hours to Buy в App Store, облікових записів і входу немає — почати можна одразу після встановлення. Так. Як зазначено на сторінці в App Store, HoursTag: Hours to Buy виконує основну роботу просто на пристрої, тому працює і в режимі польоту, і без мережі. З'єднання потрібне лише для завантаження застосунку та покупок, які проходять через App Store.",
+        "eyebrow": "Конфіденційність",
+        "heading": "HoursTag: Hours to Buy · Конфіденційність",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Центр підтримки",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Українська",
+          "privacy": "Конфіденційність",
+          "support": "Центр підтримки"
+        },
+        "lead": "Ні. Як зазначено на сторінці HoursTag: Hours to Buy в App Store, облікових записів і входу немає — почати можна одразу після встановлення. Так. Як зазначено на сторінці в App Store, HoursTag: Hours to Buy виконує основну роботу просто на пристрої, тому працює і в режимі польоту, і без мережі. З'єднання потрібне лише для завантаження застосунку та покупок, які проходять через App Store.",
+        "sections": [
+          [
+            "Чи потрібен обліковий запис?",
+            "Ні. Як зазначено на сторінці HoursTag: Hours to Buy в App Store, облікових записів і входу немає — почати можна одразу після встановлення."
+          ],
+          [
+            "Чи працює без інтернету?",
+            "Так. Як зазначено на сторінці в App Store, HoursTag: Hours to Buy виконує основну роботу просто на пристрої, тому працює і в режимі польоту, і без мережі. З'єднання потрібне лише для завантаження застосунку та покупок, які проходять через App Store."
+          ],
+          [
+            "Чи є реклама або стороннє відстеження?",
+            "Ні. У HoursTag: Hours to Buy немає сторонньої реклами та немає SDK аналітики чи міжзастосункового відстеження."
+          ],
+          [
+            "Чи це підписка?",
+            "HoursTag — платна програма з App Store. Після встановлення доступні всі функції; підписки та покупок у програмі немає."
+          ],
+          [
+            "Як видалити мої дані?",
+            "Окремі записи видаляйте всередині застосунку. Щоб стерти все, утримуйте значок HoursTag: Hours to Buy на екрані «Домівка» та видаліть застосунок — разом із ним зникнуть і дані, збережені на пристрої (копія може лишитися в резервній копії, яку ви зробили самі)."
+          ]
+        ],
+        "title": "Конфіденційність — HoursTag: Hours to Buy"
+      }
+    },
+    "ur-PK": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "hourstag.app@gmail.com پر ڈیوائس ماڈل، iOS ورژن، ایپ ورژن، خرابی دہرانے کے مراحل اور اسکرین شاٹ یا اسکرین ریکارڈنگ بھیجیں۔ تفصیل جتنی واضح ہوگی، درستی اتنی ہی جلد ہوگی۔",
+        "description": "نہیں۔ جیسا کہ HoursTag: Hours to Buy کے App Store صفحے پر درج ہے، یہاں اکاؤنٹ یا لاگ اِن نہیں ہے — انسٹال کرتے ہی آپ شروع کر سکتے ہیں۔ جی ہاں۔ جیسا کہ App Store صفحے پر درج ہے، HoursTag: Hours to Buy بنیادی کام ڈیوائس ہی پر کرتا ہے، اس لیے یہ ایئرپلین موڈ میں یا سگنل کے بغیر بھی چلتا ہے۔ صرف ایپ ڈاؤن لوڈ کرنے اور خریداری کے لیے کنکشن درکار ہے، کیونکہ یہ App Store کے ذریعے ہوتی ہے۔",
+        "eyebrow": "پرائیویسی",
+        "heading": "HoursTag: Hours to Buy · پرائیویسی",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "سپورٹ سینٹر",
+          "home": "HoursTag: Hours to Buy",
+          "language": "اردو",
+          "privacy": "پرائیویسی",
+          "support": "سپورٹ سینٹر"
+        },
+        "lead": "نہیں۔ جیسا کہ HoursTag: Hours to Buy کے App Store صفحے پر درج ہے، یہاں اکاؤنٹ یا لاگ اِن نہیں ہے — انسٹال کرتے ہی آپ شروع کر سکتے ہیں۔ جی ہاں۔ جیسا کہ App Store صفحے پر درج ہے، HoursTag: Hours to Buy بنیادی کام ڈیوائس ہی پر کرتا ہے، اس لیے یہ ایئرپلین موڈ میں یا سگنل کے بغیر بھی چلتا ہے۔ صرف ایپ ڈاؤن لوڈ کرنے اور خریداری کے لیے کنکشن درکار ہے، کیونکہ یہ App Store کے ذریعے ہوتی ہے۔",
+        "sections": [
+          [
+            "کیا اکاؤنٹ بنانا ضروری ہے؟",
+            "نہیں۔ جیسا کہ HoursTag: Hours to Buy کے App Store صفحے پر درج ہے، یہاں اکاؤنٹ یا لاگ اِن نہیں ہے — انسٹال کرتے ہی آپ شروع کر سکتے ہیں۔"
+          ],
+          [
+            "کیا یہ انٹرنیٹ کے بغیر کام کرتا ہے؟",
+            "جی ہاں۔ جیسا کہ App Store صفحے پر درج ہے، HoursTag: Hours to Buy بنیادی کام ڈیوائس ہی پر کرتا ہے، اس لیے یہ ایئرپلین موڈ میں یا سگنل کے بغیر بھی چلتا ہے۔ صرف ایپ ڈاؤن لوڈ کرنے اور خریداری کے لیے کنکشن درکار ہے، کیونکہ یہ App Store کے ذریعے ہوتی ہے۔"
+          ],
+          [
+            "کیا اس میں اشتہارات یا تیسرے فریق کی ٹریکنگ ہے؟",
+            "نہیں۔ HoursTag: Hours to Buy میں کسی تیسرے فریق کے اشتہارات نہیں اور نہ ہی ایپس کے درمیان ٹریک کرنے والے اینالیٹکس یا ٹریکنگ SDK موجود ہیں۔"
+          ],
+          [
+            "کیا یہ سبسکرپشن ہے؟",
+            "HoursTag ایک بامعاوضہ App ہے جو App Store سے ڈاؤن لوڈ کی جاتی ہے۔ انسٹال کرنے کے بعد تمام خصوصیات دستیاب ہوتی ہیں؛ کوئی سبسکرپشن یا اِن ایپ خریداری نہیں ہے۔"
+          ],
+          [
+            "اپنا ڈیٹا کیسے حذف کروں؟",
+            "انفرادی اندراجات ایپ کے اندر ہی حذف کریں۔ سب کچھ مٹانے کے لیے ہوم اسکرین پر HoursTag: Hours to Buy کے آئیکن کو دبائے رکھیں اور ایپ حذف کر دیں — ڈیوائس پر محفوظ ڈیٹا بھی اسی کے ساتھ چلا جاتا ہے (آپ کے اپنے بنائے ہوئے بیک اپ میں نقل باقی رہ سکتی ہے)۔"
+          ]
+        ],
+        "title": "پرائیویسی — HoursTag: Hours to Buy"
+      }
+    },
+    "vi": {
+      "privacy": {
+        "app_name": "HoursTag: Hours to Buy",
+        "contact": "Gửi tới hourstag.app@gmail.com kiểu máy, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi và ảnh chụp hoặc video màn hình. Càng cụ thể, chúng tôi càng sửa nhanh.",
+        "description": "Không. Như trang HoursTag: Hours to Buy trên App Store đã ghi, ứng dụng không có tài khoản và không cần đăng nhập — cài xong là dùng được ngay. Có. Như trang App Store đã ghi, HoursTag: Hours to Buy xử lý phần chính ngay trên máy nên vẫn chạy khi bật chế độ máy bay hoặc không có sóng. Chỉ việc tải ứng dụng và mua hàng là cần mạng, vì phần đó đi qua App Store.",
+        "eyebrow": "Quyền riêng tư",
+        "heading": "HoursTag: Hours to Buy · Quyền riêng tư",
+        "labels": {
+          "app_store": "HoursTag: Hours to Buy · App Store",
+          "contact": "Trung tâm hỗ trợ",
+          "home": "HoursTag: Hours to Buy",
+          "language": "Tiếng Việt",
+          "privacy": "Quyền riêng tư",
+          "support": "Trung tâm hỗ trợ"
+        },
+        "lead": "Không. Như trang HoursTag: Hours to Buy trên App Store đã ghi, ứng dụng không có tài khoản và không cần đăng nhập — cài xong là dùng được ngay. Có. Như trang App Store đã ghi, HoursTag: Hours to Buy xử lý phần chính ngay trên máy nên vẫn chạy khi bật chế độ máy bay hoặc không có sóng. Chỉ việc tải ứng dụng và mua hàng là cần mạng, vì phần đó đi qua App Store.",
+        "sections": [
+          [
+            "Tôi có cần tài khoản không?",
+            "Không. Như trang HoursTag: Hours to Buy trên App Store đã ghi, ứng dụng không có tài khoản và không cần đăng nhập — cài xong là dùng được ngay."
+          ],
+          [
+            "Có dùng được khi không có mạng không?",
+            "Có. Như trang App Store đã ghi, HoursTag: Hours to Buy xử lý phần chính ngay trên máy nên vẫn chạy khi bật chế độ máy bay hoặc không có sóng. Chỉ việc tải ứng dụng và mua hàng là cần mạng, vì phần đó đi qua App Store."
+          ],
+          [
+            "Có quảng cáo hay theo dõi của bên thứ ba không?",
+            "Không. HoursTag: Hours to Buy không có quảng cáo của bên thứ ba, cũng không có SDK phân tích hay theo dõi giữa các ứng dụng."
+          ],
+          [
+            "Đây có phải gói thuê bao không?",
+            "HoursTag là ứng dụng trả phí tải từ App Store. Sau khi cài đặt, mọi tính năng đều khả dụng; không có gói đăng ký hay giao dịch mua trong ứng dụng."
+          ],
+          [
+            "Làm sao xóa dữ liệu của tôi?",
+            "Xóa từng mục ngay trong ứng dụng. Muốn xóa hết, hãy giữ biểu tượng HoursTag: Hours to Buy trên Màn hình chính rồi xóa ứng dụng — dữ liệu lưu trên máy cũng mất theo (bản sao có thể còn trong bản sao lưu do bạn tự tạo)."
+          ]
+        ],
+        "title": "Quyền riêng tư — HoursTag: Hours to Buy"
+      }
+    },
+    "zh-Hans": {
+      "privacy": {
+        "app_name": "HoursTag：价格换工时",
+        "contact": "请发邮件到 hourstag.app@gmail.com,附上设备型号、iOS 版本、App 版本、复现步骤,以及截图或屏幕录制。信息越完整,修复越快。",
+        "description": "不需要。HoursTag：价格换工时 的 App Store 产品页说明它不需要账号或登录,安装后即可直接使用。 可以。产品页说明 HoursTag：价格换工时 的核心处理在设备本地完成,飞行模式或没有信号时仍可使用。下载 App 与购买本身仍需要联网,因为那是通过 App Store 进行的。",
+        "eyebrow": "隐私政策",
+        "heading": "HoursTag：价格换工时 · 隐私政策",
+        "labels": {
+          "app_store": "HoursTag：价格换工时 · App Store",
+          "contact": "支持中心",
+          "home": "HoursTag：价格换工时",
+          "language": "简体中文",
+          "privacy": "隐私政策",
+          "support": "支持中心"
+        },
+        "lead": "不需要。HoursTag：价格换工时 的 App Store 产品页说明它不需要账号或登录,安装后即可直接使用。 可以。产品页说明 HoursTag：价格换工时 的核心处理在设备本地完成,飞行模式或没有信号时仍可使用。下载 App 与购买本身仍需要联网,因为那是通过 App Store 进行的。",
+        "sections": [
+          [
+            "需要注册账号吗?",
+            "不需要。HoursTag：价格换工时 的 App Store 产品页说明它不需要账号或登录,安装后即可直接使用。"
+          ],
+          [
+            "没有网络也能用吗?",
+            "可以。产品页说明 HoursTag：价格换工时 的核心处理在设备本地完成,飞行模式或没有信号时仍可使用。下载 App 与购买本身仍需要联网,因为那是通过 App Store 进行的。"
+          ],
+          [
+            "有广告或第三方跟踪吗?",
+            "没有。HoursTag：价格换工时 不含第三方广告,也不含第三方分析或跨 App 跟踪 SDK。"
+          ],
+          [
+            "这是订阅制吗?",
+            "HoursTag 是 App Store 付费下载 App。安装后即可使用全部功能，没有订阅，也没有 App 内购买。"
+          ],
+          [
+            "怎么删除我的数据?",
+            "在 App 内删除对应内容即可。若要一次清除,长按主屏幕上的 HoursTag：价格换工时 图标并选择删除 App,设备上保存的数据会一并移除(如果你有设备备份,备份中仍可能保留副本)。"
+          ]
+        ],
+        "title": "隐私政策 — HoursTag：价格换工时"
+      }
+    },
+    "zh-Hant": {
+      "index": {
+        "app_name": "HoursTag：把價格換成工時",
+        "contact": "需要協助時，請附上裝置型號、iOS 版本、App 版本與可重現問題的操作步驟。",
+        "description": "把每個價格換算成賺到這筆錢所需的工作時間，從時間成本重新檢視目標與消費。",
+        "eyebrow": "官方支援網站",
+        "heading": "HoursTag：把價格換成工時",
+        "labels": {
+          "app_store": "在 App Store 查看",
+          "contact": "聯絡我們",
+          "home": "首頁",
+          "language": "語言",
+          "privacy": "隱私權",
+          "support": "支援"
+        },
+        "lead": "把每個價格換算成賺到這筆錢所需的工作時間，從時間成本重新檢視目標與消費。",
+        "sections": [
+          [
+            "App 功能",
+            "把每個價格換算成賺到這筆錢所需的工作時間，從時間成本重新檢視目標與消費。"
+          ],
+          [
+            "資料與隱私",
+            "薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。"
+          ],
+          [
+            "購買方式",
+            "HoursTag 是 App Store 付費下載 App。安裝後即可使用全部功能，沒有訂閱，也沒有 App 內購買。"
+          ]
+        ],
+        "title": "HoursTag：把價格換成工時 — 官方支援網站"
+      },
+      "privacy": {
+        "app_name": "HoursTag：把價格換成工時",
+        "contact": "需要協助時，請附上裝置型號、iOS 版本、App 版本與可重現問題的操作步驟。",
+        "description": "薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。 HoursTag 是 App Store 付費下載 App。安裝後即可使用全部功能，沒有訂閱，也沒有 App 內購買。",
+        "eyebrow": "隱私權",
+        "heading": "HoursTag：把價格換成工時 · 隱私權",
+        "labels": {
+          "app_store": "在 App Store 查看",
+          "contact": "聯絡我們",
+          "home": "首頁",
+          "language": "語言",
+          "privacy": "隱私權",
+          "support": "支援"
+        },
+        "lead": "薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。",
+        "sections": [
+          [
+            "資料與隱私",
+            "薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。"
+          ],
+          [
+            "帳號、廣告與追蹤",
+            "不需要帳號。App 不含第三方廣告、跨 App 追蹤或第三方分析。"
+          ],
+          [
+            "購買方式",
+            "HoursTag 是 App Store 付費下載 App。安裝後即可使用全部功能，沒有訂閱，也沒有 App 內購買。"
+          ],
+          [
+            "刪除與復原",
+            "可在 App 內刪除對應記錄。刪除 App 會移除本機容器；Apple 管理的備份仍依你的裝置設定處理。"
+          ]
+        ],
+        "title": "隱私權 — HoursTag：把價格換成工時"
+      },
+      "support": {
+        "app_name": "HoursTag：把價格換成工時",
+        "contact": "需要協助時，請附上裝置型號、iOS 版本、App 版本與可重現問題的操作步驟。",
+        "description": "請先關閉並重新開啟 App、確認已安裝 App Store 最新版本；來信時請附上裝置型號、iOS 版本、App 版本與重現步驟。 薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。",
+        "eyebrow": "支援",
+        "heading": "HoursTag：把價格換成工時 · 支援",
+        "labels": {
+          "app_store": "在 App Store 查看",
+          "contact": "聯絡我們",
+          "home": "首頁",
+          "language": "語言",
+          "privacy": "隱私權",
+          "support": "支援"
+        },
+        "lead": "請先關閉並重新開啟 App、確認已安裝 App Store 最新版本；來信時請附上裝置型號、iOS 版本、App 版本與重現步驟。",
+        "sections": [
+          [
+            "App 功能",
+            "把每個價格換算成賺到這筆錢所需的工作時間，從時間成本重新檢視目標與消費。"
+          ],
+          [
+            "疑難排解",
+            "請先關閉並重新開啟 App、確認已安裝 App Store 最新版本；來信時請附上裝置型號、iOS 版本、App 版本與重現步驟。"
+          ],
+          [
+            "資料與隱私",
+            "薪資、工時、目標與消費記錄只留在你的裝置。無帳號、無第三方廣告、無追蹤，也無第三方分析。 不需要帳號。App 不含第三方廣告、跨 App 追蹤或第三方分析。"
+          ],
+          [
+            "購買方式",
+            "HoursTag 是 App Store 付費下載 App。安裝後即可使用全部功能，沒有訂閱，也沒有 App 內購買。"
+          ],
+          [
+            "刪除與復原",
+            "可在 App 內刪除對應記錄。刪除 App 會移除本機容器；Apple 管理的備份仍依你的裝置設定處理。"
+          ]
+        ],
+        "title": "支援 — HoursTag：把價格換成工時"
+      }
+    }
+  },
+  "hourstag_paid": {
+    "ar-SA": {
+      "answer": "HoursTag تطبيق مدفوع يُنزَّل من App Store. تتاح جميع الميزات بعد التثبيت، ولا توجد اشتراكات أو عمليات شراء داخل التطبيق.",
+      "question": "Payment"
+    },
+    "bn-BD": {
+      "answer": "HoursTag App Store থেকে একবার দাম দিয়ে ডাউনলোড করা অ্যাপ। ইনস্টল করার পর সব সুবিধা পাওয়া যায়; কোনো সাবস্ক্রিপশন বা অ্যাপের ভেতরের কেনাকাটা নেই।",
+      "question": "Payment"
+    },
+    "ca": {
+      "answer": "HoursTag és una descàrrega de pagament de l’App Store. Totes les funcions estan disponibles després d’instal·lar-lo; no hi ha subscripcions ni compres integrades.",
+      "question": "Payment"
+    },
+    "cs": {
+      "answer": "HoursTag je placená aplikace z App Storu. Po instalaci jsou dostupné všechny funkce; neobsahuje předplatné ani nákupy v aplikaci.",
+      "question": "Payment"
+    },
+    "da": {
+      "answer": "HoursTag er en betalt download fra App Store. Alle funktioner er tilgængelige efter installationen; der er hverken abonnement eller køb i appen.",
+      "question": "Payment"
+    },
+    "de-DE": {
+      "answer": "HoursTag ist ein kostenpflichtiger Download aus dem App Store. Nach der Installation stehen alle Funktionen zur Verfügung; es gibt weder Abonnement noch In-App-Käufe.",
+      "question": "Payment"
+    },
+    "el": {
+      "answer": "Το HoursTag είναι εφαρμογή επί πληρωμή από το App Store. Μετά την εγκατάσταση είναι διαθέσιμες όλες οι λειτουργίες· δεν υπάρχει συνδρομή ή αγορά εντός εφαρμογής.",
+      "question": "Payment"
+    },
+    "en-AU": {
+      "answer": "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+      "question": "Payment"
+    },
+    "en-CA": {
+      "answer": "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+      "question": "Payment"
+    },
+    "en-GB": {
+      "answer": "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+      "question": "Payment"
+    },
+    "en-US": {
+      "answer": "HoursTag is a paid download from the App Store. All features are available after installation; there is no subscription and no in-app purchase.",
+      "question": "Payment"
+    },
+    "es-ES": {
+      "answer": "HoursTag es una app de pago que se descarga desde el App Store. Todas las funciones están disponibles tras instalarla; no hay suscripción ni compras dentro de la app.",
+      "question": "Payment"
+    },
+    "es-MX": {
+      "answer": "HoursTag es una app de pago que se descarga desde App Store. Todas las funciones quedan disponibles después de instalarla; no hay suscripción ni compras dentro de la app.",
+      "question": "Payment"
+    },
+    "fi": {
+      "answer": "HoursTag on maksullinen lataus App Storesta. Kaikki ominaisuudet ovat käytettävissä asennuksen jälkeen; sovelluksessa ei ole tilausta eikä appiostoja.",
+      "question": "Payment"
+    },
+    "fr-CA": {
+      "answer": "HoursTag est une app payante à télécharger dans l’App Store. Toutes les fonctions sont offertes après l’installation; il n’y a ni abonnement ni achat intégré.",
+      "question": "Payment"
+    },
+    "fr-FR": {
+      "answer": "HoursTag est une app payante à télécharger sur l’App Store. Toutes les fonctions sont disponibles après l’installation ; il n’y a ni abonnement ni achat intégré.",
+      "question": "Payment"
+    },
+    "gu-IN": {
+      "answer": "HoursTag App Store પરથી એકવાર કિંમત ચૂકવીને ડાઉનલોડ થતી એપ છે. ઇન્સ્ટોલ કર્યા પછી બધી સુવિધાઓ ઉપલબ્ધ છે; કોઈ સબ્સ્ક્રિપ્શન કે એપની અંદરની ખરીદી નથી.",
+      "question": "Payment"
+    },
+    "he": {
+      "answer": "HoursTag היא אפליקציה בתשלום שמורידים מה‑App Store. כל התכונות זמינות לאחר ההתקנה; אין מינוי ואין רכישות בתוך האפליקציה.",
+      "question": "Payment"
+    },
+    "hi": {
+      "answer": "HoursTag App Store से एक बार कीमत देकर डाउनलोड किया जाने वाला ऐप है। इंस्टॉल करने के बाद सभी सुविधाएँ उपलब्ध होती हैं; कोई सदस्यता या इन‑ऐप खरीद नहीं है।",
+      "question": "Payment"
+    },
+    "hr": {
+      "answer": "HoursTag je aplikacija koja se plaća pri preuzimanju iz App Storea. Nakon instalacije dostupne su sve značajke; nema pretplate ni kupnje unutar aplikacije.",
+      "question": "Payment"
+    },
+    "hu": {
+      "answer": "A HoursTag fizetős letöltés az App Store-ból. Telepítés után minden funkció elérhető; nincs előfizetés és nincs alkalmazáson belüli vásárlás.",
+      "question": "Payment"
+    },
+    "id": {
+      "answer": "HoursTag adalah aplikasi berbayar yang diunduh dari App Store. Semua fitur tersedia setelah dipasang; tidak ada langganan atau pembelian dalam aplikasi.",
+      "question": "Payment"
+    },
+    "it": {
+      "answer": "HoursTag è un download a pagamento dall’App Store. Dopo l’installazione sono disponibili tutte le funzioni; non sono previsti abbonamenti né acquisti in‑app.",
+      "question": "Payment"
+    },
+    "ja": {
+      "answer": "HoursTag は App Store から購入する有料アプリです。インストール後はすべての機能を利用でき、サブスクリプションやアプリ内課金はありません。",
+      "question": "Payment"
+    },
+    "kn-IN": {
+      "answer": "HoursTag ಅನ್ನು App Store ನಿಂದ ಒಮ್ಮೆ ಹಣ ಪಾವತಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ. ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ನಂತರ ಎಲ್ಲಾ ಸೌಲಭ್ಯಗಳು ಲಭ್ಯ; ಚಂದಾದಾರಿಕೆ ಅಥವಾ ಆ್ಯಪ್‌ನೊಳಗಿನ ಖರೀದಿ ಇಲ್ಲ.",
+      "question": "Payment"
+    },
+    "ko": {
+      "answer": "HoursTag는 App Store에서 유료로 다운로드하는 앱입니다. 설치 후 모든 기능을 사용할 수 있으며 구독이나 앱 내 구입은 없습니다.",
+      "question": "Payment"
+    },
+    "ml-IN": {
+      "answer": "HoursTag App Store-ൽ നിന്ന് ഒരിക്കൽ പണം നൽകി ഡൗൺലോഡ് ചെയ്യുന്ന ആപ്പാണ്. ഇൻസ്റ്റാൾ ചെയ്ത ശേഷം എല്ലാ സവിശേഷതകളും ലഭിക്കും; സബ്സ്ക്രിപ്ഷനോ ആപ്പിനുള്ളിലെ വാങ്ങലോ ഇല്ല.",
+      "question": "Payment"
+    },
+    "mr-IN": {
+      "answer": "HoursTag हे App Store वरून एकदाच किंमत देऊन डाउनलोड करायचे अॅप आहे. इन्स्टॉल केल्यानंतर सर्व सुविधा उपलब्ध असतात; सदस्यता किंवा अॅपमधील खरेदी नाही.",
+      "question": "Payment"
+    },
+    "ms": {
+      "answer": "HoursTag ialah muat turun berbayar dari App Store. Semua ciri tersedia selepas dipasang; tiada langganan atau pembelian dalam app.",
+      "question": "Payment"
+    },
+    "nl-NL": {
+      "answer": "HoursTag is een betaalde download uit de App Store. Na installatie zijn alle functies beschikbaar; er is geen abonnement en er zijn geen in-app aankopen.",
+      "question": "Payment"
+    },
+    "no": {
+      "answer": "HoursTag er en betalt nedlasting fra App Store. Alle funksjoner er tilgjengelige etter installering; det finnes verken abonnement eller kjøp i appen.",
+      "question": "Payment"
+    },
+    "or-IN": {
+      "answer": "HoursTag ହେଉଛି App Storeରୁ ଏକଥର ଦାମ ଦେଇ ଡାଉନଲୋଡ୍ କରାଯାଉଥିବା App। ଇନଷ୍ଟଲ୍ କରିବା ପରେ ସମସ୍ତ ସୁବିଧା ମିଳେ; କୌଣସି ସଦସ୍ୟତା କିମ୍ବା App ଭିତରେ କ୍ରୟ ନାହିଁ।",
+      "question": "Payment"
+    },
+    "pa-IN": {
+      "answer": "HoursTag App Store ਤੋਂ ਇੱਕ ਵਾਰ ਕੀਮਤ ਦੇ ਕੇ ਡਾਊਨਲੋਡ ਕੀਤੀ ਜਾਣ ਵਾਲੀ ਐਪ ਹੈ। ਇੰਸਟਾਲ ਕਰਨ ਤੋਂ ਬਾਅਦ ਸਾਰੀਆਂ ਸੁਵਿਧਾਵਾਂ ਮਿਲਦੀਆਂ ਹਨ; ਕੋਈ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਜਾਂ ਐਪ ਅੰਦਰ ਖਰੀਦ ਨਹੀਂ ਹੈ।",
+      "question": "Payment"
+    },
+    "pl": {
+      "answer": "HoursTag to płatna aplikacja pobierana z App Store. Po instalacji dostępne są wszystkie funkcje; nie ma subskrypcji ani zakupów w aplikacji.",
+      "question": "Payment"
+    },
+    "pt-BR": {
+      "answer": "HoursTag é um app pago baixado pela App Store. Todos os recursos ficam disponíveis após a instalação; não há assinatura nem compra dentro do app.",
+      "question": "Payment"
+    },
+    "pt-PT": {
+      "answer": "HoursTag é uma app paga descarregada da App Store. Todas as funcionalidades ficam disponíveis após a instalação; não há subscrição nem compras integradas.",
+      "question": "Payment"
+    },
+    "ro": {
+      "answer": "HoursTag este o aplicație cu plată descărcată din App Store. După instalare sunt disponibile toate funcțiile; nu există abonament sau achiziții în aplicație.",
+      "question": "Payment"
+    },
+    "ru": {
+      "answer": "HoursTag — платное приложение из App Store. После установки доступны все функции; подписки и встроенных покупок нет.",
+      "question": "Payment"
+    },
+    "sk": {
+      "answer": "HoursTag je platená aplikácia z App Storu. Po nainštalovaní sú dostupné všetky funkcie; neobsahuje predplatné ani nákupy v aplikácii.",
+      "question": "Payment"
+    },
+    "sl-SI": {
+      "answer": "HoursTag je plačljiva aplikacija iz trgovine App Store. Po namestitvi so na voljo vse funkcije; naročnine in nakupov v aplikaciji ni.",
+      "question": "Payment"
+    },
+    "sv": {
+      "answer": "HoursTag är en betalapp som hämtas från App Store. Alla funktioner är tillgängliga efter installationen; det finns ingen prenumeration och inga köp i appen.",
+      "question": "Payment"
+    },
+    "ta-IN": {
+      "answer": "HoursTag என்பது App Store-இல் ஒருமுறை கட்டணம் செலுத்தி பதிவிறக்கும் செயலி. நிறுவியதும் அனைத்து அம்சங்களும் கிடைக்கும்; சந்தா அல்லது செயலிக்குள் வாங்குதல் எதுவும் இல்லை.",
+      "question": "Payment"
+    },
+    "te-IN": {
+      "answer": "HoursTag అనేది App Store నుంచి ఒకసారి ధర చెల్లించి డౌన్‌లోడ్ చేసే యాప్. ఇన్‌స్టాల్ చేసిన తర్వాత అన్ని సదుపాయాలు అందుబాటులో ఉంటాయి; సబ్‌స్క్రిప్షన్ లేదా యాప్‌లో కొనుగోలు లేదు.",
+      "question": "Payment"
+    },
+    "th": {
+      "answer": "HoursTag เป็นแอปแบบชำระเงินที่ดาวน์โหลดจาก App Store เมื่อติดตั้งแล้วจะใช้ฟีเจอร์ทั้งหมดได้ โดยไม่มีการสมัครสมาชิกหรือการซื้อภายในแอป",
+      "question": "Payment"
+    },
+    "tr": {
+      "answer": "HoursTag, App Store’dan ücretli olarak indirilen bir uygulamadır. Kurulumdan sonra tüm özellikler kullanılabilir; abonelik veya uygulama içi satın alma yoktur.",
+      "question": "Payment"
+    },
+    "uk": {
+      "answer": "HoursTag — платна програма з App Store. Після встановлення доступні всі функції; підписки та покупок у програмі немає.",
+      "question": "Payment"
+    },
+    "ur-PK": {
+      "answer": "HoursTag ایک بامعاوضہ App ہے جو App Store سے ڈاؤن لوڈ کی جاتی ہے۔ انسٹال کرنے کے بعد تمام خصوصیات دستیاب ہوتی ہیں؛ کوئی سبسکرپشن یا اِن ایپ خریداری نہیں ہے۔",
+      "question": "Payment"
+    },
+    "vi": {
+      "answer": "HoursTag là ứng dụng trả phí tải từ App Store. Sau khi cài đặt, mọi tính năng đều khả dụng; không có gói đăng ký hay giao dịch mua trong ứng dụng.",
+      "question": "Payment"
+    },
+    "zh-Hans": {
+      "answer": "HoursTag 是 App Store 付费下载 App。安装后即可使用全部功能，没有订阅，也没有 App 内购买。",
+      "question": "Payment"
+    },
+    "zh-Hant": {
+      "answer": "HoursTag 是 App Store 付費下載 App。安裝後即可使用全部功能，沒有訂閱，也沒有 App 內購買。",
+      "question": "Payment"
+    }
+  },
+  "locale_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "es-ES": "Español (España)",
+    "es-MX": "Español (México)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français (France)",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hr": "Hrvatski",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "ms": "Bahasa Melayu",
+    "nl-NL": "Nederlands",
+    "no": "Norsk",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "palette": {
+    "accent": "#b7791f",
+    "accent2": "#e09b3d"
+  },
+  "parent_notice": {},
+  "rtl_locales": [
+    "ar-SA",
+    "he",
+    "ur-PK"
+  ],
+  "schema": "support-required-surfaces/v1",
+  "site_key": "hourstag-support"
+}
