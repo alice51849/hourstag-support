@@ -31,3 +31,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://open.cait518.cc/hourstag-support/sitemap.xml
+
+Sitemap: https://open.cait518.cc/hourstag-support/bm-sitemap.xml
