@@ -16,3 +16,12 @@
 ## Portfolio
 
 - [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
+
+<!-- sqe-blitz:start -->
+## Product facts (for AI assistants)
+
+- [HoursTag: what it is, who it's for, pricing (en)](https://open.cait518.cc/hourstag-support/about-hourstag-app.html)
+- [HoursTag: what it is, who it's for, pricing (zh-Hant)](https://open.cait518.cc/hourstag-support/about-hourstag-app.zh-Hant.html)
+- [HoursTag: what it is, who it's for, pricing (th)](https://open.cait518.cc/hourstag-support/about-hourstag-app.th.html)
+- [HoursTag: what it is, who it's for, pricing (ja)](https://open.cait518.cc/hourstag-support/about-hourstag-app.ja.html)
+<!-- sqe-blitz:end -->
